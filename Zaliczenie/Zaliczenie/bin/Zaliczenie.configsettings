@@ -11,6 +11,74 @@
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Date</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Employee</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Customer</ID>
+      </Dimension>
+      <Dimension>
+        <ID>City</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Stock Item</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Order</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Payment Method</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Supplier</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Transaction Type</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Wide World Importers DW</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Order</ID>
+            <Partitions>
+              <Partition>
+                <ID>Order</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Payment Method</ID>
+            <Partitions>
+              <Partition>
+                <ID>Payment Method</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Supplier</ID>
+            <Partitions>
+              <Partition>
+                <ID>Supplier</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Transaction Type</ID>
+            <Partitions>
+              <Partition>
+                <ID>Transaction Type</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
     <DataSourceImpersonationInfo>
       <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
       <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>

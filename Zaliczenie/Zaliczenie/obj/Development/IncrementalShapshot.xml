@@ -19,15 +19,92 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>T+lX5IuE0IA376KvXh6q28Lll6s=1/23/2020 11:29:13 PM1/23/2020 11:29:12 PM</TimeStamp>
+        <TimeStamp>T+lX5IuE0IA376KvXh6q28Lll6s=1/23/2020 11:29:13 PM2/2/2020 5:18:56 PM</TimeStamp>
         <ID>
           <String>Wide World Importers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>n0+Ri3mWISqnWwNrDe5KRcjmWlA=2/2/2020 7:01:14 PM2/2/2020 6:52:19 PM</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>S0k+CveqyARlf0EuzH7TVhFjxsk=2/2/2020 7:01:14 PM2/2/2020 7:01:13 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OtYKSNDwnJufmCHyBYVZtkPCx/w=2/2/2020 7:01:15 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/bmPRaT4VZA49KncblMJuhyIJRU=2/2/2020 7:01:15 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tQRSqu0NdVGGZUlraaM0hIunIhw=2/2/2020 7:01:15 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>City</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9+n/kMlE5NmHWfsp7njxABHZ/3Q=2/2/2020 7:01:16 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>Stock Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y7tamu85Fzy5oLF1q8wYbEFRB/E=2/2/2020 7:01:16 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>Order</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cI13VFPiwbzH4jTUWXRPnsz5t+I=2/2/2020 7:01:16 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>Payment Method</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HSY5Mk0abXinRjom8mRzlpRtEac=2/2/2020 7:01:16 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>Supplier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>a8YPbC3hYZYboviiE1Za3eAQO6k=2/2/2020 7:01:16 PM2/2/2020 7:01:14 PM</TimeStamp>
+        <ID>
+          <String>Transaction Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>EKJ6nce7k6fechRkPzlZsxgcM34=2/2/2020 7:01:16 PM2/2/2020 7:01:13 PMh3xpRRGD+ECIf0a7xG1N+fNhy+E=2/2/2020 7:01:15 PM2/2/2020 7:01:13 PM</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>OrCYtnr5iYlivyod6SPlXGUFsEc=1/23/2020 11:27:38 PM1/23/2020 11:27:36 PM</TimeStamp>
+      <TimeStamp>OrCYtnr5iYlivyod6SPlXGUFsEc=1/23/2020 11:27:38 PM2/2/2020 5:18:56 PM</TimeStamp>
       <ID>
         <String>Zaliczenie</String>
       </ID>
@@ -36,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-01-23T22:30:42.043333Z</LastDeployed>
+  <LastDeployed>2020-02-02T18:02:23.17Z</LastDeployed>
 </DeploymentSnapshot>
