@@ -24,6 +24,10 @@
       <FullPath>Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Stock Item.dim</Name>
+      <FullPath>Stock Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Employee.dim</Name>
       <FullPath>Employee.dim</FullPath>
     </ProjectItem>
@@ -36,24 +40,24 @@
       <FullPath>City.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Stock Item.dim</Name>
-      <FullPath>Stock Item.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Order.dim</Name>
-      <FullPath>Order.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Payment Method.dim</Name>
-      <FullPath>Payment Method.dim</FullPath>
+      <Name>Transaction Type.dim</Name>
+      <FullPath>Transaction Type.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Supplier.dim</Name>
       <FullPath>Supplier.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Transaction Type.dim</Name>
-      <FullPath>Transaction Type.dim</FullPath>
+      <Name>Payment Method.dim</Name>
+      <FullPath>Payment Method.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Transaction.dim</Name>
+      <FullPath>Transaction.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Purchase.dim</Name>
+      <FullPath>Purchase.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

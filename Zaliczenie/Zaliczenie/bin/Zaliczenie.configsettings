@@ -13,31 +13,43 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Date</ID>
+        <ID>Transaction Type</ID>
       </Dimension>
       <Dimension>
-        <ID>Employee</ID>
+        <ID>Date</ID>
       </Dimension>
       <Dimension>
         <ID>Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>City</ID>
-      </Dimension>
-      <Dimension>
         <ID>Stock Item</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Order</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Payment Method</ID>
       </Dimension>
       <Dimension>
         <ID>Supplier</ID>
       </Dimension>
       <Dimension>
-        <ID>Transaction Type</ID>
+        <ID>Employee</ID>
+      </Dimension>
+      <Dimension>
+        <ID>City</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Order</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Purchase</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Sale</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Stock Holding</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Payment Method</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Transaction</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -45,10 +57,58 @@
         <ID>Wide World Importers DW</ID>
         <MeasureGroups>
           <MeasureGroup>
+            <ID>Movement</ID>
+            <Partitions>
+              <Partition>
+                <ID>Movement</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
             <ID>Order</ID>
             <Partitions>
               <Partition>
                 <ID>Order</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Purchase</ID>
+            <Partitions>
+              <Partition>
+                <ID>Purchase</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Sale</ID>
+            <Partitions>
+              <Partition>
+                <ID>Sale</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Stock Holding</ID>
+            <Partitions>
+              <Partition>
+                <ID>Stock Holding</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Transaction</ID>
+            <Partitions>
+              <Partition>
+                <ID>Transaction</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Employee</ID>
+            <Partitions>
+              <Partition>
+                <ID>Employee</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
