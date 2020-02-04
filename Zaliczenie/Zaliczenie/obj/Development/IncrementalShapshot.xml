@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,105 +26,84 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>BCFcjESWMCzS0NQ42OXVYBoQ9hs=2/2/2020 8:15:14 PM2/2/2020 8:15:11 PM</TimeStamp>
+        <TimeStamp>EcBusIQNEEnLfEzZQ1HdQKuVXbM=2/4/2020 3:51:58 PM2/4/2020 3:51:55 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>bvsD89EHRBX0TKD609BbcYItQBQ=2/2/2020 8:29:14 PM2/2/2020 8:29:13 PM</TimeStamp>
-        <ID>
-          <String>Transaction Type</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>bqp4VP/oiC/O7/FTYrsrlRhhDjc=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
+        <TimeStamp>G+QLSCM7NynwE22d7c35buJ4BbI=2/4/2020 4:36:51 PM2/4/2020 4:01:22 PM</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ZBdWdJ5FPV4jwS8UCl/0DqSPFUw=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
-        <ID>
-          <String>Customer</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fsUfZv3EzZ50nX1ZksN6KHmT/mM=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
+        <TimeStamp>GP/ijxNuTWJpP65wmEQPEbl02Ms=2/4/2020 4:01:24 PM2/4/2020 4:01:22 PM</TimeStamp>
         <ID>
           <String>Stock Item</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/UzkvZKEugZXZ01+o7IQCNbOt3w=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
-        <ID>
-          <String>Supplier</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>z+/ek7ehLA3RsihHHFnFyHKzS48=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
+        <TimeStamp>8jfSKp64t1dTqQw3OKO01utk+/M=2/4/2020 4:01:24 PM2/4/2020 4:01:22 PM</TimeStamp>
         <ID>
           <String>Employee</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>IOgaw18DPnAfZxbQd+0Q3Qq2zJg=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
+        <TimeStamp>MYMV/BjlTa5TQIm3tw/rXtt6QxE=2/4/2020 4:01:24 PM2/4/2020 4:01:23 PM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jN4ucqb1yilv/rtaqNtp9mj8kSM=2/4/2020 4:01:24 PM2/4/2020 4:01:23 PM</TimeStamp>
         <ID>
           <String>City</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6qUy8iksJ3zruGnfiZ5WFVsSwqw=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
+        <TimeStamp>c8EcB/wpy2q1W+itsdBMzMB7XGI=2/4/2020 4:01:24 PM2/4/2020 4:01:23 PM</TimeStamp>
         <ID>
-          <String>Order</String>
+          <String>Transaction Type</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>AfhoYX35O6e8bx16cP1WXF6ClCw=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
+        <TimeStamp>kWj50frKikWy+E7G3b2HFn1r9jo=2/4/2020 4:01:24 PM2/4/2020 4:01:23 PM</TimeStamp>
         <ID>
-          <String>Purchase</String>
+          <String>Supplier</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tFilMILHOu9jHYFGlbFkOX4fIuU=2/2/2020 8:29:15 PM2/2/2020 8:29:13 PM</TimeStamp>
-        <ID>
-          <String>Sale</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jyf8ebRnkCwmWDSgNG5P/5La3AA=2/2/2020 8:29:15 PM2/2/2020 8:29:14 PM</TimeStamp>
-        <ID>
-          <String>Stock Holding</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>7hcHI/M8z/WrwLotdGbkx2k/Dgo=2/2/2020 8:29:15 PM2/2/2020 8:29:14 PM</TimeStamp>
+        <TimeStamp>XPaOaAk2AYk1pcXNVj5y3HupBzw=2/4/2020 4:01:24 PM2/4/2020 4:01:23 PM</TimeStamp>
         <ID>
           <String>Payment Method</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>5QChdUtAiLkETaOMpgSkftaZXc8=2/2/2020 8:29:15 PM2/2/2020 8:29:14 PM</TimeStamp>
+        <TimeStamp>NJOOOn9o9hsK0Vc8fzedH5VhIXk=2/4/2020 4:01:24 PM2/4/2020 4:01:23 PM</TimeStamp>
         <ID>
           <String>Transaction</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SCcI7gdmJfw9EEYWCAahGD/2Y5U=2/4/2020 4:01:24 PM2/4/2020 4:01:23 PM</TimeStamp>
+        <ID>
+          <String>Purchase</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>J6ZnZ50nFsTavHd/iGl3Zl8Xh7U=2/2/2020 8:39:04 PM2/2/2020 8:29:13 PMpU3IeSfVokwS/OBWje3Wvn2WPww=2/2/2020 8:29:14 PM2/2/2020 8:29:13 PM</TimeStamp>
+        <TimeStamp>cEUUx778a4UkcLzagalBxz3c8iA=2/4/2020 4:36:51 PM2/4/2020 4:01:22 PM+2gZJMoHXHnn6LGCz2jUioM+iSU=2/4/2020 4:01:23 PM2/4/2020 4:01:22 PM</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -141,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-02T19:39:20.903333Z</LastDeployed>
+  <LastDeployed>2020-02-04T16:51:23.64Z</LastDeployed>
 </DeploymentSnapshot>
