@@ -13,77 +13,86 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Date</ID>
+        <ID>v Dimension Date</ID>
       </Dimension>
       <Dimension>
-        <ID>Stock Item</ID>
+        <ID>v Dimension City</ID>
       </Dimension>
       <Dimension>
-        <ID>Employee</ID>
+        <ID>v Dimension Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>Customer</ID>
+        <ID>v Dimension Employee</ID>
       </Dimension>
       <Dimension>
-        <ID>City</ID>
+        <ID>v Dimension Stock Item</ID>
       </Dimension>
       <Dimension>
-        <ID>Transaction Type</ID>
+        <ID>v Fact Stock Holding</ID>
       </Dimension>
       <Dimension>
-        <ID>Supplier</ID>
+        <ID>v Dimension Payment Method</ID>
       </Dimension>
       <Dimension>
-        <ID>Payment Method</ID>
+        <ID>v Dimension Supplier</ID>
       </Dimension>
       <Dimension>
-        <ID>Transaction</ID>
+        <ID>v Dimension Transaction Type</ID>
       </Dimension>
       <Dimension>
-        <ID>Purchase</ID>
+        <ID>v Fact Transaction</ID>
+      </Dimension>
+      <Dimension>
+        <ID>v Fact Purchase</ID>
+      </Dimension>
+      <Dimension>
+        <ID>v Fact Order</ID>
+      </Dimension>
+      <Dimension>
+        <ID>v Fact Sale</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Wide World Importers DW</ID>
+        <ID>WideWorldImporters_dsv</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Sale</ID>
+            <ID>v Fact Sale</ID>
             <Partitions>
               <Partition>
-                <ID>Sale</ID>
+                <ID>v Fact Sale</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Stock Holding</ID>
+            <ID>v Fact Stock Holding</ID>
             <Partitions>
               <Partition>
-                <ID>Stock Holding</ID>
+                <ID>v Fact Stock Holding</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Transaction</ID>
+            <ID>v Fact Transaction</ID>
             <Partitions>
               <Partition>
-                <ID>Transaction</ID>
+                <ID>v Fact Transaction</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Order</ID>
+            <ID>v Fact Purchase</ID>
             <Partitions>
               <Partition>
-                <ID>Order</ID>
+                <ID>v Fact Purchase</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Purchase</ID>
+            <ID>v Fact Order</ID>
             <Partitions>
               <Partition>
-                <ID>Purchase</ID>
+                <ID>v Fact Order</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
