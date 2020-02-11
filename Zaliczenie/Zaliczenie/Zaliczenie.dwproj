@@ -6,6 +6,72 @@
     <Name>Zaliczenie.database</Name>
     <FullPath>Zaliczenie.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>WideWorldImporters_dsv.cube</Name>
+      <FullPath>WideWorldImporters_dsv.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WideWorldImporters_dsv.partitions</Name>
+          <FullPath>WideWorldImporters_dsv.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>v Dimension Date.dim</Name>
+      <FullPath>v Dimension Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dimension City.dim</Name>
+      <FullPath>v Dimension City.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dimension Customer.dim</Name>
+      <FullPath>v Dimension Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dimension Employee.dim</Name>
+      <FullPath>v Dimension Employee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dimension Stock Item.dim</Name>
+      <FullPath>v Dimension Stock Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Fact Sale.dim</Name>
+      <FullPath>v Fact Sale.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Fact Stock Holding.dim</Name>
+      <FullPath>v Fact Stock Holding.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dimension Payment Method.dim</Name>
+      <FullPath>v Dimension Payment Method.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dimension Supplier.dim</Name>
+      <FullPath>v Dimension Supplier.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Dimension Transaction Type.dim</Name>
+      <FullPath>v Dimension Transaction Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Fact Transaction.dim</Name>
+      <FullPath>v Fact Transaction.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Fact Purchase.dim</Name>
+      <FullPath>v Fact Purchase.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Fact Order.dim</Name>
+      <FullPath>v Fact Order.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>Wide World Importers.ds</Name>
