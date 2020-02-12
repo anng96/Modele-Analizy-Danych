@@ -28,12 +28,6 @@
         <ID>v Dimension Stock Item</ID>
       </Dimension>
       <Dimension>
-        <ID>v Fact Sale</ID>
-      </Dimension>
-      <Dimension>
-        <ID>v Fact Stock Holding</ID>
-      </Dimension>
-      <Dimension>
         <ID>v Dimension Payment Method</ID>
       </Dimension>
       <Dimension>
@@ -47,9 +41,6 @@
       </Dimension>
       <Dimension>
         <ID>v Fact Purchase</ID>
-      </Dimension>
-      <Dimension>
-        <ID>v Fact Order</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

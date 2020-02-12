@@ -21,7 +21,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1647" scrolltop="-1455" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1647" scrolltop="-1905" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -64,7 +64,7 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-1455</Value>
+          <Value>-1905</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -89,15 +89,15 @@
                   </Attributes>
                   <Position x="20" y="20" />
                 </Shape>
-                <Shape Id="Calendar Month Label" Expanded="false">
+                <Shape Id="Month" Expanded="false">
                   <Attributes>
-                    <Attribute Id="Calendar Month Label" />
+                    <Attribute Id="Month" />
                   </Attributes>
                   <Position x="178" y="20" />
                 </Shape>
-                <Shape Id="Calendar Year Label" Expanded="false">
+                <Shape Id="Calendar Year" Expanded="false">
                   <Attributes>
-                    <Attribute Id="Calendar Year Label" />
+                    <Attribute Id="Calendar Year" />
                   </Attributes>
                   <Position x="337" y="20" />
                 </Shape>
@@ -170,8 +170,8 @@
           </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
-              <AttributeID>Calendar Month Label</AttributeID>
-              <Name>Calendar Month Label</Name>
+              <AttributeID>Month</AttributeID>
+              <Name>Month</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
@@ -179,46 +179,30 @@
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Calendar Year Label</ID>
-          <Name>Calendar Year Label</Name>
+          <ID>Calendar Year</ID>
+          <Name>Calendar Year</Name>
           <KeyColumns>
             <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>10</DataSize>
+              <DataType>Integer</DataType>
               <Source xsi:type="ColumnBinding">
                 <TableID>olap_vDimensionDate</TableID>
-                <ColumnID>Calendar_x0020_Year_x0020_Label</ColumnID>
+                <ColumnID>Calendar_x0020_Year</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
           <NameColumn>
             <DataType>WChar</DataType>
-            <DataSize>10</DataSize>
             <Source xsi:type="ColumnBinding">
               <TableID>olap_vDimensionDate</TableID>
-              <ColumnID>Calendar_x0020_Year_x0020_Label</ColumnID>
+              <ColumnID>Calendar_x0020_Year</ColumnID>
             </Source>
           </NameColumn>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Etykieta roku kalendarzowego</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Kalenderjahr-Etikett</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Etichetta dell'anno civile</Caption>
-            </Translation>
-          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
         <Attribute>
-          <ID>Calendar Month Label</ID>
-          <Name>Calendar Month Label</Name>
+          <ID>Month</ID>
+          <Name>Month</Name>
           <KeyColumns>
             <KeyColumn>
               <DataType>WChar</DataType>
@@ -231,30 +215,16 @@
           </KeyColumns>
           <NameColumn>
             <DataType>WChar</DataType>
-            <DataSize>20</DataSize>
+            <DataSize>10</DataSize>
             <Source xsi:type="ColumnBinding">
               <TableID>olap_vDimensionDate</TableID>
-              <ColumnID>Calendar_x0020_Month_x0020_Label</ColumnID>
+              <ColumnID>Month</ColumnID>
             </Source>
           </NameColumn>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Etykieta miesiąca kalendarzowego</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Etikett des Kalendermonats</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Etichetta del mese solare</Caption>
-            </Translation>
-          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
-              <AttributeID>Calendar Year Label</AttributeID>
-              <Name>Calendar Year Label</Name>
+              <AttributeID>Calendar Year</AttributeID>
+              <Name>Calendar Year</Name>
             </AttributeRelationship>
           </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -265,58 +235,16 @@
         <Hierarchy>
           <ID>Hierarchy</ID>
           <Name>Hierarchy</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Hierarchia</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Hierarchie</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Gerarchia</Caption>
-            </Translation>
-          </Translations>
           <Levels>
             <Level>
-              <ID>Calendar Year Label</ID>
-              <Name>Calendar Year Label</Name>
-              <SourceAttributeID>Calendar Year Label</SourceAttributeID>
-              <Translations>
-                <Translation>
-                  <Language>1045</Language>
-                  <Caption>Etykieta roku kalendarzowego</Caption>
-                </Translation>
-                <Translation>
-                  <Language>1031</Language>
-                  <Caption>Kalenderjahr-Etikett</Caption>
-                </Translation>
-                <Translation>
-                  <Language>1040</Language>
-                  <Caption>Etichetta dell'anno civile</Caption>
-                </Translation>
-              </Translations>
+              <ID>Calendar Year</ID>
+              <Name>Calendar Year</Name>
+              <SourceAttributeID>Calendar Year</SourceAttributeID>
             </Level>
             <Level>
-              <ID>Calendar Month Label</ID>
-              <Name>Calendar Month Label</Name>
-              <SourceAttributeID>Calendar Month Label</SourceAttributeID>
-              <Translations>
-                <Translation>
-                  <Language>1045</Language>
-                  <Caption>Etykieta miesiąca kalendarzowego</Caption>
-                </Translation>
-                <Translation>
-                  <Language>1031</Language>
-                  <Caption>Etikett des Kalendermonats</Caption>
-                </Translation>
-                <Translation>
-                  <Language>1040</Language>
-                  <Caption>Etichetta del mese solare</Caption>
-                </Translation>
-              </Translations>
+              <ID>Month</ID>
+              <Name>Month</Name>
+              <SourceAttributeID>Month</SourceAttributeID>
             </Level>
             <Level>
               <ID>Date</ID>
@@ -395,6 +323,63 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
           <Value>100</Value>
         </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+          <Value>
+            <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+              <Shapes NodeWidth="115">
+                <Shape Id="City Key" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="City Key" />
+                  </Attributes>
+                  <Position x="20" y="20" />
+                </Shape>
+                <Shape Id="Sales Territory" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Sales Territory" />
+                  </Attributes>
+                  <Position x="168" y="20" />
+                </Shape>
+                <Shape Id="Subregion" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Subregion" />
+                  </Attributes>
+                  <Position x="317" y="20" />
+                </Shape>
+                <Shape Id="Region" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Region" />
+                  </Attributes>
+                  <Position x="466" y="20" />
+                </Shape>
+                <Shape Id="City" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="City" />
+                  </Attributes>
+                  <Position x="168" y="68" />
+                </Shape>
+                <Shape Id="State Province" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="State Province" />
+                  </Attributes>
+                  <Position x="317" y="68" />
+                </Shape>
+                <Shape Id="Country" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Country" />
+                  </Attributes>
+                  <Position x="466" y="68" />
+                </Shape>
+                <Shape Id="Continent" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Continent" />
+                  </Attributes>
+                  <Position x="615" y="68" />
+                </Shape>
+              </Shapes>
+            </DiagramLayout>
+          </Value>
+        </Annotation>
       </Annotations>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
@@ -456,11 +441,300 @@
               <Caption>Stadt-Schlüssel</Caption>
             </Translation>
           </Translations>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>City</AttributeID>
+              <Name>City</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Sales Territory</AttributeID>
+              <Name>Sales Territory</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
+        <Attribute>
+          <ID>Continent</ID>
+          <Name>Continent</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>30</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>Continent</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>30</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>Continent</ColumnID>
+            </Source>
+          </NameColumn>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>60</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>Country</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>30</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>Continent</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Continent</AttributeID>
+              <Name>Continent</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>City</ID>
+          <Name>City</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>City</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>30</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>Continent</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>60</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>Country</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>State_x0020_Province</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>City</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>State Province</AttributeID>
+              <Name>State Province</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <ValueColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>City</ColumnID>
+            </Source>
+          </ValueColumn>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>State Province</ID>
+          <Name>State Province</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>State_x0020_Province</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>State_x0020_Province</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Country</AttributeID>
+              <Name>Country</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Region</ID>
+          <Name>Region</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>30</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>Region</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>30</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>Region</ColumnID>
+            </Source>
+          </NameColumn>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Subregion</ID>
+          <Name>Subregion</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>30</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>Subregion</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>30</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>Subregion</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Region</AttributeID>
+              <Name>Region</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Sales Territory</ID>
+          <Name>Sales Territory</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionCity</TableID>
+                <ColumnID>Sales_x0020_Territory</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionCity</TableID>
+              <ColumnID>Sales_x0020_Territory</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Subregion</AttributeID>
+              <Name>Subregion</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy>
+          <ID>Hierarchy</ID>
+          <Name>Hierarchy</Name>
+          <Levels>
+            <Level>
+              <ID>Continent</ID>
+              <Name>Continent</Name>
+              <SourceAttributeID>Continent</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Country</ID>
+              <Name>Country</Name>
+              <SourceAttributeID>Country</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>State Province</ID>
+              <Name>State Province</Name>
+              <SourceAttributeID>State Province</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>City</ID>
+              <Name>City</Name>
+              <SourceAttributeID>City</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+        <Hierarchy>
+          <ID>Hierarchy 1</ID>
+          <Name>Hierarchy 1</Name>
+          <Levels>
+            <Level>
+              <ID>Region</ID>
+              <Name>Region</Name>
+              <SourceAttributeID>Region</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Subregion</ID>
+              <Name>Subregion</Name>
+              <SourceAttributeID>Subregion</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Sales Territory</ID>
+              <Name>Sales Territory</Name>
+              <SourceAttributeID>Sales Territory</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+      </Hierarchies>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
     <Dimension>
@@ -866,539 +1140,6 @@
             </Translation>
           </Translations>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-      </Attributes>
-      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
-    </Dimension>
-    <Dimension>
-      <ID>v Fact Sale</ID>
-      <Name>v Fact Sale</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <Annotations>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-          <Value>
-            <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1885" scrolltop="-1601" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-                <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
-                </font>
-                <mouseicon>
-                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-                </mouseicon>
-              </diagram>
-              <layoutmanager>
-                <ddsxmlobj />
-              </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactSale" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                <control>
-                  <ddsxmlobjectstreaminitwrapper binary="000e0000c80e000088130000" />
-                </control>
-                <layoutobject>
-                  <ddsxmlobj>
-                    <property name="LogicalObject" value="olap_vFactSale" vartype="8" />
-                  </ddsxmlobj>
-                </layoutobject>
-                <shape groupshapeid="0" groupnode="0" />
-              </ddscontrol>
-            </dds>
-          </Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
-          <Value>false</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-1885</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-1601</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>20</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-          <Value>0</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-          <Value>100</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
-          <Value>
-            <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
-              <Shapes NodeWidth="152">
-                <Shape Id="Sale Key" Expanded="true">
-                  <Attributes>
-                    <Attribute Id="Sale Key" />
-                    <Attribute Id="Bill To Customer Key" />
-                    <Attribute Id="City Key" />
-                    <Attribute Id="Customer Key" />
-                    <Attribute Id="Delivery Date Key" />
-                    <Attribute Id="Invoice Date Key" />
-                    <Attribute Id="Salesperson Key" />
-                    <Attribute Id="Stock Item Key" />
-                  </Attributes>
-                  <Position x="20" y="20" />
-                </Shape>
-              </Shapes>
-            </DiagramLayout>
-          </Value>
-        </Annotation>
-      </Annotations>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Source xsi:type="DataSourceViewBinding">
-        <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
-      </Source>
-      <ErrorConfiguration>
-        <KeyNotFound>ReportAndStop</KeyNotFound>
-        <KeyDuplicate>ReportAndStop</KeyDuplicate>
-        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-      </ErrorConfiguration>
-      <CurrentStorageMode>Molap</CurrentStorageMode>
-      <Translations>
-        <Translation>
-          <Language>1045</Language>
-          <Caption>Sprzedaż</Caption>
-        </Translation>
-        <Translation>
-          <Language>1031</Language>
-          <Caption>Verkauf</Caption>
-        </Translation>
-        <Translation>
-          <Language>1040</Language>
-          <Caption>Vendita</Caption>
-        </Translation>
-      </Translations>
-      <Attributes>
-        <Attribute>
-          <ID>Sale Key</ID>
-          <Name>Sale Key</Name>
-          <Usage>Key</Usage>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>BigInt</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Sale_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Sale_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Sprzedaż klucz</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Vendita della chiave</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Verkauf des Schlüssels</Caption>
-            </Translation>
-          </Translations>
-          <AttributeRelationships>
-            <AttributeRelationship>
-              <AttributeID>Invoice Date Key</AttributeID>
-              <Name>Invoice Date Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>City Key</AttributeID>
-              <Name>City Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Bill To Customer Key</AttributeID>
-              <Name>Bill To Customer Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Customer Key</AttributeID>
-              <Name>Customer Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Delivery Date Key</AttributeID>
-              <Name>Delivery Date Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Salesperson Key</AttributeID>
-              <Name>Salesperson Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Stock Item Key</AttributeID>
-              <Name>Stock Item Key</Name>
-            </AttributeRelationship>
-          </AttributeRelationships>
-          <ValueColumn>
-            <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Sale_x0020_Key</ColumnID>
-            </Source>
-          </ValueColumn>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Invoice Date Key</ID>
-          <Name>Invoice Date Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>City Key</ID>
-          <Name>City Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>City_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>City_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Bill To Customer Key</ID>
-          <Name>Bill To Customer Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Customer Key</ID>
-          <Name>Customer Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Customer_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Customer_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Delivery Date Key</ID>
-          <Name>Delivery Date Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Delivery_x0020_Date_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Delivery_x0020_Date_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Salesperson Key</ID>
-          <Name>Salesperson Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Salesperson_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Salesperson_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Stock Item Key</ID>
-          <Name>Stock Item Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactSale</TableID>
-                <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-      </Attributes>
-      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
-    </Dimension>
-    <Dimension>
-      <ID>v Fact Stock Holding</ID>
-      <Name>v Fact Stock Holding</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <Annotations>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-          <Value>
-            <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1661" scrolltop="-1680" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-                <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
-                </font>
-                <mouseicon>
-                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-                </mouseicon>
-              </diagram>
-              <layoutmanager>
-                <ddsxmlobj />
-              </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactStockHolding" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4233" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                <control>
-                  <ddsxmlobjectstreaminitwrapper binary="000e000089100000ea120000" />
-                </control>
-                <layoutobject>
-                  <ddsxmlobj>
-                    <property name="LogicalObject" value="olap_vFactStockHolding" vartype="8" />
-                  </ddsxmlobj>
-                </layoutobject>
-                <shape groupshapeid="0" groupnode="0" />
-              </ddscontrol>
-            </dds>
-          </Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
-          <Value>false</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-1661</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-1680</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>20</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-          <Value>0</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-          <Value>100</Value>
-        </Annotation>
-      </Annotations>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Source xsi:type="DataSourceViewBinding">
-        <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
-      </Source>
-      <ErrorConfiguration>
-        <KeyNotFound>ReportAndStop</KeyNotFound>
-        <KeyDuplicate>ReportAndStop</KeyDuplicate>
-        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-      </ErrorConfiguration>
-      <CurrentStorageMode>Molap</CurrentStorageMode>
-      <Translations>
-        <Translation>
-          <Language>1040</Language>
-          <Caption>Partecipazione azionaria</Caption>
-        </Translation>
-        <Translation>
-          <Language>1031</Language>
-          <Caption>Lagerbestand</Caption>
-        </Translation>
-        <Translation>
-          <Language>1045</Language>
-          <Caption>Gospodarka magazynowa</Caption>
-        </Translation>
-      </Translations>
-      <Attributes>
-        <Attribute>
-          <ID>Stock Holding Key</ID>
-          <Name>Stock Holding Key</Name>
-          <Usage>Key</Usage>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>BigInt</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactStockHolding</TableID>
-                <ColumnID>Stock_x0020_Holding_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactStockHolding</TableID>
-              <ColumnID>Stock_x0020_Holding_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Gospodarka magazynowa klucz</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Schlüssel zur Lagerverwaltung</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Chiave di gestione del magazzino</Caption>
-            </Translation>
-          </Translations>
-          <AttributeRelationships>
-            <AttributeRelationship>
-              <AttributeID>Stock Item Key</AttributeID>
-              <Name>Stock Item Key</Name>
-            </AttributeRelationship>
-          </AttributeRelationships>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Stock Item Key</ID>
-          <Name>Stock Item Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactStockHolding</TableID>
-                <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactStockHolding</TableID>
-              <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -2388,345 +2129,6 @@
       </Attributes>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
-    <Dimension>
-      <ID>v Fact Order</ID>
-      <Name>v Fact Order</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <Annotations>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-          <Value>
-            <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1925" scrolltop="-1601" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-                <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
-                </font>
-                <mouseicon>
-                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-                </mouseicon>
-              </diagram>
-              <layoutmanager>
-                <ddsxmlobj />
-              </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactOrder" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3704" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                <control>
-                  <ddsxmlobjectstreaminitwrapper binary="000e0000780e000088130000" />
-                </control>
-                <layoutobject>
-                  <ddsxmlobj>
-                    <property name="LogicalObject" value="olap_vFactOrder" vartype="8" />
-                  </ddsxmlobj>
-                </layoutobject>
-                <shape groupshapeid="0" groupnode="0" />
-              </ddscontrol>
-            </dds>
-          </Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
-          <Value>false</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-1925</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-1601</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>20</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-          <Value>0</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-          <Value>100</Value>
-        </Annotation>
-      </Annotations>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Source xsi:type="DataSourceViewBinding">
-        <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
-      </Source>
-      <ErrorConfiguration>
-        <KeyNotFound>ReportAndStop</KeyNotFound>
-        <KeyDuplicate>ReportAndStop</KeyDuplicate>
-        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-      </ErrorConfiguration>
-      <CurrentStorageMode>Molap</CurrentStorageMode>
-      <Translations>
-        <Translation>
-          <Language>1045</Language>
-          <Caption>Zamówienie</Caption>
-        </Translation>
-        <Translation>
-          <Language>1031</Language>
-          <Caption>Bestellung</Caption>
-        </Translation>
-        <Translation>
-          <Language>1040</Language>
-          <Caption>Ordine</Caption>
-        </Translation>
-      </Translations>
-      <Attributes>
-        <Attribute>
-          <ID>Order Key</ID>
-          <Name>Order Key</Name>
-          <Usage>Key</Usage>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>BigInt</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Order_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Order_x0020_Date_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>Order_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Zamówienie klucz</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Chiave d'ordine</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Bestellschlüssel</Caption>
-            </Translation>
-          </Translations>
-          <AttributeRelationships>
-            <AttributeRelationship>
-              <AttributeID>Picked Date Key</AttributeID>
-              <Name>Picked Date Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>City Key</AttributeID>
-              <Name>City Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Customer Key</AttributeID>
-              <Name>Customer Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Order Date Key</AttributeID>
-              <Name>Order Date Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Picker Key</AttributeID>
-              <Name>Picker Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Salesperson Key</AttributeID>
-              <Name>Salesperson Key</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Stock Item Key</AttributeID>
-              <Name>Stock Item Key</Name>
-            </AttributeRelationship>
-          </AttributeRelationships>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Picked Date Key</ID>
-          <Name>Picked Date Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Picked_x0020_Date_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>Picked_x0020_Date_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>City Key</ID>
-          <Name>City Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>City_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>City_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Customer Key</ID>
-          <Name>Customer Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Customer_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>Customer_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Order Date Key</ID>
-          <Name>Order Date Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Order_x0020_Date_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>Order_x0020_Date_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Picker Key</ID>
-          <Name>Picker Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Picker_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>Picker_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Salesperson Key</ID>
-          <Name>Salesperson Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Salesperson_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>Salesperson_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Stock Item Key</ID>
-          <Name>Stock Item Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vFactOrder</TableID>
-                <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vFactOrder</TableID>
-              <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-      </Attributes>
-      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
-    </Dimension>
   </Dimensions>
   <Cubes>
     <Cube>
@@ -2739,7 +2141,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20267" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3804" scrolltop="5477" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20267" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -3384,11 +2786,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-4980</Value>
+          <Value>-3804</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-5000</Value>
+          <Value>5477</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -3406,51 +2808,6 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Dimensions>
-        <Dimension>
-          <ID>v Fact Sale</ID>
-          <Name>v Fact Sale</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Sprzedaż</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Verkauf</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Vendita</Caption>
-            </Translation>
-          </Translations>
-          <DimensionID>v Fact Sale</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Sale Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Invoice Date Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>City Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Bill To Customer Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Customer Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Delivery Date Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Salesperson Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Stock Item Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension>
           <ID>Invoice Date</ID>
           <Name>Invoice Date</Name>
@@ -3474,10 +2831,10 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Month Label</AttributeID>
+              <AttributeID>Month</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -3508,7 +2865,36 @@
             <Attribute>
               <AttributeID>City Key</AttributeID>
             </Attribute>
+            <Attribute>
+              <AttributeID>Continent</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Country</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>City</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>State Province</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Region</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Subregion</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Sales Territory</AttributeID>
+            </Attribute>
           </Attributes>
+          <Hierarchies>
+            <Hierarchy>
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy>
+              <HierarchyID>Hierarchy 1</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
         </Dimension>
         <Dimension>
           <ID>Bill To Customer</ID>
@@ -3581,10 +2967,10 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Month Label</AttributeID>
+              <AttributeID>Month</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -3642,33 +3028,6 @@
           </Attributes>
         </Dimension>
         <Dimension>
-          <ID>v Fact Stock Holding</ID>
-          <Name>v Fact Stock Holding</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Przechowywanie zapasów</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Lagerbestand</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Stock</Caption>
-            </Translation>
-          </Translations>
-          <DimensionID>v Fact Stock Holding</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Stock Holding Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Stock Item Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension>
           <ID>v Fact Transaction</ID>
           <Name>v Fact Transaction</Name>
           <Translations>
@@ -3711,156 +3070,6 @@
           </Attributes>
         </Dimension>
         <Dimension>
-          <ID>v Dimension Payment Method</ID>
-          <Name>v Dimension Payment Method</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Metoda płatności</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Zahlungsmethode</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Modalità di pagamento</Caption>
-            </Translation>
-          </Translations>
-          <DimensionID>v Dimension Payment Method</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Payment Method Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension>
-          <ID>v Dimension Supplier</ID>
-          <Name>v Dimension Supplier</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Dostawca</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Anbieter</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Fornitore</Caption>
-            </Translation>
-          </Translations>
-          <DimensionID>v Dimension Supplier</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Supplier Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension>
-          <ID>v Dimension Transaction Type</ID>
-          <Name>v Dimension Transaction Type</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Typ transakcji</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Transaktionstyp</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Tipo di transazione</Caption>
-            </Translation>
-          </Translations>
-          <DimensionID>v Dimension Transaction Type</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Transaction Type Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension>
-          <ID>v Fact Purchase</ID>
-          <Name>v Fact Purchase</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Zakup</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Kaufen</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Acquista</Caption>
-            </Translation>
-          </Translations>
-          <DimensionID>v Fact Purchase</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Purchase Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Stock Item Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Date Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Supplier Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension>
-          <ID>v Fact Order</ID>
-          <Name>v Fact Order</Name>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Zamówienie</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Bestellung</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Ordine</Caption>
-            </Translation>
-          </Translations>
-          <DimensionID>v Fact Order</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Order Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Picked Date Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>City Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Customer Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Order Date Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Picker Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Salesperson Key</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Stock Item Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension>
           <ID>Picked Date</ID>
           <Name>Picked Date</Name>
           <Translations>
@@ -3883,10 +3092,10 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Month Label</AttributeID>
+              <AttributeID>Month</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -3918,10 +3127,10 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Month Label</AttributeID>
+              <AttributeID>Month</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -3977,10 +3186,10 @@
               <AttributeID>Date</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Year Label</AttributeID>
+              <AttributeID>Calendar Year</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Month Label</AttributeID>
+              <AttributeID>Month</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -3988,6 +3197,30 @@
               <HierarchyID>Hierarchy</HierarchyID>
             </Hierarchy>
           </Hierarchies>
+        </Dimension>
+        <Dimension>
+          <ID>v Dimension Employee</ID>
+          <Name>v Dimension Employee</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Pracownik</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Mitarbeiterin</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Dipendente</Caption>
+            </Translation>
+          </Translations>
+          <DimensionID>v Dimension Employee</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Employee Key</AttributeID>
+            </Attribute>
+          </Attributes>
         </Dimension>
       </Dimensions>
       <MeasureGroups>
@@ -4278,31 +3511,6 @@
           <StorageMode>Molap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
-            <Dimension xsi:type="DegenerateMeasureGroupDimension">
-              <CubeDimensionID>v Fact Sale</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Sale Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>BigInt</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactSale</TableID>
-                        <ColumnID>Sale_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                    <KeyColumn>
-                      <DataType>Date</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactSale</TableID>
-                        <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
             <Dimension xsi:type="RegularMeasureGroupDimension">
               <CubeDimensionID>Invoice Date</CubeDimensionID>
               <Attributes>
@@ -4632,24 +3840,6 @@
           <StorageMode>Molap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
-            <Dimension xsi:type="DegenerateMeasureGroupDimension">
-              <CubeDimensionID>v Fact Stock Holding</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Stock Holding Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>BigInt</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactStockHolding</TableID>
-                        <ColumnID>Stock_x0020_Holding_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
             <Dimension xsi:type="RegularMeasureGroupDimension">
               <CubeDimensionID>v Dimension Stock Item</CubeDimensionID>
               <Attributes>
@@ -4925,62 +4115,6 @@
                 </Attribute>
               </Attributes>
             </Dimension>
-            <Dimension xsi:type="RegularMeasureGroupDimension">
-              <CubeDimensionID>v Dimension Payment Method</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Payment Method Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>Integer</DataType>
-                      <NullProcessing>UnknownMember</NullProcessing>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactTransaction</TableID>
-                        <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension xsi:type="RegularMeasureGroupDimension">
-              <CubeDimensionID>v Dimension Supplier</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Supplier Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>Integer</DataType>
-                      <NullProcessing>UnknownMember</NullProcessing>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactTransaction</TableID>
-                        <ColumnID>Supplier_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension xsi:type="RegularMeasureGroupDimension">
-              <CubeDimensionID>v Dimension Transaction Type</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Transaction Type Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>Integer</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactTransaction</TableID>
-                        <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
           </Dimensions>
           <Partitions>
             <Partition>
@@ -5131,31 +4265,6 @@
           <StorageMode>Molap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
-            <Dimension xsi:type="DegenerateMeasureGroupDimension">
-              <CubeDimensionID>v Fact Purchase</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Purchase Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>BigInt</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactPurchase</TableID>
-                        <ColumnID>Purchase_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                    <KeyColumn>
-                      <DataType>Date</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactPurchase</TableID>
-                        <ColumnID>Date_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
             <Dimension xsi:type="RegularMeasureGroupDimension">
               <CubeDimensionID>v Dimension Stock Item</CubeDimensionID>
               <Attributes>
@@ -5185,24 +4294,6 @@
                       <Source xsi:type="ColumnBinding">
                         <TableID>olap_vFactPurchase</TableID>
                         <ColumnID>Date_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension xsi:type="RegularMeasureGroupDimension">
-              <CubeDimensionID>v Dimension Supplier</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Supplier Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>Integer</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactPurchase</TableID>
-                        <ColumnID>Supplier_x0020_Key</ColumnID>
                       </Source>
                     </KeyColumn>
                   </KeyColumns>
@@ -5438,31 +4529,6 @@
           <StorageMode>Molap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
-            <Dimension xsi:type="DegenerateMeasureGroupDimension">
-              <CubeDimensionID>v Fact Order</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Order Key</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>BigInt</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactOrder</TableID>
-                        <ColumnID>Order_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                    <KeyColumn>
-                      <DataType>Date</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>olap_vFactOrder</TableID>
-                        <ColumnID>Order_x0020_Date_x0020_Key</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
             <Dimension xsi:type="RegularMeasureGroupDimension">
               <CubeDimensionID>Picked Date</CubeDimensionID>
               <Attributes>

@@ -40,14 +40,6 @@
       <FullPath>v Dimension Stock Item.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>v Fact Sale.dim</Name>
-      <FullPath>v Fact Sale.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>v Fact Stock Holding.dim</Name>
-      <FullPath>v Fact Stock Holding.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>v Dimension Payment Method.dim</Name>
       <FullPath>v Dimension Payment Method.dim</FullPath>
     </ProjectItem>
@@ -66,10 +58,6 @@
     <ProjectItem>
       <Name>v Fact Purchase.dim</Name>
       <FullPath>v Fact Purchase.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>v Fact Order.dim</Name>
-      <FullPath>v Fact Order.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
