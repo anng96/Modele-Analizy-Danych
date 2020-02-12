@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fccc5069-efc6-4429-bcd9-a92daadc4cdc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="abdeb82c-ca7c-4cb7-8dc6-bde49f2ded9e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Dimension Transaction Type</ID>
   <Name>v Dimension Transaction Type</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1515" scrolltop="-2315" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1515" scrolltop="-2315" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimensionTransactionType" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4524" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimensionTransactionType" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4524" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000ac110000f40d0000" />
             </control>
@@ -68,53 +68,60 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="db4778a9-ae02-45bd-85b5-269a5a4f6075">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d0354c23-b570-491a-8be3-b2efb0e9906c">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="5c8fa0da-eebb-499d-9097-eb1685c6655a">
+  <ErrorConfiguration dwd:design-time-name="22f5e1ba-6a35-44e9-b677-286843ab1945">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="b4ba4220-25da-4b17-88ab-6175d0d7f612">
+    <Translation dwd:design-time-name="81054c1b-06fc-4288-a89e-33fe83684483">
       <Language>1045</Language>
       <Caption>Typ transakcji</Caption>
     </Translation>
-    <Translation dwd:design-time-name="c5804b3d-b277-457f-9fd4-66a581e8471a">
+    <Translation dwd:design-time-name="6d83cf7f-f724-4724-9ec5-ab535e1fd5a4">
       <Language>1040</Language>
       <Caption>Tipo di transazione</Caption>
     </Translation>
-    <Translation dwd:design-time-name="2e3d60e6-ac9a-4981-a84d-fff5e879d527">
+    <Translation dwd:design-time-name="31eca518-619d-46bb-9479-aa0b43ee29d2">
       <Language>1031</Language>
       <Caption>Art der Transaktion</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="f540b1d5-ddf6-4bb4-98e9-27ddeac778f5">
+    <Attribute dwd:design-time-name="04f3d8ca-0dc5-4b2e-86f0-1cc6836c1537">
       <ID>Transaction Type Key</ID>
       <Name>Transaction Type Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0f42ea1f-56f8-466d-a9be-a6444365f583">
+        <KeyColumn dwd:design-time-name="db5a31d8-0e11-4427-a11e-dfa6e55ab075">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b4ec768-a20a-403a-809e-804454981d48">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b83c5b34-2b38-463e-9d57-0bb3c7b2abc1">
             <TableID>olap_vDimensionTransactionType</TableID>
             <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="b839bccd-2e6d-4aec-b648-3dfdf81d1f37">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7c078ef1-b6b4-4ce1-ba89-6278a2f8eecf">
+          <TableID>olap_vDimensionTransactionType</TableID>
+          <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
+        </Source>
+      </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="aa790cd7-2fa5-4b46-aee9-36b2457ac0da">
+        <Translation dwd:design-time-name="d0ef9e18-b0f0-4dcd-876f-bf1e170d6bd5">
           <Language>1045</Language>
           <Caption>Typ transakcji klucz</Caption>
         </Translation>
-        <Translation dwd:design-time-name="e6d214fc-9549-4353-a7bc-06f8e3eb8434">
+        <Translation dwd:design-time-name="4bf6ef2a-3849-4ac7-a2c3-71b463cb1085">
           <Language>1031</Language>
           <Caption>Typ des Transaktionsschlüssels</Caption>
         </Translation>
-        <Translation dwd:design-time-name="e84ebce0-5e0f-4e19-a04f-cff3d0967823">
+        <Translation dwd:design-time-name="bc88b2ff-2f0a-43cc-b698-1082b70bd771">
           <Language>1040</Language>
           <Caption>Tipo di chiave di transazione</Caption>
         </Translation>
