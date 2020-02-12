@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fe063d77-c478-4746-a4b9-cc81b0e722cd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2596b5e4-5c60-4642-bad7-c8d3a9843701" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Fact Stock Holding</ID>
   <Name>v Fact Stock Holding</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1661" scrolltop="-1680" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactStockHolding" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4233" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000089100000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="olap_vFactStockHolding" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-1661</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-1680</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,31 +68,59 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f7a60a39-766a-4b53-9697-ae0e5085d467">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3803dfa7-6c5a-44ed-835f-ab1bae044581">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="418dc41b-71f9-4162-ad64-acfdb1b12bc4">
+  <ErrorConfiguration dwd:design-time-name="72cb2323-3ad1-4be3-8ac4-4cbfbdac04b9">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="480ac54e-41d7-4a6b-8247-0bb9e3b91e68">
+      <Language>1040</Language>
+      <Caption>Partecipazione azionaria</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="f18770a4-7d4c-4643-a218-272144cf4096">
+      <Language>1031</Language>
+      <Caption>Lagerbestand</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="6e8c24d8-7d9f-4468-b079-07ed84b21497">
+      <Language>1045</Language>
+      <Caption>Gospodarka magazynowa</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="281e076d-5808-4865-a8bd-077464642eb9">
+    <Attribute dwd:design-time-name="2aec689a-8a5c-48b1-a053-d08f27c82ab8">
       <ID>Stock Holding Key</ID>
       <Name>Stock Holding Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d1f49aec-e75d-4e0e-9c82-8af193588924">
+        <KeyColumn dwd:design-time-name="6868b420-6516-4f7c-b814-be107b48b88e">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4459c505-074c-46b9-ae68-69a290636bff">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9201834d-2c02-47e2-9fe6-2f07b426d497">
             <TableID>olap_vFactStockHolding</TableID>
             <ColumnID>Stock_x0020_Holding_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="3aa008d6-472b-480a-a60c-c6549f1632f2">
+          <Language>1045</Language>
+          <Caption>Gospodarka magazynowa klucz</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="791d2dcf-f436-422a-a423-9b2d5b8f4633">
+          <Language>1031</Language>
+          <Caption>Schlüssel zur Lagerverwaltung</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="629a0ab6-e762-4259-9db6-06d15b177bc6">
+          <Language>1040</Language>
+          <Caption>Chiave di gestione del magazzino</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="de8a7e26-60fa-4843-b419-8d4819dc00a7">
+        <AttributeRelationship dwd:design-time-name="5cc21438-57e1-4a79-a2e1-937b2d8d06ee">
           <AttributeID>Stock Item Key</AttributeID>
           <Name>Stock Item Key</Name>
         </AttributeRelationship>
@@ -75,13 +129,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1ecc10b5-166e-4e91-8581-af252bd56169">
+    <Attribute dwd:design-time-name="5bbca2ea-caee-45e5-b8f1-9f4207a12585">
       <ID>Stock Item Key</ID>
       <Name>Stock Item Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b52372ba-8a74-4a4b-b572-fd0a1c05eeb7">
+        <KeyColumn dwd:design-time-name="673d07b9-aedb-4e59-9208-60c641b9f12b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f738b782-bab2-48e1-af42-abaf42051dc1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="88c57ea4-25e2-431f-833a-f787d8f46e37">
             <TableID>olap_vFactStockHolding</TableID>
             <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
           </Source>

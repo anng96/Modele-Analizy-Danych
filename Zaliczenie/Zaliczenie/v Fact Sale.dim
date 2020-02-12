@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="76929c75-a7bb-4025-9e98-73ea2cfdbe48" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9703ba90-0162-4368-879d-bb9645b2139b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Fact Sale</ID>
   <Name>v Fact Sale</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1885" scrolltop="-1601" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactSale" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="olap_vFactSale" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-1885</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-1601</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -39,72 +65,122 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="152">
+            <Shape Id="Sale Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Sale Key" />
+                <Attribute Id="Bill To Customer Key" />
+                <Attribute Id="City Key" />
+                <Attribute Id="Customer Key" />
+                <Attribute Id="Delivery Date Key" />
+                <Attribute Id="Invoice Date Key" />
+                <Attribute Id="Salesperson Key" />
+                <Attribute Id="Stock Item Key" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ca2a8c1e-ffda-483c-9ab5-2ad3bd2b84b9">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f12009ab-7fee-4dc0-8644-937e441372c8">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="525c7882-0117-4aa9-872e-200d17952780">
+  <ErrorConfiguration dwd:design-time-name="94fb34d1-b0eb-42d6-8358-41beda0930a8">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="02555155-05cc-43e0-8af5-feb6615cf091">
+      <Language>1045</Language>
+      <Caption>Sprzedaż</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="2b33cc59-0ae4-4dd3-aa3b-4bf33a263407">
+      <Language>1031</Language>
+      <Caption>Verkauf</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="d46acfc1-2b45-4d92-8e2c-180318753141">
+      <Language>1040</Language>
+      <Caption>Vendita</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="42b707d8-1fc4-47a5-98c7-faaedafbfaaa">
+    <Attribute dwd:design-time-name="96ed75e9-a410-4bfd-81c8-8e2ffd2b4cde">
       <ID>Sale Key</ID>
       <Name>Sale Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d36e9d81-54cf-45eb-bd81-904d11540915">
+        <KeyColumn dwd:design-time-name="4d55a9af-3643-43d4-b1e9-b3e86fd4438b">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="87a6113d-1577-46c0-84ca-f0ccd60d5db0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b5b9100-5548-44f2-856a-0c30e977ba7c">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Sale_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="4e691f4c-3f41-4b23-9d75-384dc472a933">
+        <KeyColumn dwd:design-time-name="f47e6753-5e88-44b8-affc-c3084d36203b">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a94b046-29cb-40b4-b9dc-5880199bbe0f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="80777c3e-c6d5-4a9e-9a8e-a8a31842281e">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="376430c3-828a-4155-8e7b-807e41d88b8f">
+      <NameColumn dwd:design-time-name="9e053fd3-fda0-4842-b975-f83163b304d0">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="13fd7371-f48e-4742-be85-92eda3e53301">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="34c51066-25c7-40e3-9bc9-4796aaa429c9">
           <TableID>olap_vFactSale</TableID>
           <ColumnID>Sale_x0020_Key</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="56ce5565-d404-4027-a943-8a626def1638">
+          <Language>1045</Language>
+          <Caption>Sprzedaż klucz</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="d2c4b0e4-9f46-43a0-8345-ae74f02f1aa6">
+          <Language>1040</Language>
+          <Caption>Vendita della chiave</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="1701639d-1fb5-4905-9bbf-a21a2cc413f0">
+          <Language>1031</Language>
+          <Caption>Verkauf des Schlüssels</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="183d5259-22ae-4f3a-9cb5-9cc8221812c7">
+        <AttributeRelationship dwd:design-time-name="4aef6799-cc23-4969-9c6d-abc90c962412">
           <AttributeID>Invoice Date Key</AttributeID>
           <Name>Invoice Date Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="910d4718-ba66-442d-9bba-3bffc1f80095">
+        <AttributeRelationship dwd:design-time-name="d8d72c9f-1d73-4d74-9dc3-650399009d54">
           <AttributeID>City Key</AttributeID>
           <Name>City Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3aae288a-42ce-4a56-a37e-a1e1bf187059">
+        <AttributeRelationship dwd:design-time-name="f42bb354-b1f8-4775-9c9d-22ea45e6a293">
           <AttributeID>Bill To Customer Key</AttributeID>
           <Name>Bill To Customer Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="84aae378-e412-406a-89c2-5e9769b94164">
+        <AttributeRelationship dwd:design-time-name="52fca351-f718-4133-bbde-e019db47a653">
           <AttributeID>Customer Key</AttributeID>
           <Name>Customer Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0b2af10d-118f-4d6b-a8b9-6a644905f690">
+        <AttributeRelationship dwd:design-time-name="4ea87852-6967-4982-9e03-7e67e068dd2d">
           <AttributeID>Delivery Date Key</AttributeID>
           <Name>Delivery Date Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="35a49913-a5bc-47d8-93e2-a6d663c0bf48">
+        <AttributeRelationship dwd:design-time-name="7bad9ef4-c6ad-416c-8108-533fddebe807">
           <AttributeID>Salesperson Key</AttributeID>
           <Name>Salesperson Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d01a0eaa-4e65-4d43-93b8-8ee064b6812a">
+        <AttributeRelationship dwd:design-time-name="b820ea96-fe76-45e1-9151-b10c86f6cdc4">
           <AttributeID>Stock Item Key</AttributeID>
           <Name>Stock Item Key</Name>
         </AttributeRelationship>
@@ -112,13 +188,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3decf271-c67e-4295-8aef-dfde69a3f04b">
+    <Attribute dwd:design-time-name="65a3d3ed-4921-4bcc-9447-879d5fe8d309">
       <ID>Invoice Date Key</ID>
       <Name>Invoice Date Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4752c2f8-2c17-439b-9715-cbf55765c897">
+        <KeyColumn dwd:design-time-name="cc11a162-0504-411e-9360-6679cc312028">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea5ab33e-97dc-4e68-9a0e-ec432a6de666">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a491fd13-55b1-4a98-8503-e46f9315cd0e">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
           </Source>
@@ -129,13 +205,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="93c1362f-93ef-42c9-8380-b64e7097d798">
+    <Attribute dwd:design-time-name="c82dbfac-96fc-4f8b-adf5-409a59136032">
       <ID>City Key</ID>
       <Name>City Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="762aa76c-0d86-4ba6-93fb-feda15171f69">
+        <KeyColumn dwd:design-time-name="8ab6cde4-7d64-4213-bd4c-1cdb7e714ca8">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0e1c31b-72a1-4690-baee-69cd0acb1e32">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f383c32d-bd8b-49bc-a82c-92c92cdeea63">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>City_x0020_Key</ColumnID>
           </Source>
@@ -146,13 +222,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2421d8f8-85a0-40c0-822f-e3ef8431e251">
+    <Attribute dwd:design-time-name="0502242b-f730-4161-b5d2-f3efa8a0e964">
       <ID>Bill To Customer Key</ID>
       <Name>Bill To Customer Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0a58206b-786d-49c6-93d7-ad1d8f349538">
+        <KeyColumn dwd:design-time-name="29f7c08b-2308-4a89-9504-8f478cb29818">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e25ca032-73f9-4c52-82c4-e0b11ecd5f7c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a17c008e-0a50-49d1-b9b5-d7b988cf8f95">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
           </Source>
@@ -163,13 +239,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9fdfe042-18d3-4f06-9fa4-77bda3c598ec">
+    <Attribute dwd:design-time-name="746bd380-1fa2-4ca1-ac66-f2b753b3b15d">
       <ID>Customer Key</ID>
       <Name>Customer Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="be016bb4-d73a-4e19-9928-66dca53eeaee">
+        <KeyColumn dwd:design-time-name="fc01175f-06d7-49b2-91e8-ad1d0d6e47ba">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2071dcf0-c45b-415c-8744-edca999a6003">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1e900a7-9882-43fc-88ea-043a6c393f14">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Customer_x0020_Key</ColumnID>
           </Source>
@@ -180,13 +256,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3379e587-47d5-4e8c-879f-0f3f920fdd70">
+    <Attribute dwd:design-time-name="c5b1be40-baa0-4724-b1d1-04ede9b67933">
       <ID>Delivery Date Key</ID>
       <Name>Delivery Date Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5c7acb86-14b3-4723-8c83-0045e63c5e4d">
+        <KeyColumn dwd:design-time-name="2b25baf7-d17a-4dc0-a9e9-b535827dbfae">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e2db1bc9-c2fd-41e9-bf87-563ae00369de">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41ccf759-a6d7-438f-b447-fa574544bb75">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Delivery_x0020_Date_x0020_Key</ColumnID>
           </Source>
@@ -197,13 +273,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="95d12206-68b6-41d0-9934-66fa04638ae2">
+    <Attribute dwd:design-time-name="dc82dcd3-79e9-4546-b37c-f9a9d473217f">
       <ID>Salesperson Key</ID>
       <Name>Salesperson Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="274677a1-c5f8-45f3-91fb-e6b3ef2fa115">
+        <KeyColumn dwd:design-time-name="2db4d237-2dce-4567-90b8-ceeb5fb6e20c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="25d397dd-153b-4f1c-8e23-7efbae8d481f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b15032b7-6544-4297-bf47-fa7afc23419f">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Salesperson_x0020_Key</ColumnID>
           </Source>
@@ -214,13 +290,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8fdd78cb-8458-4307-ada5-51f65eacf2ed">
+    <Attribute dwd:design-time-name="1fc81a35-d0b3-4248-812a-5a83e211b693">
       <ID>Stock Item Key</ID>
       <Name>Stock Item Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="603e49d8-17e8-42bc-aff3-591264aec93b">
+        <KeyColumn dwd:design-time-name="c6df3eb2-1608-442f-9428-1f77c698d8dc">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f399e739-86a3-4fa4-8cd9-50306c81aa69">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1c8104f-3d80-4be9-85c3-0348936525be">
             <TableID>olap_vFactSale</TableID>
             <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
           </Source>

@@ -28,6 +28,9 @@
         <ID>v Dimension Stock Item</ID>
       </Dimension>
       <Dimension>
+        <ID>v Fact Sale</ID>
+      </Dimension>
+      <Dimension>
         <ID>v Fact Stock Holding</ID>
       </Dimension>
       <Dimension>
@@ -47,9 +50,6 @@
       </Dimension>
       <Dimension>
         <ID>v Fact Order</ID>
-      </Dimension>
-      <Dimension>
-        <ID>v Fact Sale</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
