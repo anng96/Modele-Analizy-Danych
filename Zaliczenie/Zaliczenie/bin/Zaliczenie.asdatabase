@@ -3783,6 +3783,7 @@
                   <ColumnID>Quantity</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3808,6 +3809,7 @@
                   <ColumnID>Unit_x0020_Price</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3833,6 +3835,7 @@
                   <ColumnID>Tax_x0020_Rate</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3858,6 +3861,7 @@
                   <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3883,6 +3887,7 @@
                   <ColumnID>Tax_x0020_Amount</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3908,6 +3913,7 @@
                   <ColumnID>Profit</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3933,6 +3939,7 @@
                   <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3958,6 +3965,7 @@
                   <ColumnID>Total_x0020_Dry_x0020_Items</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -3983,6 +3991,7 @@
                   <ColumnID>Total_x0020_Chiller_x0020_Items</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4009,6 +4018,7 @@
                   <TableID>olap_vFactSale</TableID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4231,6 +4241,7 @@
                   <ColumnID>Quantity_x0020_On_x0020_Hand</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4256,6 +4267,7 @@
                   <ColumnID>Last_x0020_Stocktake_x0020_Quantity</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4281,6 +4293,7 @@
                   <ColumnID>Last_x0020_Cost_x0020_Price</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4306,6 +4319,7 @@
                   <ColumnID>Reorder_x0020_Level</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4331,6 +4345,7 @@
                   <ColumnID>Target_x0020_Stock_x0020_Level</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4357,6 +4372,7 @@
                   <TableID>olap_vFactStockHolding</TableID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4463,6 +4479,7 @@
                   <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4488,6 +4505,7 @@
                   <ColumnID>Tax_x0020_Amount</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4513,6 +4531,7 @@
                   <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4538,6 +4557,7 @@
                   <ColumnID>Outstanding_x0020_Balance</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4564,6 +4584,7 @@
                   <TableID>olap_vFactTransaction</TableID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4771,6 +4792,7 @@
                   <ColumnID>Ordered_x0020_Outers</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4796,6 +4818,7 @@
                   <ColumnID>Ordered_x0020_Quantity</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4821,6 +4844,7 @@
                   <ColumnID>Received_x0020_Outers</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4847,6 +4871,7 @@
                   <TableID>olap_vFactPurchase</TableID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -4996,6 +5021,7 @@
                   <ColumnID>Quantity</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -5021,6 +5047,7 @@
                   <ColumnID>Unit_x0020_Price</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -5046,6 +5073,7 @@
                   <ColumnID>Tax_x0020_Rate</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -5071,6 +5099,7 @@
                   <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -5096,6 +5125,7 @@
                   <ColumnID>Tax_x0020_Amount</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -5121,6 +5151,7 @@
                   <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
@@ -5147,6 +5178,7 @@
                   <TableID>olap_vFactOrder</TableID>
                 </Source>
               </Source>
+              <FormatString># ##0.00</FormatString>
               <Translations>
                 <Translation>
                   <Language>1045</Language>
