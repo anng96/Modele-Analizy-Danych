@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="62199fc0-cbe5-4c47-a426-882a158b9fd6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c145fba2-7c98-4235-9374-9488543cf656" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>WideWorldImporters_dsv</ID>
   <Name>WideWorldImporters_dsv</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -675,423 +675,457 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="fa9df29e-3458-48c0-88f1-98bca3d49c87">
+    <Dimension dwd:design-time-name="c4069b8c-ad49-452e-a855-06612f11dd70">
       <ID>Invoice Date</ID>
       <Name>Invoice Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="e078ae2a-eed9-473b-b8c1-f28d7cf36896">
+        <Translation dwd:design-time-name="7d2a0591-9e32-42c0-b3e0-9aa74d118064">
           <Language>1045</Language>
           <Caption>Data wystawienia faktury</Caption>
         </Translation>
-        <Translation dwd:design-time-name="a1579c5c-2075-4b2d-9825-7188ea435dce">
+        <Translation dwd:design-time-name="7c208045-11f5-4590-b6a5-1b5659c9e000">
           <Language>1031</Language>
           <Caption>Datum der Rechnung</Caption>
         </Translation>
-        <Translation dwd:design-time-name="23c0fced-bf9e-4371-9d0c-7fc4c07800d8">
+        <Translation dwd:design-time-name="e03d563c-f404-4285-bc48-a2db79a2720b">
           <Language>1040</Language>
           <Caption>Data fattura</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="977014c5-a2bf-4afc-a796-2495e21ec036">
+        <Attribute dwd:design-time-name="50881298-8526-4ea5-be91-00e078effec0">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="843ab9c4-71ab-43b1-bfa1-37e7190c6324">
+        <Attribute dwd:design-time-name="5a9691fa-10a3-413f-b8fd-7e2ed8684bd8">
           <AttributeID>Calendar Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="498dc3ba-160b-4016-bd90-69cd83d08ea5">
+        <Attribute dwd:design-time-name="7bc14364-75c5-41ae-83c4-02694884ec58">
           <AttributeID>Month</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="82ddb06a-5d50-4281-aae7-06020f72643b">
+        <Hierarchy dwd:design-time-name="c4e7aa19-8cab-4ce9-8bdf-4a1d118bf118">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="940a84a5-1e8b-4853-a4ab-3b3c50dd7e7e">
+    <Dimension dwd:design-time-name="5c78c6b7-a4bd-438a-b778-ef39076c88f2">
       <ID>v Dimension City</ID>
       <Name>v Dimension City</Name>
       <Translations>
-        <Translation dwd:design-time-name="be2406ca-d30a-4877-be82-8af44c3f872a">
+        <Translation dwd:design-time-name="45407b4e-4ec7-49ee-99d4-76dab6346a85">
           <Language>1045</Language>
           <Caption>Miasto</Caption>
         </Translation>
-        <Translation dwd:design-time-name="445f5db0-37de-4e92-af55-c5a2d26c8cc6">
+        <Translation dwd:design-time-name="8b06f8b0-e56f-4147-951b-0c33d8a8c7a3">
           <Language>1031</Language>
           <Caption>Stadt</Caption>
         </Translation>
-        <Translation dwd:design-time-name="b745fffa-565e-4253-b9a4-c4bc942cc6e0">
+        <Translation dwd:design-time-name="872c5341-2d25-4de7-bf2d-6db6ae030ce8">
           <Language>1040</Language>
           <Caption>Città</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension City</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ac127a8a-92bb-44e3-92a2-d7a0ef91c974">
+        <Attribute dwd:design-time-name="f576e1ea-fbe4-41a3-94ec-960f1afebdce">
           <AttributeID>City Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="41353b0a-53ab-4c2e-b897-c2241ca6a88e">
+        <Attribute dwd:design-time-name="92f073c5-bbb8-4127-9063-0b96ed5ddfc8">
           <AttributeID>Continent</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fc848e3c-f6a6-4ef0-bead-4b6b93d1d52c">
+        <Attribute dwd:design-time-name="6675155b-2fde-4622-8e8d-202fb95f310f">
           <AttributeID>Country</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d580a6b9-266e-48f3-83a2-8e1fb4e2f52d">
+        <Attribute dwd:design-time-name="d9be943b-6a69-4255-8835-426357a4850a">
           <AttributeID>City</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="69801646-416e-4c3d-9344-8e8f56dbae85">
+        <Attribute dwd:design-time-name="0fc0d8ef-8081-45b0-8a7a-5850c69dc163">
           <AttributeID>State Province</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bd2a7588-bb35-4183-a874-fbc074939fb2">
+        <Attribute dwd:design-time-name="f20a93d3-f6f1-4c0a-83e0-63fc42dff5c6">
           <AttributeID>Region</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f4046879-4faa-4549-aa87-82432591e81b">
+        <Attribute dwd:design-time-name="b3a1c55d-d015-43ae-9dc4-f79b7e36eb54">
           <AttributeID>Subregion</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="56df5067-29ea-45be-a28e-bc49a47f1e2e">
+        <Attribute dwd:design-time-name="7605cd83-11b8-4120-b0b5-40865af5ac01">
           <AttributeID>Sales Territory</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="dca2f784-690a-42aa-ab13-11140167e2ba">
+        <Hierarchy dwd:design-time-name="0945540b-dfe9-48d6-ac84-5a6e5d65190d">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="bea72a02-697f-4e1a-b3ca-ed0e148e3861">
+        <Hierarchy dwd:design-time-name="ba4d3e1e-d756-4f0d-88eb-acece0597809">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="f5fca5f7-76b8-491c-ab6f-16cf49e9b621">
+    <Dimension dwd:design-time-name="15fa226f-88a2-4f27-a638-6b31c7cfb865">
       <ID>Bill To Customer</ID>
       <Name>Bill To Customer</Name>
       <Translations>
-        <Translation dwd:design-time-name="1b3743d6-afcb-48f6-9772-ceb16022e5a8">
+        <Translation dwd:design-time-name="1122a26c-d215-4a9e-bc13-5a6ee6825135">
           <Language>1045</Language>
           <Caption>Bill To Customer</Caption>
         </Translation>
-        <Translation dwd:design-time-name="c981899a-614d-4b72-a773-f57fe12c33cf">
+        <Translation dwd:design-time-name="70638f36-39a9-4b08-8424-a2f529d34ac6">
           <Language>1031</Language>
           <Caption>Rechnung an den Kunden</Caption>
         </Translation>
-        <Translation dwd:design-time-name="cf8a57a9-ae91-4697-8658-77cadc584aeb">
+        <Translation dwd:design-time-name="702e3e59-e05d-42d4-8048-c3af3d4f40a7">
           <Language>1040</Language>
           <Caption>Fattura cliente</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Customer</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a444b22e-915e-4677-ad14-91397624c964">
+        <Attribute dwd:design-time-name="7be707a7-695c-477c-bd28-e22b1051852c">
           <AttributeID>Customer Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="a5320134-e417-4841-9311-4588fff3a5a3">
+          <AttributeID>Customer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff6d9e59-c047-4403-8048-f6ee5bb08721">
+          <AttributeID>Bill To Customer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9a5a4ff-04f4-4b40-acab-37c49d0587fb">
+          <AttributeID>Buying Group</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37ddf746-93f3-4130-94b6-fb5bc19e5740">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8600ef21-d389-42be-b324-030c61bd308e">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="96651b1d-2b00-442d-8845-eb02bbb7bb00">
+    <Dimension dwd:design-time-name="d8a6f9eb-0a43-43ad-bed3-3d4a3ab689cc">
       <ID>v Dimension Customer</ID>
       <Name>v Dimension Customer</Name>
       <Translations>
-        <Translation dwd:design-time-name="47e3161e-f28b-494b-95d3-723b46c977d3">
+        <Translation dwd:design-time-name="1af36e82-3eaa-404d-97d0-11548911d21e">
           <Language>1045</Language>
           <Caption>Klient</Caption>
         </Translation>
-        <Translation dwd:design-time-name="7ff871f7-9688-420e-985e-57aa6d58c691">
+        <Translation dwd:design-time-name="4962353e-11b4-4311-8633-02ec3870e5ff">
           <Language>1031</Language>
           <Caption>Kunde</Caption>
         </Translation>
-        <Translation dwd:design-time-name="d7e04a7a-6d4c-44f4-9e7e-fbe4ec1b0064">
+        <Translation dwd:design-time-name="b468d64f-ccbf-46fb-9527-c333f1bbbaab">
           <Language>1040</Language>
           <Caption>Cliente</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Customer</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8711b6ac-f8fe-4f5b-aa07-80d66f5f90b8">
+        <Attribute dwd:design-time-name="0f7af687-9b4a-4291-b4c2-8e1aaaa23ffd">
           <AttributeID>Customer Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="89e86032-341f-482b-8e61-37d241a99eee">
+          <AttributeID>Customer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ff62a7e-e113-4782-aed4-69c032c897af">
+          <AttributeID>Bill To Customer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6497968-759d-4ce3-8e6b-24490cc85f26">
+          <AttributeID>Buying Group</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb08e4b7-d1fc-4ed6-a6f4-9bd26b704add">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a47b2829-50da-4768-8039-a9e789bbc63e">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="ddcf6291-ae78-427e-a032-7d170273f2e7">
+    <Dimension dwd:design-time-name="91c524e2-dabf-43bd-9ae8-d2dba79d975a">
       <ID>Delivery Date</ID>
       <Name>Delivery Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="78608a38-7896-4a73-b2c3-1d523fca89ff">
+        <Translation dwd:design-time-name="ae82392e-e52b-4d69-ae26-0c4e05162dea">
           <Language>1045</Language>
           <Caption>Data dostawy</Caption>
         </Translation>
-        <Translation dwd:design-time-name="c413992e-4758-451e-9a0b-fe45354e9fcc">
+        <Translation dwd:design-time-name="bc3c7603-4f9d-4fe7-9ec9-6c908158e329">
           <Language>1031</Language>
           <Caption>Liefertermin</Caption>
         </Translation>
-        <Translation dwd:design-time-name="7e31c362-bc6b-48d3-b323-1dfc5c82cf5c">
+        <Translation dwd:design-time-name="afce28bf-9e88-4366-8221-f406b2ab0228">
           <Language>1040</Language>
           <Caption>Data di consegna</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2d162c44-a835-4d86-8f1d-dd10ec287205">
+        <Attribute dwd:design-time-name="3f5ac720-9c4a-48c8-ad11-4c15077c1a1b">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5fd4b715-103b-4a5a-885d-33b4f65a1ac8">
+        <Attribute dwd:design-time-name="9e8962ee-48cd-45b2-a76a-034a41a48700">
           <AttributeID>Calendar Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="96f07dd1-8380-4706-bcfd-bb851a2bdb53">
+        <Attribute dwd:design-time-name="02ed5d60-c26b-4efa-be30-c4099d757599">
           <AttributeID>Month</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="597640cb-a548-475b-a735-e5061f879b9a">
+        <Hierarchy dwd:design-time-name="53267df6-9898-4e05-bda9-0bba9b9d7c5b">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="b6c1ebc1-7ac2-4a2b-a1b0-dc289e11e881">
+    <Dimension dwd:design-time-name="6ad808f1-c8d5-40fd-af6b-454ae85a9e7a">
       <ID>Salesperson</ID>
       <Name>Salesperson</Name>
       <Translations>
-        <Translation dwd:design-time-name="3b1885bf-49a8-4ca8-b4fa-25694d450fd9">
+        <Translation dwd:design-time-name="b31f7152-bccd-4c99-b24e-4588767573f4">
           <Language>1045</Language>
           <Caption>Sprzedawca</Caption>
         </Translation>
-        <Translation dwd:design-time-name="d3f90a13-3d54-45d2-9115-17104c408831">
+        <Translation dwd:design-time-name="3bc1aaf0-1998-4bef-a5ed-8ef6b6d7d55d">
           <Language>1031</Language>
           <Caption>Verkäufer</Caption>
         </Translation>
-        <Translation dwd:design-time-name="6477a44f-95ab-4c60-aeb7-ea2e2d3a8d3e">
+        <Translation dwd:design-time-name="adfafe53-4295-4458-99cb-bc2574daaf85">
           <Language>1040</Language>
           <Caption>Venditore</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Employee</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="54d46b47-b222-4627-9dd8-28a53340cbd3">
+        <Attribute dwd:design-time-name="36b95753-af3c-4cfd-8782-ec173249a8f3">
           <AttributeID>Employee Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="f6a51c4a-e352-419e-8c5b-d9c3fd4b6cef">
+    <Dimension dwd:design-time-name="01c4f820-3ca0-422f-b486-2abd26412d74">
       <ID>v Dimension Stock Item</ID>
       <Name>v Dimension Stock Item</Name>
       <Translations>
-        <Translation dwd:design-time-name="d886a001-4aba-4855-9e6d-1cebb0bb6c9d">
+        <Translation dwd:design-time-name="5296e0e6-5325-4654-afcc-35879dc82bac">
           <Language>1045</Language>
           <Caption>Pozycja magazynowa</Caption>
         </Translation>
-        <Translation dwd:design-time-name="f0b0ec2c-5400-4ce1-9228-b082d54df4b0">
+        <Translation dwd:design-time-name="e627ff9e-68b7-4819-ab17-434494d0a23c">
           <Language>1031</Language>
           <Caption>Lagerartikel</Caption>
         </Translation>
-        <Translation dwd:design-time-name="95afd0b3-2487-40ef-b360-2478fc48881e">
+        <Translation dwd:design-time-name="e95574f3-adba-4fc7-a1df-b2482bdccf15">
           <Language>1040</Language>
           <Caption>Articoli in magazzino</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Stock Item</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="50ca311e-37c5-4f7b-918c-b2f78440dc10">
+        <Attribute dwd:design-time-name="5a19348f-b30c-41d5-ad93-b446253db405">
           <AttributeID>Stock Item Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8faa88e8-efce-47e8-bfb2-5955e02d5494">
+    <Dimension dwd:design-time-name="167f85b7-4ea6-4dff-9cf3-5643470c13d1">
       <ID>v Fact Transaction</ID>
       <Name>v Fact Transaction</Name>
       <Translations>
-        <Translation dwd:design-time-name="02f96a02-a926-49a4-b0ef-13b5bdf71d0d">
+        <Translation dwd:design-time-name="533d2659-4b53-441b-a52b-616bf48afd01">
           <Language>1045</Language>
           <Caption>Transakcja</Caption>
         </Translation>
-        <Translation dwd:design-time-name="8349133f-fcce-43f8-9448-33ee8d71d7e6">
+        <Translation dwd:design-time-name="6fae89eb-85a2-4961-89ed-76f69194ee41">
           <Language>1031</Language>
           <Caption>Transaktion</Caption>
         </Translation>
-        <Translation dwd:design-time-name="0208fdf4-8dc8-407c-b76c-dce55a3581d9">
+        <Translation dwd:design-time-name="d8920415-7734-4dfa-bdc2-c29a68e0f59c">
           <Language>1040</Language>
           <Caption>Operazione</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Fact Transaction</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="deb2064d-113a-479e-af51-c742842a5d7c">
+        <Attribute dwd:design-time-name="7faf8a1a-b3d7-4bf9-98d6-df84003d3569">
           <AttributeID>Transaction Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e9553bd1-1510-4a8a-a890-9bce463fc28a">
+        <Attribute dwd:design-time-name="aca4ab75-195e-428a-ac01-dc70a6d3b9cf">
           <AttributeID>Customer Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="489c99d9-a05e-4510-9797-158bc6b3b686">
+        <Attribute dwd:design-time-name="c8d60a76-3dbd-4020-a5be-59ac139662ae">
           <AttributeID>Bill To Customer Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d99b4927-da1e-486d-a078-c760ceb4d8d5">
+        <Attribute dwd:design-time-name="27c0c650-71ed-4ea5-8875-c60d405f3416">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b94e1a35-a87f-4baa-b59d-4213fddab9eb">
+        <Attribute dwd:design-time-name="481d07b4-8af4-4e64-bc3c-c64dc68ce43b">
           <AttributeID>Payment Method Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="790e93da-a88b-4580-86ee-685a92610f8c">
+        <Attribute dwd:design-time-name="057ea38a-b307-4de5-85d5-0d7ab0128c69">
           <AttributeID>Supplier Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="13b7dcf4-6c9d-44f2-8a2a-3927b5c5638c">
+        <Attribute dwd:design-time-name="091c20ad-322e-4584-af02-229f190b07cc">
           <AttributeID>Transaction Type Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="7488db89-8f6c-4643-be74-32b9e7afc2c5">
+    <Dimension dwd:design-time-name="0563cbe4-166a-4e54-bdbc-63d4eafeb62f">
       <ID>Picked Date</ID>
       <Name>Picked Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="ad82630c-ec2c-4d17-9a83-bb0c25b98aa6">
+        <Translation dwd:design-time-name="1e4cacf7-d63f-4de9-ba0e-fe8b54f618db">
           <Language>1045</Language>
           <Caption>Wybrana data</Caption>
         </Translation>
-        <Translation dwd:design-time-name="0e325401-f87d-4777-ad0c-f51ecbe9c334">
+        <Translation dwd:design-time-name="0f8d47f6-640f-46c1-80a3-8a4058beb644">
           <Language>1031</Language>
           <Caption>Gewähltes Datum</Caption>
         </Translation>
-        <Translation dwd:design-time-name="63466d58-dd63-46b1-8790-d89a84caaf02">
+        <Translation dwd:design-time-name="c4482c09-da7f-4e18-9c8d-4f42ea1927dc">
           <Language>1040</Language>
           <Caption>Data selezionata</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ad41a508-bba7-417c-8fa5-98057747136b">
+        <Attribute dwd:design-time-name="3a5789c1-e5aa-4d24-8a7e-6bf7da46d6c2">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a9c4dc25-53b8-41ae-8849-4d84ba8367ef">
+        <Attribute dwd:design-time-name="5a985f8b-b81b-49ac-96dd-34019f5d4676">
           <AttributeID>Calendar Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a22cba97-cdbb-47b4-bf5e-a30afd85293b">
+        <Attribute dwd:design-time-name="1c7f98df-51bf-470f-93a5-c88370fe9519">
           <AttributeID>Month</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="a6676c86-a2be-482f-8be2-301e978053a5">
+        <Hierarchy dwd:design-time-name="b547a3fa-fc6f-451e-ab5a-5977300c89ac">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="74be560d-a6bb-44d2-9dc7-ae9c8e46934b">
+    <Dimension dwd:design-time-name="bcae9f90-f716-4573-8a78-5dcbdc48152d">
       <ID>Order Date</ID>
       <Name>Order Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="be2a70b1-ebaf-4404-9fcb-75b739ada676">
+        <Translation dwd:design-time-name="dcc7143b-1008-483c-a9e0-318ce2eecd0d">
           <Language>1045</Language>
           <Caption>Data zamówienia</Caption>
         </Translation>
-        <Translation dwd:design-time-name="a39d5ec1-ed80-4717-9199-080d72772f61">
+        <Translation dwd:design-time-name="60de0e37-6466-487c-87ab-81afc4d334ca">
           <Language>1031</Language>
           <Caption>Datum der Bestellung</Caption>
         </Translation>
-        <Translation dwd:design-time-name="688733cd-aa6e-492c-8471-581050c0ce59">
+        <Translation dwd:design-time-name="c3cccf80-a081-4408-b386-d610cf3ce432">
           <Language>1040</Language>
           <Caption>Data dell'ordine</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e8f3febb-b65a-4c1d-adbd-1629ced51d3d">
+        <Attribute dwd:design-time-name="90e904fb-5c33-44b0-876e-12d5550b9460">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eb9de008-2813-49d9-bf38-97e2ab943b04">
+        <Attribute dwd:design-time-name="cc9936d7-a34e-47ad-8cfa-da434f3a356f">
           <AttributeID>Calendar Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="378a4270-e1be-4e3c-acaf-65f6c0e4e155">
+        <Attribute dwd:design-time-name="19d070b4-6945-4466-8da7-edcb4e6efaf5">
           <AttributeID>Month</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="e1a5245a-e844-4fb2-9bed-dbea2936d3b9">
+        <Hierarchy dwd:design-time-name="b4b5107a-d774-4b19-8260-bcd8c668757d">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="9efdcf56-d94d-4e74-beb8-59efc90e00e7">
+    <Dimension dwd:design-time-name="f9433101-9d51-4f8d-b8be-9bd80237d4f5">
       <ID>Picker</ID>
       <Name>Picker</Name>
       <Translations>
-        <Translation dwd:design-time-name="0f946cf7-5889-45dd-972d-837dd3999103">
+        <Translation dwd:design-time-name="02c7480f-f6ec-4796-893d-ced847c672f3">
           <Language>1045</Language>
           <Caption>Chwytak</Caption>
         </Translation>
-        <Translation dwd:design-time-name="be190f41-780f-4ffe-9a34-b7a06654ffb3">
+        <Translation dwd:design-time-name="76275458-4411-4e80-af5d-03817c9bbc55">
           <Language>1031</Language>
           <Caption>Picker</Caption>
         </Translation>
-        <Translation dwd:design-time-name="522a1b23-ea31-4d08-896b-e172d606e7be">
+        <Translation dwd:design-time-name="b92e1a72-8bab-4a85-9dda-7e7df874b9ac">
           <Language>1040</Language>
           <Caption>Picker</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Employee</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4f40e8c2-373b-40ad-b6ee-335e01565b2a">
+        <Attribute dwd:design-time-name="9e765df0-2990-4ce9-8250-c06dad988fff">
           <AttributeID>Employee Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="e5ef2dec-51b6-42bd-a220-98b984327cc6">
+    <Dimension dwd:design-time-name="9d6f2626-dfca-48bf-8295-e5f70ed1cfa7">
       <ID>v Dimension Date</ID>
       <Name>v Dimension Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="51446c5e-176c-449f-be9e-3a83a7162b6f">
+        <Translation dwd:design-time-name="b5c1e95a-c145-4a31-9c1d-42241daa3207">
           <Language>1045</Language>
           <Caption>Data</Caption>
         </Translation>
-        <Translation dwd:design-time-name="9729e2e1-606a-4f55-9812-dc27ae21ca99">
+        <Translation dwd:design-time-name="ba60c625-6644-490e-874c-938c08c4831d">
           <Language>1031</Language>
           <Caption>Datum</Caption>
         </Translation>
-        <Translation dwd:design-time-name="1f9ceff6-f33c-4433-bbb5-736a7fda5cfd">
+        <Translation dwd:design-time-name="17cdc933-37ae-40a4-aaf2-c89381533c68">
           <Language>1040</Language>
           <Caption>Data</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="699c5397-8e97-4268-ab50-6791d060036d">
+        <Attribute dwd:design-time-name="25b00bad-e38e-45ef-92bc-137c89ecd6a1">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="12c785f4-f80a-476c-8033-4ff6b2096f42">
+        <Attribute dwd:design-time-name="a42c78fd-fd50-475b-839c-0e36b81f517d">
           <AttributeID>Calendar Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fc9f3d18-86c6-44f0-87ac-f039cd77f07b">
+        <Attribute dwd:design-time-name="5f666aa3-1af8-45f1-999f-3b7315b904a7">
           <AttributeID>Month</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="2fa8fddf-c970-444d-a9c9-ffe8bd5874a0">
+        <Hierarchy dwd:design-time-name="a04ef171-1ad2-4c7e-a099-3cb1606d4a11">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="6e49dbf2-9500-4856-b854-3017773c349a">
+    <Dimension dwd:design-time-name="c98effce-7db5-4206-83b7-0ba1b59dcb65">
       <ID>v Dimension Employee</ID>
       <Name>v Dimension Employee</Name>
       <Translations>
-        <Translation dwd:design-time-name="09ccbda0-8b3b-43fa-81dc-fe7f5a1b1b8f">
+        <Translation dwd:design-time-name="d1bc26a7-7456-4d3a-ba5b-cc50ddcea934">
           <Language>1045</Language>
           <Caption>Pracownik</Caption>
         </Translation>
-        <Translation dwd:design-time-name="554c7c0f-9138-45ce-b2ba-65d5f6182b8d">
+        <Translation dwd:design-time-name="d834a4ac-d7e6-4c1f-b816-ef7bfc45dcfc">
           <Language>1031</Language>
           <Caption>Mitarbeiterin</Caption>
         </Translation>
-        <Translation dwd:design-time-name="ab388707-3c77-4b65-8dbc-d75703ea56a6">
+        <Translation dwd:design-time-name="306ac4de-c15f-4e61-a83f-a6254abbd34c">
           <Language>1040</Language>
           <Caption>Dipendente</Caption>
         </Translation>
       </Translations>
       <DimensionID>v Dimension Employee</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="85b5c718-3bea-4a2f-b957-2ec87ead1b19">
+        <Attribute dwd:design-time-name="81d1e753-df0e-4f4d-bf60-482af0d39742">
           <AttributeID>Employee Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="f475c660-b8f5-437b-a40c-b7443061ddcc">
+    <MeasureGroup dwd:design-time-name="c25451c6-cde1-4c54-8125-dee210e57299">
       <ID>v Fact Sale</ID>
       <Name>v Fact Sale</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1099,276 +1133,276 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Translations>
-        <Translation dwd:design-time-name="3a894a53-9404-4818-ab6f-9b761c46031e">
+        <Translation dwd:design-time-name="f1f2e0d2-7c98-489a-a580-016ecd22636d">
           <Language>1045</Language>
           <Caption>Sprzedaż</Caption>
         </Translation>
-        <Translation dwd:design-time-name="654d7f47-bdf6-4963-9ce9-0c887f6b741b">
+        <Translation dwd:design-time-name="85580803-88a7-458e-83f6-05bc7aced5e3">
           <Language>1031</Language>
           <Caption>Verkauf</Caption>
         </Translation>
-        <Translation dwd:design-time-name="0e469b15-b611-420d-9546-c0fe763a17da">
+        <Translation dwd:design-time-name="a4dfd73f-3bce-4cf5-a4b7-b8e9c84c98b0">
           <Language>1040</Language>
           <Caption>Vendita</Caption>
         </Translation>
       </Translations>
       <Measures>
-        <Measure dwd:design-time-name="1222e679-434b-4707-bcdd-781d88c8a1a6">
+        <Measure dwd:design-time-name="83e8d4af-b456-43dd-9c46-3b6700a90a6a">
           <ID>Quantity</ID>
           <Name>Quantity</Name>
-          <Source dwd:design-time-name="ae52402d-5815-4988-804c-d9e5e0a2c1e4">
+          <Source dwd:design-time-name="dab3a793-a5e4-4365-b5cf-b380f2960475">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="0c6b2903-32be-44a3-9d2e-b08864ecb196">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="35bf2bf1-2400-41b4-9969-adb2f0bf8aab">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="8f2b79ad-552e-4fb9-9074-8c7af6e687d8">
+            <Translation dwd:design-time-name="b6fc1d2b-f05d-4e29-a7a1-a371bf3883cc">
               <Language>1045</Language>
               <Caption>Ilość</Caption>
             </Translation>
-            <Translation dwd:design-time-name="d4d1e8a2-10b2-4be0-b2a4-ccb28510b13e">
+            <Translation dwd:design-time-name="fb273c77-7be2-4908-a92e-b8c7878c30c8">
               <Language>1031</Language>
               <Caption>Anzahl</Caption>
             </Translation>
-            <Translation dwd:design-time-name="9a6f5291-fbd2-448f-89db-c3e2c129f7eb">
+            <Translation dwd:design-time-name="4c7c673d-d724-40c5-ae91-e66fbd6917b9">
               <Language>1040</Language>
               <Caption>Quantità</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="9e7672c7-13b0-4c14-a508-e66f229b1fe9">
+        <Measure dwd:design-time-name="a4832f4e-2f22-4678-83ae-25d10c06cfa6">
           <ID>Unit Price</ID>
           <Name>Unit Price</Name>
-          <Source dwd:design-time-name="3914c91d-7fe6-46ce-8e3e-9da308934f62">
+          <Source dwd:design-time-name="77e41027-c8eb-472e-91e1-dcfc5a7e45d2">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="194857a4-689c-4684-bd33-486cfb17d4dc">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b0d7c5e0-3311-45a8-bc8d-557522630cb3">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Unit_x0020_Price</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="af60e830-9d22-403f-a8af-42b0417f51d6">
+            <Translation dwd:design-time-name="3465e3b8-956c-43e0-b3fe-03063690ed4d">
               <Language>1045</Language>
               <Caption>Cena jednostkowa</Caption>
             </Translation>
-            <Translation dwd:design-time-name="04d29bec-aa98-4021-b237-86bc19a19a13">
+            <Translation dwd:design-time-name="5c3c367b-798e-4f1a-9000-53b2ef80af28">
               <Language>1031</Language>
               <Caption>Einheitspreis</Caption>
             </Translation>
-            <Translation dwd:design-time-name="3e8b19da-b19f-495e-ad6e-5d94a96125d1">
+            <Translation dwd:design-time-name="122192a4-ed3d-4577-856e-5f2d57910c0b">
               <Language>1040</Language>
               <Caption>Prezzo unitario</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="ee150d25-530d-4537-8ea3-992d3914536f">
+        <Measure dwd:design-time-name="e75ec1c4-76b5-485d-9d0a-3f3eeacfe4d8">
           <ID>Tax Rate</ID>
           <Name>Tax Rate</Name>
-          <Source dwd:design-time-name="fb511e44-acc9-42bc-b978-d2fba0a821c4">
+          <Source dwd:design-time-name="665b0555-17e2-4e71-9fb5-5308b6c5c6a2">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ce547823-7a36-4d04-835c-1cdef6b6d95f">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="02e9f430-a9db-458f-9eb4-90267bb61eda">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Tax_x0020_Rate</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="0d0e968e-75e2-4142-9b43-0e69b4ff8a66">
+            <Translation dwd:design-time-name="515e7803-792b-4993-825a-80fe5b1eca2d">
               <Language>1045</Language>
               <Caption>Stawka podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="7f89e9a8-cc4d-42af-a90a-14a4f055ab4c">
+            <Translation dwd:design-time-name="2e116be7-9795-4d4f-8845-4566eb5e2364">
               <Language>1031</Language>
               <Caption>Steuersatz</Caption>
             </Translation>
-            <Translation dwd:design-time-name="9f3fc0cf-9a72-4642-af5b-73a9aac8f251">
+            <Translation dwd:design-time-name="9677a753-d6f1-445e-b9ea-244a8285dfd2">
               <Language>1040</Language>
               <Caption>Aliquota d'imposta</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="b0738278-0210-4681-a4a5-92076b7d8f92">
+        <Measure dwd:design-time-name="074c829c-4f1f-491a-a531-00a78cefa74f">
           <ID>Total Excluding Tax</ID>
           <Name>Total Excluding Tax</Name>
-          <Source dwd:design-time-name="ad026bc6-6f6a-48f7-b31d-b808b9714499">
+          <Source dwd:design-time-name="f028544e-e137-4422-8851-1e9bbe24c27e">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7d3dd528-dcc3-4ead-8f2a-fab3e4f25a85">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f6868b11-09b8-43ef-872d-0be01ff24dd2">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="d585e61e-e46f-4c8e-aee2-1189a9fd9cf9">
+            <Translation dwd:design-time-name="75e14d83-137d-4b55-87c9-0309aa4db2aa">
               <Language>1045</Language>
               <Caption>Ogółem bez podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="6191e536-3670-4625-b202-de6ebb8848da">
+            <Translation dwd:design-time-name="919919e5-8001-4de3-9519-a8fda3ca834f">
               <Language>1031</Language>
               <Caption>Total ohne Steuern</Caption>
             </Translation>
-            <Translation dwd:design-time-name="def66e47-7248-4435-895f-110b1eb0324b">
+            <Translation dwd:design-time-name="d4f04968-6fc9-4252-87d6-c414f201fa72">
               <Language>1040</Language>
               <Caption>Totale senza imposte</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="94b28762-ed53-49b9-a421-5bf2b0240680">
+        <Measure dwd:design-time-name="9903242a-ee9b-4479-9eb9-916bf200bb9b">
           <ID>Tax Amount</ID>
           <Name>Tax Amount</Name>
-          <Source dwd:design-time-name="2a7d4de9-9408-48de-853d-9496ac9863ab">
+          <Source dwd:design-time-name="55842124-c520-4dc7-bd41-c5fad077d239">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e69467a1-0add-43f7-8bb5-466767b1f35f">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e921d5c6-035a-4ae2-a980-ee9e9ba50b57">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Tax_x0020_Amount</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="8f961f4e-a790-4cd9-bf05-93200bf6417a">
+            <Translation dwd:design-time-name="345fc6c8-967f-4e0b-b00f-bf86c1cf19e4">
               <Language>1045</Language>
               <Caption>Wysokość podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="06494997-8112-4cdf-90b5-ffbab9a5ddbd">
+            <Translation dwd:design-time-name="440693ae-6dc9-4a02-874f-a4ca2453e24a">
               <Language>1031</Language>
               <Caption>Steuerbetrag</Caption>
             </Translation>
-            <Translation dwd:design-time-name="20af9170-f073-421e-b041-f793a0ea46bc">
+            <Translation dwd:design-time-name="e6bf5d76-18d3-47cb-869d-25f23a8e2b0e">
               <Language>1040</Language>
               <Caption>Imposta</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="87f8cfbc-c6f4-4255-8680-c4b0130bfbbf">
+        <Measure dwd:design-time-name="7c5189e5-d724-4f6c-a38e-a06fb06d432c">
           <ID>Profit</ID>
           <Name>Profit</Name>
-          <Source dwd:design-time-name="3f8671f9-380f-4ff9-937d-ddd1af0d6f13">
+          <Source dwd:design-time-name="96af42c1-706e-414d-972d-1a823fde8569">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="34d118f1-0ba1-4a04-a51e-cf3b2831466b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="86b28873-6486-467e-b1cb-23c7b7638c79">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Profit</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="b088418c-6bad-42fd-998e-0da50333b578">
+            <Translation dwd:design-time-name="1bc5e7d9-9e01-4c36-a973-e9fc8eabdc04">
               <Language>1045</Language>
               <Caption>Zysk</Caption>
             </Translation>
-            <Translation dwd:design-time-name="26b81077-ee1f-4d6c-a4ed-3dea5a69503c">
+            <Translation dwd:design-time-name="28d57ee8-82cb-4509-bb4b-57908656eac4">
               <Language>1031</Language>
               <Caption>Gewinn</Caption>
             </Translation>
-            <Translation dwd:design-time-name="f83aca6d-79fe-4a70-8f31-ca8918896e87">
+            <Translation dwd:design-time-name="3eae6a85-74d0-4046-9740-51d055bca5c0">
               <Language>1040</Language>
               <Caption>Utile</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="0e262956-e572-4252-8975-22d24aa71f55">
+        <Measure dwd:design-time-name="7d4b6cde-76fe-4572-8314-e744cbeb5921">
           <ID>Total Including Tax</ID>
           <Name>Total Including Tax</Name>
-          <Source dwd:design-time-name="63d707dc-c533-4e36-8f18-bf70b5add048">
+          <Source dwd:design-time-name="90ebf801-b6a8-418b-815e-5a718e763d5d">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a5a103aa-5d73-477e-9d1e-29a23f9b5f4c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5bfb4256-be3d-4890-9065-3ed3a7dce4f4">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="a4da2f58-789c-4049-98ec-af0f577eaab4">
+            <Translation dwd:design-time-name="0a206f69-9e1f-4d5c-8465-b0c7c890b17c">
               <Language>1045</Language>
               <Caption>Ogółem z podatkiem</Caption>
             </Translation>
-            <Translation dwd:design-time-name="4fa55c41-0a50-4498-8ebe-c5d2512589d6">
+            <Translation dwd:design-time-name="18aac6e2-7d68-4d2f-b6c8-8e45b87ac2c9">
               <Language>1031</Language>
               <Caption>Total einschliesslich Steuer</Caption>
             </Translation>
-            <Translation dwd:design-time-name="2cf7193e-3465-496d-9b27-f1b90ccac222">
+            <Translation dwd:design-time-name="a66e976f-c4c3-437a-a74a-d1a1cc0f2e7f">
               <Language>1040</Language>
               <Caption>Totale imposte incluse</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="f1968782-e0db-43c3-96d7-b2f7d62ce97e">
+        <Measure dwd:design-time-name="7d130b29-179b-4d62-aff3-a4ba151f059e">
           <ID>Total Dry Items</ID>
           <Name>Total Dry Items</Name>
-          <Source dwd:design-time-name="5ef448e7-1f6b-448e-9108-eb5d84dff46a">
+          <Source dwd:design-time-name="f9b38a1c-1b79-4c2f-8281-007ed10ee673">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7c2aba78-32fe-4c31-aab2-75963aa8b8a6">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="92ba9137-cdf8-49f0-af39-17c222269b04">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Total_x0020_Dry_x0020_Items</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="af086075-e2e0-4d38-b5c2-35b4d076e09a">
+            <Translation dwd:design-time-name="97d02b10-4823-4e99-ad98-6fc07f7ae325">
               <Language>1045</Language>
               <Caption>Ogółem suche przedmioty</Caption>
             </Translation>
-            <Translation dwd:design-time-name="7b6ca8bc-778c-4e6f-9496-cc8ab960da0d">
+            <Translation dwd:design-time-name="c70d6e53-e6d5-49c8-9060-294a13d18294">
               <Language>1031</Language>
               <Caption>Trockene Gegenstände insgesamt</Caption>
             </Translation>
-            <Translation dwd:design-time-name="3c9367fa-7c16-4703-b7c9-42027769df5c">
+            <Translation dwd:design-time-name="23d12fbd-daeb-43ac-b782-406456652ad3">
               <Language>1040</Language>
               <Caption>Totale voci secche</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="d9a11c5b-1ad6-450b-ade9-eac19c194833">
+        <Measure dwd:design-time-name="d0158e10-6ed9-42f2-8641-bde803c61b2a">
           <ID>Total Chiller Items</ID>
           <Name>Total Chiller Items</Name>
-          <Source dwd:design-time-name="19839cf3-eb30-476e-ab34-3616c08ba891">
+          <Source dwd:design-time-name="6ab6a7b3-1ede-46c2-9274-6b3d9c4f7657">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="806732ce-ec4c-4575-9cee-4ae6abebe76f">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="50aa2b78-453f-4d2c-bd73-0f7d231d3e2b">
               <TableID>olap_vFactSale</TableID>
               <ColumnID>Total_x0020_Chiller_x0020_Items</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="ce1fdab1-112d-4916-996f-7c8389347003">
+            <Translation dwd:design-time-name="2efb1a3c-cddb-4bfa-ab8d-edc7d795a497">
               <Language>1045</Language>
               <Caption>Całkowity agregat chłodniczy</Caption>
             </Translation>
-            <Translation dwd:design-time-name="bed3750c-4ef6-4e37-ad22-8cccadc28f5c">
+            <Translation dwd:design-time-name="92c812fb-50cf-4c9f-8167-a5ae0aa97ae8">
               <Language>1031</Language>
               <Caption>Gesamtzahl der Chiller-Positionen</Caption>
             </Translation>
-            <Translation dwd:design-time-name="bbab460b-4770-4e3b-8e58-ed294ce84e2d">
+            <Translation dwd:design-time-name="6d487af5-0439-4d2d-8fce-bef27e94eab7">
               <Language>1040</Language>
               <Caption>Numero totale di posizioni di raffreddamento</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="c02e6cd7-780a-49dd-b087-144672a80eba">
+        <Measure dwd:design-time-name="f65bca1d-0573-4f90-8439-ea469b3fc706">
           <ID>v Fact Sale Count</ID>
           <Name>v Fact Sale Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="592a5b48-f655-4a65-845c-ed64abe6b213">
+          <Source dwd:design-time-name="ca35b888-4589-4c76-9694-a12483e0722e">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="b3196f5b-7408-4f34-b2f5-5427c3278dde">
+            <Source xsi:type="RowBinding" dwd:design-time-name="cb0d8767-6abc-475a-a724-f81854dae5d6">
               <TableID>olap_vFactSale</TableID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="7619d054-fc0b-4eae-bd31-4e1c94dd9ef6">
+            <Translation dwd:design-time-name="eb8a199e-8a38-4f2d-a5e2-3298d826d11e">
               <Language>1045</Language>
               <Caption>Zliczanie</Caption>
             </Translation>
-            <Translation dwd:design-time-name="0c505986-2be1-4132-96b7-0eef65241fd5">
+            <Translation dwd:design-time-name="01779dd2-fdfb-4383-9f17-87eedeb00c84">
               <Language>1031</Language>
               <Caption>Verkaufszählung</Caption>
             </Translation>
-            <Translation dwd:design-time-name="f8d5f370-aa4b-4cf1-8d50-01f9429a6568">
+            <Translation dwd:design-time-name="cd8ff7b4-55f1-45d4-8467-9008e216aa35">
               <Language>1040</Language>
               <Caption>Censimento delle vendite</Caption>
             </Translation>
@@ -1378,15 +1412,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c2fe6a2d-f901-4e55-8165-5263dd73ff8b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d5a5c507-05ea-4ca6-a73f-42e9ed2a82b7">
           <CubeDimensionID>Invoice Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dfc10d36-46aa-4c30-9eee-b98076bbf934">
+            <Attribute dwd:design-time-name="95f815c1-e05b-4c97-b23a-e4245d5f097d">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="ddeac844-03f8-4b89-b954-bd3dfec2f416">
+                <KeyColumn dwd:design-time-name="cfcdc5b9-1f18-4234-a61e-2bb73d72d43d">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8badec3c-e615-41d0-81af-c67e471a167d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5be11a3b-8dd4-4ecf-8688-f83908928e0c">
                     <TableID>olap_vFactSale</TableID>
                     <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
                   </Source>
@@ -1396,15 +1430,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db1fae9c-4a33-410d-b573-c1163e6cd77f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f0de854d-a0df-4079-bbd8-272d3054301c">
           <CubeDimensionID>v Dimension City</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ceb59108-a85a-48a8-b56f-1fd20cdc6178">
+            <Attribute dwd:design-time-name="e50e2ee7-3592-4c45-a7ac-951a0eade45e">
               <AttributeID>City Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="909de166-dc43-463a-94fc-63590ba6fdfc">
+                <KeyColumn dwd:design-time-name="412c4e8e-b81a-4d17-9cb2-3a494c588834">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="347f0d8e-9208-4359-bbeb-8fa983e015b1">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d9c39e0-a76a-4eec-af7f-2edf3145add8">
                     <TableID>olap_vFactSale</TableID>
                     <ColumnID>City_x0020_Key</ColumnID>
                   </Source>
@@ -1414,15 +1448,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="763792be-1457-4991-9483-edcbba04d0e3">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5318c82b-fcf6-4c11-a0bd-53c298147b06">
           <CubeDimensionID>Bill To Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="70fc29fb-680e-413f-950a-9f1fcb8240da">
+            <Attribute dwd:design-time-name="9109d805-3404-4a71-a5bd-c25ba51b6ee8">
               <AttributeID>Customer Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="1f9717bd-eda4-4cca-a972-5fa015990851">
+                <KeyColumn dwd:design-time-name="fdf8ef79-0287-484e-ba58-88c461a629b7">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e1b3635-fb6c-4b3f-bb5b-e7887930cbf0">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4271ddb9-970c-45d4-9d10-b6c8a84fb21a">
                     <TableID>olap_vFactSale</TableID>
                     <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
                   </Source>
@@ -1432,15 +1466,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0bd63543-19de-4abf-9d8c-e2b8df09f88f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7df760c2-6750-40d7-a66a-ddee106c00f6">
           <CubeDimensionID>v Dimension Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="bbe38f72-e430-4706-9019-bd6755200be7">
+            <Attribute dwd:design-time-name="7c17b6e7-a399-42f5-a454-09ba11f6793d">
               <AttributeID>Customer Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e832aa39-14e0-40e8-ab8a-cc4ef875cde4">
+                <KeyColumn dwd:design-time-name="834d8ff5-1509-4ed0-a098-b6045026727a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09c69db7-ede3-4b47-9718-d36d1c01dcb4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fb270e9f-b620-4c4e-9789-6660c61b7670">
                     <TableID>olap_vFactSale</TableID>
                     <ColumnID>Customer_x0020_Key</ColumnID>
                   </Source>
@@ -1450,16 +1484,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7273d955-0518-401e-bb90-6817cb52ecf5">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f488d85f-6661-4226-9144-bcb6fc98a355">
           <CubeDimensionID>Delivery Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="43fd2961-79cb-426a-845d-f5b482816795">
+            <Attribute dwd:design-time-name="629ae629-e1c7-4b5b-aceb-3023bfe55875">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="31a0ce7e-5777-4dbf-9e38-f766cec10dd7">
+                <KeyColumn dwd:design-time-name="8a02f991-86ca-4143-aefc-a53e367717f0">
                   <DataType>Date</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="594054a0-0262-4cd4-95dd-7d918f354935">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="96c0d8a2-e4a6-41fa-9213-82bf9be21620">
                     <TableID>olap_vFactSale</TableID>
                     <ColumnID>Delivery_x0020_Date_x0020_Key</ColumnID>
                   </Source>
@@ -1469,15 +1503,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1de0a7e7-8f30-43e4-be7b-ae971e03424a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ad0572ef-3a9d-480e-877c-0733ded58ec0">
           <CubeDimensionID>Salesperson</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9422ffcc-81c9-48d5-85e2-f90f119e7ccd">
+            <Attribute dwd:design-time-name="4b32ed2e-5e3e-4b9c-b5be-1a8e3159c6c3">
               <AttributeID>Employee Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="639f645f-4a19-41d5-b31e-adf757b3235e">
+                <KeyColumn dwd:design-time-name="a0691eeb-1dab-49a9-a8e2-2263e3083400">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b8d93d72-df22-449a-b861-b8e12e561885">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="064bf98b-f227-4387-841e-7c8de0353795">
                     <TableID>olap_vFactSale</TableID>
                     <ColumnID>Salesperson_x0020_Key</ColumnID>
                   </Source>
@@ -1487,15 +1521,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="80c86e8c-db9c-4883-b1c3-3c841bb2aed8">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="34b38e09-06e6-465a-8073-cfd9cbbee8eb">
           <CubeDimensionID>v Dimension Stock Item</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="35f77117-7832-436f-88fc-238811b46801">
+            <Attribute dwd:design-time-name="ca30d977-c8d9-41eb-983c-0d04934f4552">
               <AttributeID>Stock Item Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d6c5f3ed-00ff-4a6b-be6d-7a9fd61beccb">
+                <KeyColumn dwd:design-time-name="2c8b2574-f357-485b-8322-7d676b305ac1">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bae2b0e6-d7e0-474b-b95b-4f8404851a55">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b2681256-f544-4851-b931-b8c4a086f3ee">
                     <TableID>olap_vFactSale</TableID>
                     <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
                   </Source>
@@ -1508,7 +1542,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="f5b3fcde-f4a1-4f64-9e25-3bcf4ed6a698">
+    <MeasureGroup dwd:design-time-name="a8a794f3-ce10-4443-b399-23b45b77d76b">
       <ID>v Fact Stock Holding</ID>
       <Name>v Fact Stock Holding</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1516,172 +1550,172 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Translations>
-        <Translation dwd:design-time-name="bf7709d9-4879-4019-8d71-fcea13764ab9">
+        <Translation dwd:design-time-name="1c0d26b8-1218-4a7f-a66f-75630994b4b7">
           <Language>1045</Language>
           <Caption>Przechowywanie zapasów</Caption>
         </Translation>
-        <Translation dwd:design-time-name="067a507a-42fb-4f6f-adf4-b6ec41b4e977">
+        <Translation dwd:design-time-name="78386c4a-ba3a-403d-9d9d-b92d58b4cd90">
           <Language>1031</Language>
           <Caption>Lagerbestand</Caption>
         </Translation>
-        <Translation dwd:design-time-name="97d9cabd-1bd0-4d57-9563-f513fd6ca7e7">
+        <Translation dwd:design-time-name="b1d168eb-ab34-4ddc-bbe4-d16d1668f816">
           <Language>1040</Language>
           <Caption>Stock</Caption>
         </Translation>
       </Translations>
       <Measures>
-        <Measure dwd:design-time-name="19f56784-41fc-4bd3-b057-568393f81604">
+        <Measure dwd:design-time-name="211c6b78-c77f-4377-8992-e5beb2794c4f">
           <ID>Quantity On Hand</ID>
           <Name>Quantity On Hand</Name>
-          <Source dwd:design-time-name="77cdd460-945e-4485-b826-f155ca37284d">
+          <Source dwd:design-time-name="8332ffe7-68e0-46c6-b5bc-0a2462dee6b1">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="bfe9b0b9-3258-4df1-9e57-e594f91ccf5b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fc8d42de-4d99-4a63-a005-3165f8388bc1">
               <TableID>olap_vFactStockHolding</TableID>
               <ColumnID>Quantity_x0020_On_x0020_Hand</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="da7f31b2-22bd-4c74-bafc-bb156f534760">
+            <Translation dwd:design-time-name="080ef93f-9f13-4d3b-a0ca-4f8b1575dfd3">
               <Language>1045</Language>
               <Caption>Ilość pod ręką</Caption>
             </Translation>
-            <Translation dwd:design-time-name="e53df965-f26e-4880-ae41-fd98130da718">
+            <Translation dwd:design-time-name="cd3ee27b-918f-452e-9a9f-21a038490947">
               <Language>1031</Language>
               <Caption>Vorrätige Menge</Caption>
             </Translation>
-            <Translation dwd:design-time-name="f4beed0c-6546-4132-b213-d10527f08d0a">
+            <Translation dwd:design-time-name="aae1562e-c4e3-494c-99d0-32828878eb60">
               <Language>1040</Language>
               <Caption>Quantità in magazzino</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="444392ed-ceac-44e5-9cd4-96d2c9019bb6">
+        <Measure dwd:design-time-name="96b9fd68-6819-49d5-ae48-1fc18607463b">
           <ID>Last Stocktake Quantity</ID>
           <Name>Last Stocktake Quantity</Name>
-          <Source dwd:design-time-name="c0ee77dc-995e-41dd-971c-b2fd9f04b30f">
+          <Source dwd:design-time-name="9220faa5-9b34-4934-9225-32ff34a2da27">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9cd8a262-cd7a-4712-9b74-7d33b2cf69bf">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d7152615-ce0b-4353-8639-968cb53c5836">
               <TableID>olap_vFactStockHolding</TableID>
               <ColumnID>Last_x0020_Stocktake_x0020_Quantity</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="22b2531d-f309-413f-a81d-b9f60deea42b">
+            <Translation dwd:design-time-name="e1ff39dd-e852-4130-bb4f-0c7a22a4332e">
               <Language>1045</Language>
               <Caption>Ostatnia ilość objęta inwentaryzacją</Caption>
             </Translation>
-            <Translation dwd:design-time-name="58741f55-a845-453b-b7c7-aecadc24be7c">
+            <Translation dwd:design-time-name="e59bce5b-7e00-48cc-a4c7-8efafb95e538">
               <Language>1031</Language>
               <Caption>Letzte Inventurmenge</Caption>
             </Translation>
-            <Translation dwd:design-time-name="813ff1b1-8844-4f4b-9c2a-2e09cebd5e67">
+            <Translation dwd:design-time-name="9bff05fb-22ba-4707-86e0-5178ebfcf877">
               <Language>1040</Language>
               <Caption>Quantità dell'ultimo inventario</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="c6f940f4-68b0-4c20-852c-1326cad95afd">
+        <Measure dwd:design-time-name="e21445fd-cc9f-4aaf-a010-2a3353cd2672">
           <ID>Last Cost Price</ID>
           <Name>Last Cost Price</Name>
-          <Source dwd:design-time-name="6923fa96-fade-471b-9f37-4731a7725b70">
+          <Source dwd:design-time-name="4b523922-f768-4f44-ae55-0e96988777f7">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="75866581-cedd-4d06-820d-058db579621c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b93570e2-c2d2-4c4e-a937-cf20bce7f8d5">
               <TableID>olap_vFactStockHolding</TableID>
               <ColumnID>Last_x0020_Cost_x0020_Price</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="2923f93c-41d5-4d69-abfd-aa88384bffb3">
+            <Translation dwd:design-time-name="d97a9ef0-f29e-492b-9e83-1a27e743f33d">
               <Language>1045</Language>
               <Caption>Ostatnia cena kosztowa</Caption>
             </Translation>
-            <Translation dwd:design-time-name="0391d7e9-3d7b-470a-8d3b-9d95e9f5a4ba">
+            <Translation dwd:design-time-name="96688910-c17b-4dd8-a01c-cd396dff345f">
               <Language>1031</Language>
               <Caption>Letzter Selbstkostenpreis</Caption>
             </Translation>
-            <Translation dwd:design-time-name="e907394f-390f-4790-87b5-e779df3f54dc">
+            <Translation dwd:design-time-name="72de2b59-39a6-4477-8065-65b329163d95">
               <Language>1040</Language>
               <Caption>Ultimo prezzo di costo</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="18775a11-d1d2-4b48-9615-2c84e34a7ea5">
+        <Measure dwd:design-time-name="d327e2d8-84c1-422c-89fb-0b244daad4f5">
           <ID>Reorder Level</ID>
           <Name>Reorder Level</Name>
-          <Source dwd:design-time-name="4ef2b52a-e405-4e88-a2b8-bdac23d11fb0">
+          <Source dwd:design-time-name="648d9774-b960-4052-9249-482f9bf6db82">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7e7c7e03-f602-491b-ad2f-042b6a5f932c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cb3ab1ba-a4d9-4b11-9226-4c96ee61d1fc">
               <TableID>olap_vFactStockHolding</TableID>
               <ColumnID>Reorder_x0020_Level</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="a9070805-1264-41aa-a03a-063c2fa164b0">
+            <Translation dwd:design-time-name="6e6c5ba0-d420-419c-9528-83e27cf3faa2">
               <Language>1045</Language>
               <Caption>Poziom uporządkowania</Caption>
             </Translation>
-            <Translation dwd:design-time-name="22d5c57a-f84d-4c98-a5fd-68e45cdef869">
+            <Translation dwd:design-time-name="dbc49d3a-149f-4508-a3f7-ff701dfc196b">
               <Language>1031</Language>
               <Caption>Nachbestell-Level</Caption>
             </Translation>
-            <Translation dwd:design-time-name="7e42fc91-e62e-4610-87ef-a085cdc01b20">
+            <Translation dwd:design-time-name="4d56ed3a-712f-4604-8e6d-1a8ef477687c">
               <Language>1040</Language>
               <Caption>Livello di riordino</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="65a86e51-df6e-4c1c-836b-c128148eabb9">
+        <Measure dwd:design-time-name="e8808c23-af05-499d-aa8e-1936f265357a">
           <ID>Target Stock Level</ID>
           <Name>Target Stock Level</Name>
-          <Source dwd:design-time-name="e97e31d6-37ae-4deb-a812-3b5e4290c565">
+          <Source dwd:design-time-name="8f27ebba-df5f-4db0-95e1-59829358ef04">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="0e03041a-ce44-4668-b499-b5c8677299a0">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="daf25f25-0c15-4013-9389-703af5c51a69">
               <TableID>olap_vFactStockHolding</TableID>
               <ColumnID>Target_x0020_Stock_x0020_Level</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="cc13b45a-f394-44e2-a1e7-d871c7d3fe8f">
+            <Translation dwd:design-time-name="d8b3a041-5a9c-4729-978f-2d9048a46b45">
               <Language>1045</Language>
               <Caption>Docelowy poziom zapasów</Caption>
             </Translation>
-            <Translation dwd:design-time-name="07e27ce1-7d28-45e8-a2d9-df1226c3a570">
+            <Translation dwd:design-time-name="8a5e8b68-ea35-44bf-a837-2685126d93cc">
               <Language>1031</Language>
               <Caption>Ziel-Lagerbestand</Caption>
             </Translation>
-            <Translation dwd:design-time-name="28c54bfe-3224-4653-aace-1060568daaa0">
+            <Translation dwd:design-time-name="9f747b62-002e-4b39-8e64-cd48e6b644e9">
               <Language>1040</Language>
               <Caption>Livello di stock target</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="3e177cd2-7638-4427-bce0-498f67a7418d">
+        <Measure dwd:design-time-name="91c23830-2df5-4292-85ff-74bd3de5c754">
           <ID>v Fact Stock Holding Count</ID>
           <Name>v Fact Stock Holding Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="7df0bda2-f376-4012-ad59-3206acf15c72">
+          <Source dwd:design-time-name="708c795d-8a5a-4b6b-98b9-1c8397eafe78">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="afcda5d8-206e-4302-8d9e-e78ad1b27c4b">
+            <Source xsi:type="RowBinding" dwd:design-time-name="ea54474f-fdb7-4c96-b20b-101757d9541f">
               <TableID>olap_vFactStockHolding</TableID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="73ee5de3-44e3-4999-a05e-0f3a1ab17892">
+            <Translation dwd:design-time-name="5e2f6cef-e236-499e-8bd2-10f6adc3fcec">
               <Language>1045</Language>
               <Caption>Liczba akcji w magazynie</Caption>
             </Translation>
-            <Translation dwd:design-time-name="d752c61f-740c-49bd-bb24-c3c1999a5776">
+            <Translation dwd:design-time-name="826632e0-98ed-4e40-8da3-213961ca3989">
               <Language>1031</Language>
               <Caption>Anzahl der Lagerbestände</Caption>
             </Translation>
-            <Translation dwd:design-time-name="8451e492-3b6b-405a-b79d-02f96281f07a">
+            <Translation dwd:design-time-name="6164c248-4fb8-437d-84b2-81aa3d9bdd5c">
               <Language>1040</Language>
               <Caption>Conteggio delle scorte</Caption>
             </Translation>
@@ -1691,15 +1725,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4d3ca7af-f8cd-471f-9213-7edaec965130">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="74389e06-a1fe-4e1c-a3cd-baaff4c12643">
           <CubeDimensionID>v Dimension Stock Item</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="982b7909-2265-47ce-8f3d-3c39a6199248">
+            <Attribute dwd:design-time-name="08e4b0c2-4c49-49b8-8322-7fb6ea8ac851">
               <AttributeID>Stock Item Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="8f5fbe61-b59b-489d-a192-5be8f51ddc11">
+                <KeyColumn dwd:design-time-name="7991b7f0-14b1-4794-870c-f592e0b67376">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8110d068-1952-4577-a961-3fb457d0004f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1e298dbf-2638-49ef-b08f-1f92d9726e35">
                     <TableID>olap_vFactStockHolding</TableID>
                     <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
                   </Source>
@@ -1712,7 +1746,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="a61ae3e1-cd9b-46d6-b8a5-658b399591a1">
+    <MeasureGroup dwd:design-time-name="eb69cb3b-9406-44cb-8d13-ab24a8b966e5">
       <ID>v Fact Transaction</ID>
       <Name>v Fact Transaction</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1720,146 +1754,146 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Translations>
-        <Translation dwd:design-time-name="992fd77a-ee9a-4ff1-8210-567a4db9959b">
+        <Translation dwd:design-time-name="89615422-2aa2-4a32-9e3e-9aaee6e98d5b">
           <Language>1045</Language>
           <Caption>Transakcja</Caption>
         </Translation>
-        <Translation dwd:design-time-name="953e1fd2-d54b-498f-9da2-733eb9d5e44c">
+        <Translation dwd:design-time-name="c19b0eff-2278-43ce-9dab-1718f9077f69">
           <Language>1031</Language>
           <Caption>Transaktion</Caption>
         </Translation>
-        <Translation dwd:design-time-name="d8f64926-b5c7-4b91-9280-921735f613ec">
+        <Translation dwd:design-time-name="250927df-9231-4578-8f69-4c202a628ed8">
           <Language>1040</Language>
           <Caption>Operazione</Caption>
         </Translation>
       </Translations>
       <Measures>
-        <Measure dwd:design-time-name="66e78aee-a079-4cac-98a1-2bd0c2254d8c">
+        <Measure dwd:design-time-name="132412cd-825b-42ac-9b29-d0e2c65957ac">
           <ID>Total Excluding Tax - v Fact Transaction</ID>
           <Name>Total Excluding Tax - v Fact Transaction</Name>
-          <Source dwd:design-time-name="640e5082-7962-4627-9976-0218166fa170">
+          <Source dwd:design-time-name="d4265ba4-70a3-43ce-8838-96e5e81875a2">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="77d9ca15-e415-4e47-b93b-ccacf0e314f0">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="74f3fbf8-fa81-402e-80c5-9e93014958d1">
               <TableID>olap_vFactTransaction</TableID>
               <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="82f1e7ea-8412-4e86-a2ba-5615b6330c0a">
+            <Translation dwd:design-time-name="ac98df47-69cd-4ae9-9241-75893b6ab3f6">
               <Language>1045</Language>
               <Caption>Ogółem bez podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="794ea399-8394-476c-87ad-62b055f50b94">
+            <Translation dwd:design-time-name="2f0abd64-a5c1-455c-a46a-0dec97da0100">
               <Language>1031</Language>
               <Caption>Total ohne Steuern</Caption>
             </Translation>
-            <Translation dwd:design-time-name="e94d884c-747d-4349-8940-519894fe11f3">
+            <Translation dwd:design-time-name="d7156721-88c0-4f79-a195-de2fc07a190e">
               <Language>1040</Language>
               <Caption>Totale senza imposte</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="a8a89053-c98b-4f3f-95a9-7165d747aedc">
+        <Measure dwd:design-time-name="b31f257e-fb51-4c39-9135-a7722219e68a">
           <ID>Tax Amount - v Fact Transaction</ID>
           <Name>Tax Amount - v Fact Transaction</Name>
-          <Source dwd:design-time-name="c2e2a517-51df-4943-a0ad-4ada16df4ee6">
+          <Source dwd:design-time-name="74225d5d-3953-4891-9836-0bc9040f2200">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="fb37639f-6803-4171-9273-3b38a2676bef">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="15e3d54e-96a5-40e2-acf7-b4cbe94c9353">
               <TableID>olap_vFactTransaction</TableID>
               <ColumnID>Tax_x0020_Amount</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="9c728ef2-a7ff-4454-9084-5b7610d0593f">
+            <Translation dwd:design-time-name="04c95052-6931-4db6-8e70-2a2d737097f9">
               <Language>1045</Language>
               <Caption>Wysokość podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="7fdbf444-06fb-4264-9356-3741c1535297">
+            <Translation dwd:design-time-name="779d10be-f184-4a9f-b8ec-80f86ea6e49c">
               <Language>1031</Language>
               <Caption>Steuerbetrag</Caption>
             </Translation>
-            <Translation dwd:design-time-name="f8600e65-9b4d-4db2-86f7-627016dfccec">
+            <Translation dwd:design-time-name="b82ef7a1-5701-49cc-b9ee-0960a39e3d54">
               <Language>1040</Language>
               <Caption>Imposta</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="b3d7508d-80ec-4b7a-9d2f-8f286b5619ab">
+        <Measure dwd:design-time-name="176587f7-48b4-4483-98c8-ddb20b315574">
           <ID>Total Including Tax - v Fact Transaction</ID>
           <Name>Total Including Tax - v Fact Transaction</Name>
-          <Source dwd:design-time-name="46301815-d29d-48d8-bc14-5228460131f8">
+          <Source dwd:design-time-name="4e9c76b6-c647-4ceb-bb3b-7082365127f3">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3da41def-b57c-4cad-80a9-4afa3e9f51c1">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d33c791d-d4f1-4996-ab40-1e8fe0982155">
               <TableID>olap_vFactTransaction</TableID>
               <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="121f03c7-2815-4c0d-afee-371f0c86f8c2">
+            <Translation dwd:design-time-name="30bad3bf-5a47-4985-97f2-fd24434cc10e">
               <Language>1045</Language>
               <Caption>Ogółem z podatkiem</Caption>
             </Translation>
-            <Translation dwd:design-time-name="1b2ec97f-cef5-4b09-acc1-e1957c9953c9">
+            <Translation dwd:design-time-name="cf3cbede-5678-467f-8ceb-577e13cbb62b">
               <Language>1031</Language>
               <Caption>Total einschliesslich Steuer</Caption>
             </Translation>
-            <Translation dwd:design-time-name="5a835b79-c40c-45a8-8db2-baac26c0fc30">
+            <Translation dwd:design-time-name="14889d35-642d-48af-b6f8-4be7505c8867">
               <Language>1040</Language>
               <Caption>Totale imposte incluse</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="9f7a66d8-ef40-47db-b3d6-3a1fc592d84c">
+        <Measure dwd:design-time-name="dcb060f8-431e-4909-a884-5a78d1e52b76">
           <ID>Outstanding Balance</ID>
           <Name>Outstanding Balance</Name>
-          <Source dwd:design-time-name="7014d54d-6020-4360-86ae-94f409812103">
+          <Source dwd:design-time-name="5222ea94-1f86-4aa6-96d4-dc91169456e5">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d35bd953-f80e-4aa3-b569-b5d06a9d26e7">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d37d2f93-e502-455a-8303-26ac9b3c2cd1">
               <TableID>olap_vFactTransaction</TableID>
               <ColumnID>Outstanding_x0020_Balance</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="26128d32-1b71-40cd-bf05-f8ce8e1f6431">
+            <Translation dwd:design-time-name="d9bd9632-a445-4883-8415-f613ef247e11">
               <Language>1045</Language>
               <Caption>Nieuregulowany bilans konta</Caption>
             </Translation>
-            <Translation dwd:design-time-name="4a9b6216-4053-4590-9f9a-4bbfb66bc2db">
+            <Translation dwd:design-time-name="5b6b53f6-fa09-4359-a415-ab23f61a2918">
               <Language>1031</Language>
               <Caption>Ausstehender Saldo</Caption>
             </Translation>
-            <Translation dwd:design-time-name="b525ca2e-6ae2-44d6-b248-26c2a4e053e7">
+            <Translation dwd:design-time-name="cfc9306e-0026-4778-9c13-93a52fb2133a">
               <Language>1040</Language>
               <Caption>Saldo eccezionale</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="7ea08dc6-770e-4f3b-b5ee-d00b7f763380">
+        <Measure dwd:design-time-name="b0b3f4d1-b509-4188-8394-b8907a9164ff">
           <ID>v Fact Transaction Count</ID>
           <Name>v Fact Transaction Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="1c529f4c-a968-4ae5-b8f1-60004f52d596">
+          <Source dwd:design-time-name="c9026ecd-5e3e-4ce3-ae66-d615624fec3a">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="2efc068a-f5f2-4456-8806-45333858afd7">
+            <Source xsi:type="RowBinding" dwd:design-time-name="53e13838-2944-4eed-9c9c-3ca51d082ff5">
               <TableID>olap_vFactTransaction</TableID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="99069f0d-ae2d-485d-9957-e67eb4bed235">
+            <Translation dwd:design-time-name="04399dba-8f69-42d4-8420-93fe71b15df3">
               <Language>1045</Language>
               <Caption>Liczba transakcji</Caption>
             </Translation>
-            <Translation dwd:design-time-name="3aeed5e9-d131-430c-bc03-aa54dfc3eab2">
+            <Translation dwd:design-time-name="ba697179-89a6-4b44-a26a-339841657ba4">
               <Language>1031</Language>
               <Caption>Anzahl der Transaktionen</Caption>
             </Translation>
-            <Translation dwd:design-time-name="5abf00ed-ce32-4b6f-891c-63cff5bb9cdc">
+            <Translation dwd:design-time-name="2a8d4060-45ef-458b-8fae-00c5b46c8ba5">
               <Language>1040</Language>
               <Caption>Numero di transazioni</Caption>
             </Translation>
@@ -1869,22 +1903,22 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="9696843f-73c1-460a-9b03-ed6782564a70">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="262cea35-1246-44b8-957e-2eb58e2b979d">
           <CubeDimensionID>v Fact Transaction</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b35c035b-58d2-4813-bebf-c8e66264b50c">
+            <Attribute dwd:design-time-name="1f28191f-7cc4-4c03-90c6-e3058d0fa872">
               <AttributeID>Transaction Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="440117a1-36b8-4c64-ae4a-a31da05e8d29">
+                <KeyColumn dwd:design-time-name="7856cef0-0e3c-4e75-a120-ae8888aa3416">
                   <DataType>BigInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9790a069-5e00-4952-b0ca-c15da2ac5579">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="63209351-410a-48a9-82ae-29e4f2353989">
                     <TableID>olap_vFactTransaction</TableID>
                     <ColumnID>Transaction_x0020_Key</ColumnID>
                   </Source>
                 </KeyColumn>
-                <KeyColumn dwd:design-time-name="e1cf873d-cff0-4a29-bf8c-0560b4133797">
+                <KeyColumn dwd:design-time-name="da477d64-9dfa-4058-91cc-16917056d922">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="035e122a-ecb8-4ad1-9e8b-2d59f3f01ebc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aefc33fa-cfcd-4ac6-9d2e-4ad87f3ed3ec">
                     <TableID>olap_vFactTransaction</TableID>
                     <ColumnID>Date_x0020_Key</ColumnID>
                   </Source>
@@ -1894,16 +1928,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3ac5e371-a5a1-4d23-9a9d-3d1217a4f7ae">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d882b347-7955-4b97-9b5e-2fbe3c1d9cee">
           <CubeDimensionID>v Dimension Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f28cf751-d2bc-49eb-850e-ef02e0e9adbe">
+            <Attribute dwd:design-time-name="c55a9c67-5800-4bce-afd6-7ef52e4abbb5">
               <AttributeID>Customer Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a74b332d-5a23-4b14-849a-c061bd5cf2d0">
+                <KeyColumn dwd:design-time-name="5bb6d5c0-da47-4e15-80f3-f9c44c5dba50">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="77dbd75c-4896-477d-9cd0-94d424e65520">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="55d391c1-138f-4024-a29c-4ce70e9cc9ac">
                     <TableID>olap_vFactTransaction</TableID>
                     <ColumnID>Customer_x0020_Key</ColumnID>
                   </Source>
@@ -1913,16 +1947,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b3f62863-da08-49dd-87da-bbe8e068e168">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="130aafec-13ed-4436-a762-ece018e159c7">
           <CubeDimensionID>Bill To Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6794e6e6-2577-4152-b342-a8463a670ccf">
+            <Attribute dwd:design-time-name="b59a038f-0125-42dc-9f46-0b9efbdba894">
               <AttributeID>Customer Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="de81af55-8ffa-48bd-a40a-9a68c2bb1d82">
+                <KeyColumn dwd:design-time-name="cf6304c2-923f-496d-8f91-0de37cec8265">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="261c419c-fd59-4196-983a-af01fe5b1fd0">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4f75702c-5cfe-45f9-accd-5edf963815d3">
                     <TableID>olap_vFactTransaction</TableID>
                     <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
                   </Source>
@@ -1932,15 +1966,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dcb764c2-fdc9-4b70-aead-2d11220cc7b4">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b6a2066c-78fc-472f-a4bb-c3e012c85720">
           <CubeDimensionID>v Dimension Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a099013d-23f7-4876-8713-a3236710d5c8">
+            <Attribute dwd:design-time-name="003faae6-f948-4b86-8c45-1409586966d2">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="934e9cd0-b534-437d-a561-0e02cf7c93cd">
+                <KeyColumn dwd:design-time-name="1f946ad0-b24e-4ea0-a457-a0ed4dbc71a3">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4314904c-f39d-43fa-b22e-e106d413df78">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="66dfa919-6d4f-4122-b8db-7de09c1bec3c">
                     <TableID>olap_vFactTransaction</TableID>
                     <ColumnID>Date_x0020_Key</ColumnID>
                   </Source>
@@ -1953,7 +1987,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="cecb7f30-1002-45cb-b8a1-5bc55b1e6dbb">
+    <MeasureGroup dwd:design-time-name="8c1fe193-e80f-4d03-80fc-d09a83a4fa3e">
       <ID>v Fact Purchase</ID>
       <Name>v Fact Purchase</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1961,120 +1995,120 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Translations>
-        <Translation dwd:design-time-name="3abafa76-eaaf-47ec-b8fc-7c612eeaec97">
+        <Translation dwd:design-time-name="a246a5ef-1fed-41e8-acf3-c37f83bbd9cd">
           <Language>1045</Language>
           <Caption>Zakup</Caption>
         </Translation>
-        <Translation dwd:design-time-name="218ade36-f3a5-46be-83ac-d1d2b6cc61d6">
+        <Translation dwd:design-time-name="bbd40499-f50a-49ba-872a-0de764acd11f">
           <Language>1031</Language>
           <Caption>Kaufen</Caption>
         </Translation>
-        <Translation dwd:design-time-name="58921b75-8c2f-4efd-b166-02e7293656d3">
+        <Translation dwd:design-time-name="31046b70-178c-4115-b8bb-b67636e04b60">
           <Language>1040</Language>
           <Caption>Acquista</Caption>
         </Translation>
       </Translations>
       <Measures>
-        <Measure dwd:design-time-name="9fcc805f-6e9b-460a-a116-a9d54e775e52">
+        <Measure dwd:design-time-name="29c22ba3-caa4-4750-be0d-2089d501aad0">
           <ID>Ordered Outers</ID>
           <Name>Ordered Outers</Name>
-          <Source dwd:design-time-name="67b00d09-1397-4172-af3c-49046b90cf0f">
+          <Source dwd:design-time-name="d46328cf-4a46-4d73-979c-04b474f79e2d">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3919bf3f-c3bf-4930-8551-39d30c052296">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2eb56521-5776-4d84-b3a4-19cc2d9e639a">
               <TableID>olap_vFactPurchase</TableID>
               <ColumnID>Ordered_x0020_Outers</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="653372dd-68fe-4964-9f38-bdbb7c987dbb">
+            <Translation dwd:design-time-name="03836790-b11c-4def-a9cc-bf8e16cb5ac6">
               <Language>1045</Language>
               <Caption>Zamówione outery</Caption>
             </Translation>
-            <Translation dwd:design-time-name="7ce6c948-95df-43f9-9b6c-61754a2b892e">
+            <Translation dwd:design-time-name="ac6beea9-90cc-4e2d-9d49-40d3341a390d">
               <Language>1031</Language>
               <Caption>Bestellte Ausflüge</Caption>
             </Translation>
-            <Translation dwd:design-time-name="5827878d-7cea-46f3-ac56-f430ffac256e">
+            <Translation dwd:design-time-name="297b1f23-481c-4cec-95a1-3dd7977acc5a">
               <Language>1040</Language>
               <Caption>Escursioni ordinate</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="ab9e1589-4ed7-4ee7-adf8-e2903703b237">
+        <Measure dwd:design-time-name="f129c8b7-f320-4fd8-82f1-05aa98ba564c">
           <ID>Ordered Quantity</ID>
           <Name>Ordered Quantity</Name>
-          <Source dwd:design-time-name="3b073561-0f12-4015-a16a-fc812d6f7597">
+          <Source dwd:design-time-name="42b99fa3-dba3-4897-b74b-9c368c85960f">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="dc65f015-7315-4b35-93a6-c2a0967e073a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5ea3a66e-cfaa-49af-87db-98e87b2c5eef">
               <TableID>olap_vFactPurchase</TableID>
               <ColumnID>Ordered_x0020_Quantity</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="95a8407b-7f5e-4916-90a1-bf8930a5afeb">
+            <Translation dwd:design-time-name="6dd457a0-dc80-4ae3-b7fc-69a47795ea4c">
               <Language>1045</Language>
               <Caption>Zamówiona ilość</Caption>
             </Translation>
-            <Translation dwd:design-time-name="8ef4e639-2c21-4dac-bedf-164319ecff6b">
+            <Translation dwd:design-time-name="10aa0389-13fd-4794-bc84-896812f21e8f">
               <Language>1031</Language>
               <Caption>Bestellte Menge</Caption>
             </Translation>
-            <Translation dwd:design-time-name="92e34b8d-8f0e-4135-958d-6d5d46360e59">
+            <Translation dwd:design-time-name="4fbf7973-f9fe-4d88-ad90-f2b72c3d4b77">
               <Language>1040</Language>
               <Caption>Quantità ordinata</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="29716028-6162-46d9-8f8d-8a4bf8cf2b04">
+        <Measure dwd:design-time-name="0b767f8c-18d1-4763-9f64-5b0fb8b63cf7">
           <ID>Received Outers</ID>
           <Name>Received Outers</Name>
-          <Source dwd:design-time-name="2e7e6542-5982-4005-93b8-0eac2b0ea407">
+          <Source dwd:design-time-name="fb7a4ae0-bbe5-496d-b062-c8ad31691fbe">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="02ce8b87-4d10-4f87-9237-da645b0dafb5">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="de78bd77-c344-4f86-acf1-ad7c6d86e996">
               <TableID>olap_vFactPurchase</TableID>
               <ColumnID>Received_x0020_Outers</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="445bad4e-6ae0-49b5-a3b8-13e2ce76447c">
+            <Translation dwd:design-time-name="9c9ec7f2-a45d-4359-bebf-9fdac9535116">
               <Language>1045</Language>
               <Caption>Odbiorcy zewnętrzni</Caption>
             </Translation>
-            <Translation dwd:design-time-name="017b72ff-1d4b-45d8-912e-fe5775eb9cdb">
+            <Translation dwd:design-time-name="d472b7de-6f99-47e2-b382-754ea8cf6c64">
               <Language>1031</Language>
               <Caption>Empfangene Ausreißer</Caption>
             </Translation>
-            <Translation dwd:design-time-name="43dc21d8-9f64-498e-850a-23acc8290beb">
+            <Translation dwd:design-time-name="1b72842e-6fa0-40aa-be1b-6ec4e336d955">
               <Language>1040</Language>
               <Caption>Ricevuto outlier</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="867db3f0-bbe6-4a45-bb1c-be9224a2e315">
+        <Measure dwd:design-time-name="e3f01760-b73c-441a-81ed-c156d4fcb7db">
           <ID>v Fact Purchase Count</ID>
           <Name>v Fact Purchase Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="ec44997e-4bda-4a1c-b680-2e424b01863a">
+          <Source dwd:design-time-name="9796b629-d498-46d9-91b6-6834572f0a44">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="626b0010-17d0-401d-ada7-b2275bef3d45">
+            <Source xsi:type="RowBinding" dwd:design-time-name="2acc15fc-f8fa-4682-b2bd-1915b1a31afc">
               <TableID>olap_vFactPurchase</TableID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="8a3105d2-e47c-4e56-91ed-c088d6b54fda">
+            <Translation dwd:design-time-name="11b20490-3a09-44e4-be91-5e5338ec70ae">
               <Language>1045</Language>
               <Caption>Licznik zakupów</Caption>
             </Translation>
-            <Translation dwd:design-time-name="07dd6f44-e38f-4acd-b104-a2e31342561f">
+            <Translation dwd:design-time-name="c4bedc1e-7dbc-4d0d-ad63-3c00e988263f">
               <Language>1031</Language>
               <Caption>Anzahl der Käufe</Caption>
             </Translation>
-            <Translation dwd:design-time-name="c3bb8986-5ad8-4d29-9fe1-a5d9eb0f156a">
+            <Translation dwd:design-time-name="c97622f4-64f5-47e9-94b8-356617cdb66c">
               <Language>1040</Language>
               <Caption>Numero di acquisti</Caption>
             </Translation>
@@ -2084,15 +2118,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="16915ea5-e305-4112-a308-c1cd0f9a4dfe">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="803210ee-275d-4f3c-8fc5-85af1656daea">
           <CubeDimensionID>v Dimension Stock Item</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="50f1ba7f-69f0-4aae-adf6-da3953732d80">
+            <Attribute dwd:design-time-name="9c238cc3-eaa4-4dac-8a65-4b93da750a58">
               <AttributeID>Stock Item Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="36c4b397-ae25-4ba2-af2f-d65d519bfe27">
+                <KeyColumn dwd:design-time-name="2186cc83-63f9-4394-9287-ba5db601bb71">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c159993-3fee-480a-aaae-fed124d54b45">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c0ea1628-459f-4737-987c-f83a286bc6c3">
                     <TableID>olap_vFactPurchase</TableID>
                     <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
                   </Source>
@@ -2102,15 +2136,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b8b684f7-25ab-414d-a976-585aa44ccf4b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="94eb0022-3c86-4b6f-b4c2-0ef3999fcfff">
           <CubeDimensionID>v Dimension Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e4b652a6-9480-4e99-8691-e032bfffd641">
+            <Attribute dwd:design-time-name="019eed6d-f54a-49d7-8d46-0b2b092e9051">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="4c369246-8637-4cc7-9230-d83d957f412f">
+                <KeyColumn dwd:design-time-name="504faf8c-eaea-4153-abf9-2a616d72b42a">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d2cfb68d-2b28-47b6-a9f1-8284a1e7780d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="93a9b2ea-73bd-4bdc-8ff2-00ad2e5c3018">
                     <TableID>olap_vFactPurchase</TableID>
                     <ColumnID>Date_x0020_Key</ColumnID>
                   </Source>
@@ -2123,7 +2157,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="87511b91-03c5-431b-ab49-08414ff8a3d6">
+    <MeasureGroup dwd:design-time-name="b46d3c94-a8b6-4ee8-b670-4414d74a6177">
       <ID>v Fact Order</ID>
       <Name>v Fact Order</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -2131,198 +2165,198 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Translations>
-        <Translation dwd:design-time-name="041c7f44-855c-45e3-9784-70b80e98db14">
+        <Translation dwd:design-time-name="cc317eca-b110-44ad-89a9-b2e57e785bae">
           <Language>1045</Language>
           <Caption>Zamówienie</Caption>
         </Translation>
-        <Translation dwd:design-time-name="1574e128-0144-4b84-aa92-02b808cdf536">
+        <Translation dwd:design-time-name="274f8fdc-94fd-4987-accb-2d60e9078ffb">
           <Language>1031</Language>
           <Caption>Bestellung</Caption>
         </Translation>
-        <Translation dwd:design-time-name="ffa2f4a3-d2ac-435f-a7ba-0aba5a5c4c82">
+        <Translation dwd:design-time-name="de1e188b-9485-42bc-a2e3-429d7185f2b8">
           <Language>1040</Language>
           <Caption>Ordine</Caption>
         </Translation>
       </Translations>
       <Measures>
-        <Measure dwd:design-time-name="28419a37-f671-4362-aced-a4e716f3092d">
+        <Measure dwd:design-time-name="7392a689-61ac-4cb1-83e1-b401551b38da">
           <ID>Quantity - v Fact Order</ID>
           <Name>Quantity - v Fact Order</Name>
-          <Source dwd:design-time-name="f8804a5e-6602-4aae-9ce5-9ce0bc0c69ff">
+          <Source dwd:design-time-name="2b03ceb6-1f48-4013-8de3-a8eee3377f65">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ecfcea46-fde2-472a-959f-fc13735b2a56">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ef9c95c5-9129-4414-bd95-b6787f778168">
               <TableID>olap_vFactOrder</TableID>
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="bdfb02c1-80c6-4883-910e-eb19d946e23e">
+            <Translation dwd:design-time-name="910f7cff-ae19-4501-b8fe-4aa029678e4e">
               <Language>1045</Language>
               <Caption>Ilość</Caption>
             </Translation>
-            <Translation dwd:design-time-name="a9432c27-03e0-4ba5-bcb6-0c5d1db621e4">
+            <Translation dwd:design-time-name="ee8f741e-6941-4ec2-9719-f410c431f14a">
               <Language>1031</Language>
               <Caption>Menge</Caption>
             </Translation>
-            <Translation dwd:design-time-name="7dc55620-249e-4431-8a91-2c47b635bd32">
+            <Translation dwd:design-time-name="4a68da4a-c92a-482f-b851-f7999aba5291">
               <Language>1040</Language>
               <Caption>Quantità</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="cab94012-6f23-44fa-9ccb-8081250740e6">
+        <Measure dwd:design-time-name="04e8965f-79a9-4ec5-afc0-5373e3a991f1">
           <ID>Unit Price - v Fact Order</ID>
           <Name>Unit Price - v Fact Order</Name>
-          <Source dwd:design-time-name="198cd319-77ea-462e-a9c3-23eeffc75e1b">
+          <Source dwd:design-time-name="658fe804-dd1e-4a74-9288-718471def60d">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5fbb2984-d849-45ca-9d22-6e8ea117f6bb">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="164d724a-6860-46bc-a335-389c7673fad8">
               <TableID>olap_vFactOrder</TableID>
               <ColumnID>Unit_x0020_Price</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="aabf1011-76ff-4060-abcc-6053f18762ec">
+            <Translation dwd:design-time-name="76d56da3-f12c-48a8-933c-d14c13e40989">
               <Language>1045</Language>
               <Caption>Cena jednostki</Caption>
             </Translation>
-            <Translation dwd:design-time-name="402c27b7-7f46-4e4f-b291-7dbe7b70fd63">
+            <Translation dwd:design-time-name="df7d1e7c-31e8-4108-a921-79a59210ae7f">
               <Language>1031</Language>
               <Caption>Einheitspreis</Caption>
             </Translation>
-            <Translation dwd:design-time-name="97a49904-0924-4f25-80c3-910ec9f67944">
+            <Translation dwd:design-time-name="37b931c0-431e-46f1-a83a-352ec5b26b20">
               <Language>1040</Language>
               <Caption>Prezzo unitario</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="15ad95f3-c611-46ce-bc99-690eec06a630">
+        <Measure dwd:design-time-name="a832e60b-8cad-4499-9441-56569c33c5ff">
           <ID>Tax Rate - v Fact Order</ID>
           <Name>Tax Rate - v Fact Order</Name>
-          <Source dwd:design-time-name="90fc57a6-96ef-47ce-8e14-33bda5248544">
+          <Source dwd:design-time-name="72d46c58-bead-44bf-99d6-762f0f676ec7">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d3952402-037e-4054-a81d-3a1515b70431">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="018fe6cc-7978-4d9b-afa9-f81e21ec4e8d">
               <TableID>olap_vFactOrder</TableID>
               <ColumnID>Tax_x0020_Rate</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="2b5d2c04-f199-4aec-b702-b5a9fed71a18">
+            <Translation dwd:design-time-name="ed0bf86d-7222-4034-b221-491f20abc1b6">
               <Language>1045</Language>
               <Caption>Stawka podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="4dfac86e-b416-4ae5-b5a8-e8ddc54540f0">
+            <Translation dwd:design-time-name="68a3f054-15a1-41eb-a263-a4aa16bf3b18">
               <Language>1031</Language>
               <Caption>Steuersatz</Caption>
             </Translation>
-            <Translation dwd:design-time-name="5041e0c6-2826-4c19-8044-4de48f4c5281">
+            <Translation dwd:design-time-name="4fd14a57-0e3f-41d1-88c8-9369d9136f58">
               <Language>1040</Language>
               <Caption>Aliquota d'imposta</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="e695e9ac-1572-471b-8985-18112cf19d6e">
+        <Measure dwd:design-time-name="fcf1428f-0617-4890-954a-f2cda62d2503">
           <ID>Total Excluding Tax - v Fact Order</ID>
           <Name>Total Excluding Tax - v Fact Order</Name>
-          <Source dwd:design-time-name="3348e9b5-1ea1-43b8-924e-80130c5ad3df">
+          <Source dwd:design-time-name="b6dd68c6-af34-4cef-b5c8-8bf23c5c3543">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3614cad3-a86f-4495-994b-5948a57f2880">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="24f51d66-0c99-4952-bf58-f1173e6df875">
               <TableID>olap_vFactOrder</TableID>
               <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="98d59b14-7776-4d37-b814-4795a294d7c3">
+            <Translation dwd:design-time-name="f25de02e-cf53-40d5-899f-72d24d46e147">
               <Language>1045</Language>
               <Caption>Ogółem bez podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="5bd65b27-6fab-4c9e-8fd9-86dc75ada3bb">
+            <Translation dwd:design-time-name="074bda5a-7765-4ba0-b204-a96eff834d8e">
               <Language>1031</Language>
               <Caption>Total ohne Steuern</Caption>
             </Translation>
-            <Translation dwd:design-time-name="398bed6e-7fed-45d0-8bdf-b6a20653d1c3">
+            <Translation dwd:design-time-name="8200c7db-ad40-4e1b-bc28-930dfb01e379">
               <Language>1040</Language>
               <Caption>Totale senza imposte</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="2678673a-3852-4852-a78f-31e9c1047408">
+        <Measure dwd:design-time-name="a0f7babb-5f20-4218-9bcb-291197328c36">
           <ID>Tax Amount - v Fact Order</ID>
           <Name>Tax Amount - v Fact Order</Name>
-          <Source dwd:design-time-name="7cd7f32a-b1d6-4761-871d-74e1f561a082">
+          <Source dwd:design-time-name="c43a9d98-4948-4a1a-bda0-79e2982a1550">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e026aa68-b908-44c3-a60b-019ab0b3b210">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="89693033-4a13-4950-8b17-255074ad77c7">
               <TableID>olap_vFactOrder</TableID>
               <ColumnID>Tax_x0020_Amount</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="2cdf9f50-02eb-43de-8eae-838317ef967f">
+            <Translation dwd:design-time-name="06545828-4a77-4aa5-863d-43464d9ebf54">
               <Language>1045</Language>
               <Caption>Wysokość podatku</Caption>
             </Translation>
-            <Translation dwd:design-time-name="49f02573-2ffa-4da9-8782-229b3c610968">
+            <Translation dwd:design-time-name="5a889e10-17aa-44e7-a09e-eded01d9d870">
               <Language>1031</Language>
               <Caption>Steuerbetrag</Caption>
             </Translation>
-            <Translation dwd:design-time-name="b673ffa2-0727-4a8e-89db-d2bbfb958d99">
+            <Translation dwd:design-time-name="d86840f0-c468-47d1-a1e4-af29ec8e6224">
               <Language>1040</Language>
               <Caption>Imposta</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="8c196fc0-6672-4159-b968-a636bb8069be">
+        <Measure dwd:design-time-name="646899ef-2343-4113-b7eb-9747b5cf8c7c">
           <ID>Total Including Tax - v Fact Order</ID>
           <Name>Total Including Tax - v Fact Order</Name>
-          <Source dwd:design-time-name="ae3f10ea-1039-49cf-b361-d578f597d62d">
+          <Source dwd:design-time-name="3a579c14-f460-49e9-8c0f-bd6cb90ac811">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="59b26ada-fbc9-42fd-b3bb-6288b4f0f9dc">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3c016f94-3195-4138-aab5-8f453518b608">
               <TableID>olap_vFactOrder</TableID>
               <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="1ab14428-1462-4a34-9430-b08daf779cc5">
+            <Translation dwd:design-time-name="9ce146d5-f534-4923-9690-14840a0aeef7">
               <Language>1045</Language>
               <Caption>Ogółem z podatkiem</Caption>
             </Translation>
-            <Translation dwd:design-time-name="b0733834-5dc5-4404-a8fb-aeb6f6ebdc48">
+            <Translation dwd:design-time-name="5e7948a8-51da-4fb3-a073-961f94b39e2e">
               <Language>1031</Language>
               <Caption>Total einschliesslich Steuer</Caption>
             </Translation>
-            <Translation dwd:design-time-name="59da4a35-42af-45fb-bf1e-c16bfd3d45d8">
+            <Translation dwd:design-time-name="c81b67c2-26dd-4b83-a729-e956bdaf602f">
               <Language>1040</Language>
               <Caption>Totale imposte incluse</Caption>
             </Translation>
           </Translations>
         </Measure>
-        <Measure dwd:design-time-name="83ba6d8a-435e-4cb7-99df-332bddb3ce43">
+        <Measure dwd:design-time-name="300d29c7-0163-44b9-a698-c401f931f45f">
           <ID>v Fact Order Count</ID>
           <Name>v Fact Order Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="070bfdf9-e242-40c8-8ba9-e076b682fa4d">
+          <Source dwd:design-time-name="3469b66b-0bba-4c2a-a353-b8354d1795a6">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="9fe30eaa-0b83-4bc0-89e6-d90889ef151b">
+            <Source xsi:type="RowBinding" dwd:design-time-name="1e4e7455-61fd-4793-8ac5-baac25d977df">
               <TableID>olap_vFactOrder</TableID>
             </Source>
           </Source>
           <FormatString># ##0.00</FormatString>
           <Translations>
-            <Translation dwd:design-time-name="cc295bfe-d40a-4c8e-9ffb-f574e2cb52ac">
+            <Translation dwd:design-time-name="feb3f404-9a2c-4278-9434-9edd5b8e80b7">
               <Language>1045</Language>
               <Caption>Licznik zamówień</Caption>
             </Translation>
-            <Translation dwd:design-time-name="abf4da88-24b8-45ef-8ea0-d81b216a2dab">
+            <Translation dwd:design-time-name="7b183cb0-1b87-4e89-82d6-762f60f5e9ab">
               <Language>1031</Language>
               <Caption>Anzahl der Aufträge</Caption>
             </Translation>
-            <Translation dwd:design-time-name="cbdfce51-7326-4d14-8cf0-ce5beb373b65">
+            <Translation dwd:design-time-name="49647395-a410-4e35-ac15-45acb7ed16a4">
               <Language>1040</Language>
               <Caption>Numero di ordini</Caption>
             </Translation>
@@ -2332,16 +2366,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ebc697db-9221-46f7-a734-21939b7729a4">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="82f232f2-370a-4058-bbb8-0392bcfd7be2">
           <CubeDimensionID>Picked Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9affd503-dfa8-48ca-a4aa-e5da576d8749">
+            <Attribute dwd:design-time-name="97dd420b-22a6-4b47-bba1-619a5014c824">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="03efbb17-25c7-4a86-8902-1d8d4f274eb5">
+                <KeyColumn dwd:design-time-name="68518f25-a7bd-4314-a9ae-1ac74c8c9951">
                   <DataType>Date</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="107ebaa1-bc2f-4460-a827-95664a7948f4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8e56d72e-09b9-4c0c-a5b1-446886f015d4">
                     <TableID>olap_vFactOrder</TableID>
                     <ColumnID>Picked_x0020_Date_x0020_Key</ColumnID>
                   </Source>
@@ -2351,15 +2385,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c76ec056-9189-4b97-8e95-e4470c7335a1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="00f3bb61-c55a-4c1a-8bdd-575fc48893fa">
           <CubeDimensionID>v Dimension City</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3607822a-06dd-42d8-9f9b-9be17678bef2">
+            <Attribute dwd:design-time-name="fd1d24c4-a968-41a9-8c58-f8b10546da7f">
               <AttributeID>City Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="68d83874-c7eb-4c47-b09e-1a58c1bc6792">
+                <KeyColumn dwd:design-time-name="037bd93d-bfb3-4b70-9c6f-4318708b900f">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0b39a5a4-a768-4a94-88ae-e195833c11aa">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="db8b6a3a-8043-49ca-bbbd-4f4cd4207db9">
                     <TableID>olap_vFactOrder</TableID>
                     <ColumnID>City_x0020_Key</ColumnID>
                   </Source>
@@ -2369,15 +2403,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dabfde4d-e8ae-4fbb-899b-59744f2ed0a9">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f11c715c-02e3-4513-a547-8b083c4f3790">
           <CubeDimensionID>v Dimension Customer</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7b492382-6167-436a-8fb0-029ccc223b04">
+            <Attribute dwd:design-time-name="8e0bf38b-b0ca-439c-bcf5-c5a177f5cff7">
               <AttributeID>Customer Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="b9e5a4af-b55c-4da9-9a52-dd4b48102d7e">
+                <KeyColumn dwd:design-time-name="0a63469c-801a-4cdc-84a3-86503b8cf13e">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0124aa23-2bbb-4d76-b674-3f62210a7551">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="80aea8ae-dd44-4698-bc24-7e285aab60cb">
                     <TableID>olap_vFactOrder</TableID>
                     <ColumnID>Customer_x0020_Key</ColumnID>
                   </Source>
@@ -2387,15 +2421,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e5618d94-39dc-4936-9b56-0c1b6a1d906a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f97209ed-36c2-4b74-979a-7243f5dc258c">
           <CubeDimensionID>Order Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b99cb224-e94e-441c-915e-9514160e2738">
+            <Attribute dwd:design-time-name="0eddde14-1221-476f-9082-a9636f241489">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d3b0128e-5ba2-4869-880a-d6da95081af5">
+                <KeyColumn dwd:design-time-name="c5a030c3-03b6-4f1e-808c-07d9dcd05f58">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="75674059-cac0-4e53-b649-7f41d758e749">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b66542ed-b663-4f35-823c-1f147cced4c9">
                     <TableID>olap_vFactOrder</TableID>
                     <ColumnID>Order_x0020_Date_x0020_Key</ColumnID>
                   </Source>
@@ -2405,16 +2439,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ef4a701d-7cfe-4e08-808a-f3c29b4037ae">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8079f9c5-a4fe-468f-952c-970b69171c1a">
           <CubeDimensionID>Picker</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a3a109bd-352f-4f91-b630-9b5ae0169379">
+            <Attribute dwd:design-time-name="46b414d9-9291-471c-ab56-d5c4b0007cc6">
               <AttributeID>Employee Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="df79b012-7dc5-42f2-86fb-928809d33e02">
+                <KeyColumn dwd:design-time-name="e5743ba0-a2c2-4317-8b68-1c785d0ea7c4">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="17800ca2-8b5c-49b4-a121-c6771681b905">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="eb51e610-e503-4f28-b5dc-57d95e6d9ab8">
                     <TableID>olap_vFactOrder</TableID>
                     <ColumnID>Picker_x0020_Key</ColumnID>
                   </Source>
@@ -2424,15 +2458,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4382f269-25d7-4089-b913-8ac4e40ac61c">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d9f3cb01-2813-400c-9ce4-c79e12bb8bc8">
           <CubeDimensionID>Salesperson</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a90cabf6-3ef9-4ed3-9023-2509ad91cbb6">
+            <Attribute dwd:design-time-name="468eca44-9ab9-45d3-8982-8004a933cd33">
               <AttributeID>Employee Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="46fe1e31-79f8-4265-92af-7586cd33b8a0">
+                <KeyColumn dwd:design-time-name="0b2c9261-5da2-40eb-9222-e4946a12ffeb">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="62152982-f2ae-4069-832e-d09cb7ea9007">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="187df70c-f8ed-4c6a-8d6f-9d421641d04a">
                     <TableID>olap_vFactOrder</TableID>
                     <ColumnID>Salesperson_x0020_Key</ColumnID>
                   </Source>
@@ -2442,15 +2476,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3b69712f-4f07-43d8-a3d3-0cc8867ff073">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7e6fc558-901c-4cd9-ab5e-818bd7f63c12">
           <CubeDimensionID>v Dimension Stock Item</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b6e62d65-c298-40db-aa4a-70d7fc77ea7d">
+            <Attribute dwd:design-time-name="557b3af2-2b7f-40af-b990-5312f621635f">
               <AttributeID>Stock Item Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="45a68ad6-37ed-4b8d-850f-801b23480515">
+                <KeyColumn dwd:design-time-name="f0c3d8db-9545-466b-809a-31141a0ad715">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33aa2e40-726a-4db5-b825-cf04d31387a5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="607b2df3-cc4a-459e-be3f-4fb037fc2c93">
                     <TableID>olap_vFactOrder</TableID>
                     <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
                   </Source>
@@ -2464,7 +2498,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="157a9c16-42ce-4c2a-b05d-ec63b0db28f9">
+  <Source dwd:design-time-name="751d3191-e380-4f47-a1ab-05429148bd2b">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
 </Cube>

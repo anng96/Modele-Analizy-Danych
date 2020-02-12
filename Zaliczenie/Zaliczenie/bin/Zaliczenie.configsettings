@@ -22,9 +22,6 @@
         <ID>v Dimension Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>v Dimension Employee</ID>
-      </Dimension>
-      <Dimension>
         <ID>v Dimension Stock Item</ID>
       </Dimension>
       <Dimension>
@@ -41,6 +38,9 @@
       </Dimension>
       <Dimension>
         <ID>v Fact Purchase</ID>
+      </Dimension>
+      <Dimension>
+        <ID>v Dimension Employee</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
