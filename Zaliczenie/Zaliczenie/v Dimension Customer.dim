@@ -172,6 +172,7 @@
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -281,7 +282,7 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="c868d137-cc88-4a35-9301-449a5af61929">
       <ID>Hierarchy</ID>
-      <Name>Hierarchy</Name>
+      <Name>BillingHierarchy</Name>
       <Levels>
         <Level dwd:design-time-name="aab71777-2bd0-49e8-9e32-07a6a379c01e">
           <ID>Bill To Customer</ID>

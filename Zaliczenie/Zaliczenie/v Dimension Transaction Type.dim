@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="abdeb82c-ca7c-4cb7-8dc6-bde49f2ded9e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="22bb6742-fa44-4593-80be-d4662ec68886" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Dimension Transaction Type</ID>
   <Name>v Dimension Transaction Type</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,65 +68,66 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d0354c23-b570-491a-8be3-b2efb0e9906c">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0facfb73-0a40-428d-ae6a-77322a7fb512">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="22f5e1ba-6a35-44e9-b677-286843ab1945">
+  <ErrorConfiguration dwd:design-time-name="c2f99aef-946b-4113-b730-e0adfde09f90">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="81054c1b-06fc-4288-a89e-33fe83684483">
+    <Translation dwd:design-time-name="816f97bc-a1f6-4880-8ff2-7361b753cebe">
       <Language>1045</Language>
       <Caption>Typ transakcji</Caption>
     </Translation>
-    <Translation dwd:design-time-name="6d83cf7f-f724-4724-9ec5-ab535e1fd5a4">
+    <Translation dwd:design-time-name="04491b3a-a32c-4664-82bd-f48dd0d868c6">
       <Language>1040</Language>
       <Caption>Tipo di transazione</Caption>
     </Translation>
-    <Translation dwd:design-time-name="31eca518-619d-46bb-9479-aa0b43ee29d2">
+    <Translation dwd:design-time-name="c98cbf90-5603-44ee-8cf0-52c5bf522a42">
       <Language>1031</Language>
       <Caption>Art der Transaktion</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="04f3d8ca-0dc5-4b2e-86f0-1cc6836c1537">
+    <Attribute dwd:design-time-name="1ed92dc1-fa74-4286-814e-70d80f3fe95d">
       <ID>Transaction Type Key</ID>
       <Name>Transaction Type Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="db5a31d8-0e11-4427-a11e-dfa6e55ab075">
+        <KeyColumn dwd:design-time-name="d1035eb4-0b7a-44b6-8a09-78e813f29667">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b83c5b34-2b38-463e-9d57-0bb3c7b2abc1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05a69525-0483-497a-a344-ca2a1e012738">
             <TableID>olap_vDimensionTransactionType</TableID>
             <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="b839bccd-2e6d-4aec-b648-3dfdf81d1f37">
+      <NameColumn dwd:design-time-name="eba3d387-04b2-45e8-914c-c080883b69d1">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="7c078ef1-b6b4-4ce1-ba89-6278a2f8eecf">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9a71acff-3e09-46ff-99e3-ac6e5c1c06ab">
           <TableID>olap_vDimensionTransactionType</TableID>
           <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="d0ef9e18-b0f0-4dcd-876f-bf1e170d6bd5">
+        <Translation dwd:design-time-name="bb9db98a-17b0-45f7-82c7-d873aaf4ff84">
           <Language>1045</Language>
           <Caption>Typ transakcji klucz</Caption>
         </Translation>
-        <Translation dwd:design-time-name="4bf6ef2a-3849-4ac7-a2c3-71b463cb1085">
+        <Translation dwd:design-time-name="c81224f9-5d27-4035-a867-1ee638a6365d">
           <Language>1031</Language>
           <Caption>Typ des Transaktionsschlüssels</Caption>
         </Translation>
-        <Translation dwd:design-time-name="bc88b2ff-2f0a-43cc-b698-1082b70bd771">
+        <Translation dwd:design-time-name="6f11a511-b5ac-4939-9e4e-479956184c49">
           <Language>1040</Language>
           <Caption>Tipo di chiave di transazione</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

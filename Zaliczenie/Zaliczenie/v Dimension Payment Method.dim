@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="abe93679-625b-4d40-a118-505e6610fb9d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cef1f8a8-c6f1-4191-89a8-f465a0da72f5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Dimension Payment Method</ID>
   <Name>v Dimension Payment Method</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,67 +68,68 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="10f83a01-3c80-4dec-8f10-a0bd0e540efe">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6d9aee2e-fd43-4d96-a161-bbcf0bdbc4bc">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="205c5edb-e86d-40fe-a0ec-f2ce4ddda693">
+  <ErrorConfiguration dwd:design-time-name="4658f746-04c1-445a-85d6-7df4b0858fa2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="5b8c8519-4df2-4f6e-acde-a176990d2503">
+    <Translation dwd:design-time-name="3b0e9975-94f7-4325-b59d-ed716a46367c">
       <Language>1045</Language>
       <Caption>Metoda płatności</Caption>
     </Translation>
-    <Translation dwd:design-time-name="5c00b20a-c6cf-43cc-9b89-f7dd0a2211f6">
+    <Translation dwd:design-time-name="75b80da0-b858-438a-8756-23f135920111">
       <Language>1040</Language>
       <Caption>Modalità di pagamento</Caption>
     </Translation>
-    <Translation dwd:design-time-name="1449c1cb-b37e-41cf-a241-d065b29690c6">
+    <Translation dwd:design-time-name="06000d22-87ae-4e51-a934-34f24262b5c2">
       <Language>1031</Language>
       <Caption>Zahlungsweise</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="d831dd20-e935-4644-8583-21b5da31191b">
+    <Attribute dwd:design-time-name="765831a4-b89f-4383-bee9-38a4343bc462">
       <ID>Payment Method Key</ID>
       <Name>Payment Method Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6d7f1b3e-71c5-4eba-b38b-d65a21bce91f">
+        <KeyColumn dwd:design-time-name="28bb418d-035c-488f-bd1d-ff5400bd9801">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="72680710-7d10-45eb-a0f7-aa6d4dca6845">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0edbddc3-770e-4bf7-bd36-4d00b70efd81">
             <TableID>olap_vDimensionPaymentMethod</TableID>
             <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="e1a9c9e9-a497-4918-ab16-75e064f27022">
+      <NameColumn dwd:design-time-name="ffe1ecc6-6cd0-4e08-87f4-9d95a957eaf4">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="34feb2a9-ab3a-43e1-9d20-7ee399d6cf6f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d926dc01-67c7-446a-9477-d37bcb643db8">
           <TableID>olap_vDimensionPaymentMethod</TableID>
           <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="e7f3057c-0354-49b8-a2b2-b5aa9ae80c6a">
+        <Translation dwd:design-time-name="68873ab2-c297-44b4-ab6a-41be67d9d187">
           <Language>1045</Language>
           <Caption>Metoda płatności klucz</Caption>
         </Translation>
-        <Translation dwd:design-time-name="c51e5a65-a84b-42f0-a198-83bc9c7205d4">
+        <Translation dwd:design-time-name="0d3843a6-bb4b-4447-a337-017533896a29">
           <Language>1031</Language>
           <Caption>Schlüssel der Zahlungsmethode</Caption>
         </Translation>
-        <Translation dwd:design-time-name="df2f38cc-79cb-4a1c-b167-266d77007c89">
+        <Translation dwd:design-time-name="01f7265f-1a4c-4069-84f6-44ae40033659">
           <Language>1040</Language>
           <Caption>Chiave del metodo di pagamento</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

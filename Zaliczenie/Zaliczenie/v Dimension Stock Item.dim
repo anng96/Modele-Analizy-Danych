@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="41fddfc7-e0aa-40df-9cd6-4f03a1b7c33d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="66eacc57-0d35-492c-a249-b226d1ddd42d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Dimension Stock Item</ID>
   <Name>v Dimension Stock Item</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1462" scrolltop="-1601" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1462" scrolltop="1018" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -51,7 +51,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-1601</Value>
+      <Value>1018</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,65 +68,66 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4435979f-34e6-4a27-bb33-821f50bf740a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="12cc6f86-c7bb-4b11-8b41-d7bdefddb0b6">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="7e62bafe-9480-46a6-9eaa-e0ea80fcd73c">
+  <ErrorConfiguration dwd:design-time-name="7123a145-a1d4-4831-927b-39dbf83bb97b">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="45906eec-19d3-46a2-b3cf-7e6b70b5bc59">
+    <Translation dwd:design-time-name="537ac2d0-e871-408c-8b9f-00d71f683cbb">
       <Language>1045</Language>
       <Caption>Pozycja magazynowa</Caption>
     </Translation>
-    <Translation dwd:design-time-name="0e6007d7-b0db-4217-8b66-fbbedddbf1c4">
+    <Translation dwd:design-time-name="f5bf19b2-e957-4b75-aefd-3b323a84191c">
       <Language>1031</Language>
       <Caption>Lagerposition</Caption>
     </Translation>
-    <Translation dwd:design-time-name="f56f6b9f-b430-4c59-8cec-f023fbd97c93">
+    <Translation dwd:design-time-name="35c229e0-8d19-480b-b0b7-2d0ee68efe38">
       <Language>1040</Language>
       <Caption>Posizione di stoccaggio</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="24d93037-8a44-4b3a-825e-7df7441c3e15">
+    <Attribute dwd:design-time-name="ca9045f8-1c31-48d9-9b8b-4a8c9e7988c5">
       <ID>Stock Item Key</ID>
       <Name>Stock Item Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b16fdcfb-b81d-4652-97b2-77c2d0796192">
+        <KeyColumn dwd:design-time-name="9d7677ee-00a2-412c-8e77-b79de70e4a2a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f6d52fe-7bdc-4e24-b273-ffde20ff579b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e687db19-0ddd-47fb-8f46-f4648a8677a7">
             <TableID>olap_vDimensionStockItem</TableID>
             <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="388e9f79-a0fb-4c0e-8d5b-705b621f2786">
+      <NameColumn dwd:design-time-name="4c211816-0d20-4b1d-ac0d-303dc4f6f956">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a78e75b8-bd68-45f4-8cf6-d1e684d16e27">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="da4c14c5-bf85-4e25-a2a8-7945217dbdcc">
           <TableID>olap_vDimensionStockItem</TableID>
           <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="71a63a7d-3400-4369-b3c9-2cc8a03fb8e9">
+        <Translation dwd:design-time-name="b5ec5e96-68b7-4951-8c37-227c6300a2c6">
           <Language>1045</Language>
           <Caption>Pozycja magazynowa klucz</Caption>
         </Translation>
-        <Translation dwd:design-time-name="625a51ce-87c0-4456-9701-71944f41761e">
+        <Translation dwd:design-time-name="71f2f5b5-2505-4852-a19e-3c8559fe73dc">
           <Language>1040</Language>
           <Caption>Chiave di posizione di stoccaggio</Caption>
         </Translation>
-        <Translation dwd:design-time-name="91ccea69-27b3-4dcf-b505-57bb3b8f1b9c">
+        <Translation dwd:design-time-name="3d4a1d67-9d90-4537-ae08-456b7ba22dec">
           <Language>1031</Language>
           <Caption>Schlüssel zur Speicherposition</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

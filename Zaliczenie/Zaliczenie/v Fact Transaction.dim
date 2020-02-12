@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a8890e90-3a7d-4856-a62d-52c7d2f8b9f6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="185e2afe-4b64-4b6d-ae53-7a05e3967f34" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Fact Transaction</ID>
   <Name>v Fact Transaction</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -89,93 +89,93 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5984fc63-cd1d-48b2-a5a7-d092cc4c3e41">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="542ee201-a985-4f5c-8be1-abb7af1ff2f1">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="40753d08-7b41-473d-8cdf-4732c863d7db">
+  <ErrorConfiguration dwd:design-time-name="6f6a0976-0c7a-4be4-b5b9-e16bebc55818">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="f62df84e-7beb-43c2-824a-bfe19063a2d6">
+    <Translation dwd:design-time-name="3fbde855-5b1d-48e7-91e1-94fc974da211">
       <Language>1045</Language>
       <Caption>Transakcja</Caption>
     </Translation>
-    <Translation dwd:design-time-name="be2d17f9-7c45-491e-a483-0261059aadf4">
+    <Translation dwd:design-time-name="1896eb17-16df-4a73-a6a5-6f470d9cc38b">
       <Language>1040</Language>
       <Caption>Operazione</Caption>
     </Translation>
-    <Translation dwd:design-time-name="79ee9502-c61f-4c61-96b3-5b4c53ddd9a5">
+    <Translation dwd:design-time-name="80842276-f661-454f-aa32-3cf460a18f03">
       <Language>1031</Language>
       <Caption>Transaktion</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="2fd3ca43-80fb-4522-aed3-621a5600b6aa">
+    <Attribute dwd:design-time-name="a703ea8d-a25b-4dfd-b31d-20db68c92865">
       <ID>Transaction Key</ID>
       <Name>Transaction Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f5cad03e-890b-45df-84a0-a2a5b3f7629e">
+        <KeyColumn dwd:design-time-name="61e526d3-4325-464c-b57f-f0b82b1d41a4">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="267508d6-3d4d-4090-9096-d3bd48298f99">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="140896db-5dda-4004-ac24-bb05752fc83d">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Transaction_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="de2759d5-9691-4248-b1f7-3009e0677b74">
+        <KeyColumn dwd:design-time-name="880273da-e62e-404f-9156-a324f448c59b">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="78c1d9fc-f001-4f6e-9990-9d75488fcbe4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79ba9798-9d21-47f0-bf19-8a80064c11e7">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Date_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="407220ee-2b98-4f13-92c2-ec7b6855f402">
+      <NameColumn dwd:design-time-name="d0b703b2-d5e0-4aa5-9eb2-294f4d1a3fde">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="531a8a3a-3aaf-4561-b23e-f4733fbaa53f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="52aa23b7-6c84-49a9-a153-012fa3a527fe">
           <TableID>olap_vFactTransaction</TableID>
           <ColumnID>Transaction_x0020_Key</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="f03ec925-9d8c-498e-92c9-23c2734592dc">
+        <Translation dwd:design-time-name="264ef29d-18b6-40bf-89e5-f4ac80426abb">
           <Language>1045</Language>
           <Caption>Transakcja klucz</Caption>
         </Translation>
-        <Translation dwd:design-time-name="4ee461e8-177a-4aa1-8851-83177832dd0f">
+        <Translation dwd:design-time-name="8ae28921-aa77-4aa0-bb91-defc260725ae">
           <Language>1031</Language>
           <Caption>Schlüssel-Transaktion</Caption>
         </Translation>
-        <Translation dwd:design-time-name="455edd5a-f95c-4de4-a106-004b0a7e9178">
+        <Translation dwd:design-time-name="8ce898e7-b03b-4b5e-a457-3f5be1f33589">
           <Language>1040</Language>
           <Caption>Operazione chiave</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="573ffeb0-5326-4960-ae3d-727d7ea28bab">
+        <AttributeRelationship dwd:design-time-name="e788e5af-aa01-4c5f-840b-dada71f06cc9">
           <AttributeID>Customer Key</AttributeID>
           <Name>Customer Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="30c46666-e847-464e-8d67-4206bd74b439">
+        <AttributeRelationship dwd:design-time-name="1dfd5678-2a31-4a25-9900-03d1c904b004">
           <AttributeID>Bill To Customer Key</AttributeID>
           <Name>Bill To Customer Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="beaaaa75-80b7-4d4d-b6fb-f1e9b5d40e8c">
+        <AttributeRelationship dwd:design-time-name="2d84cd30-8bf4-441e-bbf0-097b2375672b">
           <AttributeID>Date Key</AttributeID>
           <Name>Date Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4eacb265-301d-4a1f-b105-437229db2e02">
+        <AttributeRelationship dwd:design-time-name="1681c9e3-8e68-45af-8db4-7b45e5f165e8">
           <AttributeID>Payment Method Key</AttributeID>
           <Name>Payment Method Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7e6ebd15-2983-4873-82d3-7bf5562e7974">
+        <AttributeRelationship dwd:design-time-name="983e1cd6-61f6-47a5-965b-a38a43a036be">
           <AttributeID>Supplier Key</AttributeID>
           <Name>Supplier Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="80e9148d-d554-4a56-8e3d-6161c7c3d6c5">
+        <AttributeRelationship dwd:design-time-name="07b8b467-7472-4a24-b202-64d48929950d">
           <AttributeID>Transaction Type Key</AttributeID>
           <Name>Transaction Type Key</Name>
         </AttributeRelationship>
@@ -183,21 +183,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="768e10f8-9054-45d8-92e6-9f04081762e9">
+    <Attribute dwd:design-time-name="9c52e79c-27fc-4f78-90dd-8180281909a2">
       <ID>Customer Key</ID>
       <Name>Customer Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9a2c3318-4faf-49cc-bc02-5f34b3ffcb1a">
+        <KeyColumn dwd:design-time-name="ff4187fe-691a-46e9-930e-761b3c3e5b10">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f919fedc-4222-4b36-844e-04b3d0ace588">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c18bf3ba-1c02-4911-8eea-d1faa0ee67e7">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Customer_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="4aa39fb8-0d0c-488e-8e7a-764592ade1d3">
+      <NameColumn dwd:design-time-name="48b03aa8-1319-4879-bc04-6b2fd3f40b2c">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="f9d59dda-fda5-4248-a841-3842436be12f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="867f3d98-0726-4a3e-9117-7e16941437b9">
           <TableID>olap_vFactTransaction</TableID>
           <ColumnID>Customer_x0020_Key</ColumnID>
         </Source>
@@ -207,21 +207,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9578c46f-d8b8-4ef7-87e0-cb50a19b41fa">
+    <Attribute dwd:design-time-name="fcf77f3f-d5c7-4419-8638-6526aaf19c01">
       <ID>Bill To Customer Key</ID>
       <Name>Bill To Customer Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ca119836-765f-4065-816f-46852e3530e2">
+        <KeyColumn dwd:design-time-name="a609e33a-f8bd-4267-8d8b-4d48dabe2ccb">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7b2508eb-01e6-4d14-bd2e-efe7a59379d4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1c2ebf9-117d-4105-86da-53779b6971ee">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="f3d6add0-cea9-4655-95a3-26abcb0d10cd">
+      <NameColumn dwd:design-time-name="f7383253-637d-44c8-9af7-cbbb08f45076">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="d9f8fe71-9665-441f-a0a2-89602be3d7a8">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cb4f3d86-9a2e-4c00-9ebf-ab3fa29d753d">
           <TableID>olap_vFactTransaction</TableID>
           <ColumnID>Bill_x0020_To_x0020_Customer_x0020_Key</ColumnID>
         </Source>
@@ -231,21 +231,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1101ca6f-774b-4b72-ad56-8aad56c2bee1">
+    <Attribute dwd:design-time-name="1d3bce31-9f1c-4a1b-a714-4efe5cecbecb">
       <ID>Date Key</ID>
       <Name>Date Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8363e3b2-4cb2-475a-9572-c6df74e748dc">
+        <KeyColumn dwd:design-time-name="350d2959-3b36-4b30-bdff-399b61116541">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4146ab64-1bbc-4ff5-8f98-d944f3d214a4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bf26613-d453-4dca-bded-d845a51e2f5f">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Date_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="c1326d58-695c-4d5e-b2c5-e409cad50492">
+      <NameColumn dwd:design-time-name="bf080ec5-7d1c-4e32-bb42-c8452b13b4ab">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="7699321b-c0d4-440b-b2ff-d9a755a6bda8">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="39a6dd3b-aed9-4bcb-af8a-034870826340">
           <TableID>olap_vFactTransaction</TableID>
           <ColumnID>Date_x0020_Key</ColumnID>
         </Source>
@@ -255,21 +255,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1187b7f2-4787-4432-a247-35a7914ee24e">
+    <Attribute dwd:design-time-name="f6e62a84-b6dd-4c7a-a296-378e62ae7bf4">
       <ID>Payment Method Key</ID>
       <Name>Payment Method Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c30b1fe7-ff99-415e-ac89-856c34afa9c1">
+        <KeyColumn dwd:design-time-name="c1b1d731-0b32-48c8-9ef0-d01c282c7e60">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad5b8b08-3c50-4fbf-92bb-59bd7925f98a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8030d5ca-bfcf-4681-97a4-0829ffa1218d">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="4530c082-e3a6-4eaa-9fce-82cd7333cc77">
+      <NameColumn dwd:design-time-name="993a8e00-c061-4e1a-9e1f-5808a37ade17">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="adda0890-95c5-44e5-83ff-830b3b544673">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b2f0ad3f-a420-4fc4-bae5-3bd287bddafa">
           <TableID>olap_vFactTransaction</TableID>
           <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
         </Source>
@@ -279,21 +279,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="518b981d-a0f5-4c24-9440-b2934aa7d9b3">
+    <Attribute dwd:design-time-name="e2ea5c4d-1ff8-4b60-8da9-cde57e717318">
       <ID>Supplier Key</ID>
       <Name>Supplier Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2cffe64c-c644-438f-bd5e-277a14673761">
+        <KeyColumn dwd:design-time-name="14ef765a-692a-4603-8c0f-46a2789f41d5">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f24fd54-d541-42ee-9f5a-925303ad5659">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1afd70b4-d4bd-46df-89fd-060a8cf2e8ec">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Supplier_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="7d86db3e-8be5-426a-9da3-19ec01035b8f">
+      <NameColumn dwd:design-time-name="b5831d87-1fa9-4646-a6a6-daea5703951a">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="29d33211-46de-4a4b-a68b-31afe872686d">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a142c4a5-7ede-41a0-b143-e5de3c3f0264">
           <TableID>olap_vFactTransaction</TableID>
           <ColumnID>Supplier_x0020_Key</ColumnID>
         </Source>
@@ -303,21 +303,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="30e4d361-0aec-469b-be83-5ac45ee4343a">
+    <Attribute dwd:design-time-name="cfca056e-a657-417d-9710-94a6b1790bb6">
       <ID>Transaction Type Key</ID>
       <Name>Transaction Type Key</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="faa0ac86-7f08-4e39-9ec6-8c7aee63b511">
+        <KeyColumn dwd:design-time-name="006343c1-36f2-4374-813c-7dd390e99a96">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="46142f7b-493e-4234-bcae-a64c1164f8e7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e033505-5611-4963-85fa-4e4165b9e58e">
             <TableID>olap_vFactTransaction</TableID>
             <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="cc5b7cdd-48f5-4167-9880-4d35bc92269b">
+      <NameColumn dwd:design-time-name="6a3a8690-995d-485e-b837-dfea0213dea7">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="37e3ba89-f5c3-4072-9dee-c1bcf026536c">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a3a0b910-901c-48f4-9264-73c45688f742">
           <TableID>olap_vFactTransaction</TableID>
           <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
         </Source>

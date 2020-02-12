@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e49aa3e4-528f-4fbe-a540-ccdb4212b660" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="57fd41fd-ba27-407a-a87f-23cffe126252" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Dimension Supplier</ID>
   <Name>v Dimension Supplier</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -83,67 +83,68 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="209c71c5-0aca-4438-ba1d-70a37574b405">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cec57e82-7e66-4856-809c-20482523e098">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="b1ebe49b-19e1-470c-b6f5-20282a78f5ce">
+  <ErrorConfiguration dwd:design-time-name="7f928119-b179-43fb-ad44-5c56691ed3dd">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="a019243d-0b72-4637-a78b-51f9980c6340">
+    <Translation dwd:design-time-name="f9206997-9339-47de-94ed-f77a7e4f051d">
       <Language>1040</Language>
       <Caption>Fornitore</Caption>
     </Translation>
-    <Translation dwd:design-time-name="e6902a73-bbae-4260-8ce0-e124f4faf1fb">
+    <Translation dwd:design-time-name="9dd814c1-0640-4b24-ae26-7d19b6254fc6">
       <Language>1045</Language>
       <Caption>Dostawca</Caption>
     </Translation>
-    <Translation dwd:design-time-name="41b45485-9187-4fba-81b8-0792efcfb9b5">
+    <Translation dwd:design-time-name="19e092ee-31b0-40c4-b123-f83f9c95ffec">
       <Language>1031</Language>
       <Caption>Anbieter</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="0b782ee0-0b79-492e-b51f-b88de960a78b">
+    <Attribute dwd:design-time-name="5d2141a5-1f8b-47ac-8e83-3260b8e351c8">
       <ID>Supplier Key</ID>
       <Name>Supplier Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="eb7c7738-0ad9-46df-9179-e5e27f8e3e72">
+        <KeyColumn dwd:design-time-name="cbb916c8-0861-4f95-8c6d-4e6d6c205dbb">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="138b7348-4386-4132-b133-b706ac708c2c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de387638-bd0e-4a73-8399-5ac88ea69dee">
             <TableID>olap_vDimensionSupplier</TableID>
             <ColumnID>Supplier_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="a841891c-78e4-4fb3-926a-ac292d04df17">
+      <NameColumn dwd:design-time-name="8e0a3ecb-2929-4358-bc0b-98260820e3ca">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="25a56143-6c5b-4d45-9dbc-d6be41dffb3a">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="09683147-9175-4fc2-8fcc-fee6fb0b4ab4">
           <TableID>olap_vDimensionSupplier</TableID>
           <ColumnID>Supplier_x0020_Key</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="382a226e-3235-4afb-8a90-7660e9fbb9c3">
+        <Translation dwd:design-time-name="7704488c-b006-410c-9e0a-29d73608d5fb">
           <Language>1045</Language>
           <Caption>Dostawca klucz</Caption>
         </Translation>
-        <Translation dwd:design-time-name="4bf42cb8-f59c-4498-8068-88e50047c677">
+        <Translation dwd:design-time-name="18787ec7-a9f5-4f02-8aba-8d6b114f7da5">
           <Language>1031</Language>
           <Caption>Hauptlieferant</Caption>
         </Translation>
-        <Translation dwd:design-time-name="a2b533ee-b5fb-4369-835b-39f7221f9680">
+        <Translation dwd:design-time-name="f1f8aa08-5fd7-4fc0-b737-5efa5a60b5dd">
           <Language>1040</Language>
           <Caption>Fornitore chiave</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
