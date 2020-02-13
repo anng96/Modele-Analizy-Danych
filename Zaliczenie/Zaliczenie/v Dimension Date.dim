@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="452ede93-754e-4a44-b999-292668ffee2c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d5e421a8-bc6c-4f6a-8c97-00939f7dea58" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>v Dimension Date</ID>
   <Name>v Dimension Date</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -95,68 +95,68 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d6200fbf-6b1c-48f2-9300-59e376c76386">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5a4f9f7d-6c81-41e6-a49b-658cd57bfcb0">
     <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="03385234-2545-4103-8401-3f3901ffbcc9">
+  <ErrorConfiguration dwd:design-time-name="0d1c4980-df83-4c9c-8802-13ffcd03c2fe">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="8575db38-c09a-4c80-a7fb-c84714335998">
+    <Translation dwd:design-time-name="5cac2324-bd56-4ea3-b5bc-410619120015">
       <Language>1045</Language>
       <Caption>Wymiar data</Caption>
     </Translation>
-    <Translation dwd:design-time-name="804f9c90-c90a-427c-a737-c5edf3f4acc1">
+    <Translation dwd:design-time-name="8cd57ef2-f2ad-4d96-bd9f-3e4326332365">
       <Language>1031</Language>
       <Caption>Kalendermonat-Etikett</Caption>
     </Translation>
-    <Translation dwd:design-time-name="5cb51bcf-58b5-481e-9623-a41bcb1cbcf9">
+    <Translation dwd:design-time-name="b0960091-99d6-403b-b097-89b1632322de">
       <Language>1040</Language>
       <Caption>Etichetta del mese del calendario</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="76f09183-fef6-457a-81ed-0c48030240b2">
+    <Attribute dwd:design-time-name="3086698f-a97f-4eba-a285-f46ac144b34c">
       <ID>Date</ID>
       <Name>Date</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5113dd00-e91a-4a1d-a257-7adab6ec8180">
+        <KeyColumn dwd:design-time-name="730ace2a-5203-4f6f-bdc7-e3b8343acf83">
           <DataType>Date</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab9bc5c3-243b-4489-8faa-fc6bb5fcb836">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9dbd6f05-0d37-44a0-bc09-adf8ddbb6c61">
             <TableID>olap_vDimensionDate</TableID>
             <ColumnID>Date</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="af5dfc3e-dc29-40ff-a0f1-eb67d369e57f">
+      <NameColumn dwd:design-time-name="d5d11cbe-2cec-4d3a-9147-f8aa5eb7d49b">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="e4cc01d4-062a-4b25-8924-d543f0a4bebb">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="530c8e62-9f86-4cc1-be1a-faa73dbb2f84">
           <TableID>olap_vDimensionDate</TableID>
           <ColumnID>Date</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="b09ed261-bbe8-485d-a971-207c1ef9b0d7">
+        <Translation dwd:design-time-name="a346571a-3b60-4dbb-9156-eaa5f1a8deab">
           <Language>1045</Language>
           <Caption>Data</Caption>
         </Translation>
-        <Translation dwd:design-time-name="ade19a73-c4c9-411a-8c8f-5962b2cd3a04">
+        <Translation dwd:design-time-name="e2f982df-5af0-40de-9645-f86b837ce542">
           <Language>1031</Language>
           <Caption>Datum</Caption>
         </Translation>
-        <Translation dwd:design-time-name="74fe60c4-419f-4793-91d8-5c04a24d8f95">
+        <Translation dwd:design-time-name="3d15dd29-36ef-4519-9ad0-24c91cd0434f">
           <Language>1040</Language>
           <Caption>Data</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="1877edba-e5a4-4936-bafa-63e020fbed68">
+        <AttributeRelationship dwd:design-time-name="68fe2087-69f8-49e8-a3e9-4458ebba4740">
           <AttributeID>Month</AttributeID>
           <Name>Month</Name>
         </AttributeRelationship>
@@ -166,51 +166,71 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2ed3b11d-2146-42cb-a54c-f69dbd596000">
+    <Attribute dwd:design-time-name="f511eec6-3313-4716-a28f-4790407f8b60">
       <ID>Calendar Year</ID>
       <Name>Calendar Year</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9eb780e3-5f12-4292-bced-697abd15e229">
+        <KeyColumn dwd:design-time-name="c463bda1-e005-4dd9-8d2d-cc8d957098e4">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="30b30da5-d81e-4090-b5b5-f478cd93d6f1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a18c092-de1e-4aa4-b21d-89d4e2d8b110">
             <TableID>olap_vDimensionDate</TableID>
             <ColumnID>Calendar_x0020_Year</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="3afdb8b5-53dd-4b1b-aa48-f9f37b091d05">
+      <NameColumn dwd:design-time-name="14a6f61a-4bab-4a93-8dd3-96ca85442a31">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="1dda9076-79b0-486f-917b-5609f1f46dfb">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0d2c5585-268b-4471-b498-cfc7beeaed74">
           <TableID>olap_vDimensionDate</TableID>
           <ColumnID>Calendar_x0020_Year</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="0083fd53-4380-4566-85de-778805fd2ca0">
+          <Language>1045</Language>
+          <Caption>KalendarzRok</Caption>
+        </Translation>
+      </Translations>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="958a81b5-db5e-4218-8ce0-f462fb0e198b">
+    <Attribute dwd:design-time-name="9f2df397-9e8b-4210-a2e6-90ab66011e5d">
       <ID>Month</ID>
       <Name>Month</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5d83d69a-0ba0-4402-845f-38ee1b4d745c">
+        <KeyColumn dwd:design-time-name="6e340acc-f796-4836-aa42-a5c744dc0e16">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="207e2010-eea1-493f-8a2f-9e08ea5e2709">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbbfd767-1c95-4f07-8006-35217dadb934">
             <TableID>olap_vDimensionDate</TableID>
             <ColumnID>Calendar_x0020_Month_x0020_Label</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="7425c6a6-369c-4ddd-bf8b-8bff2b4ff413">
+      <NameColumn dwd:design-time-name="87537d16-7634-4e04-b1de-8730494e6a4f">
         <DataType>WChar</DataType>
         <DataSize>10</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="aa856bb8-fbbd-4678-9ca6-fecfda4dc649">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c7c45f02-3f7e-4e6b-89f8-bbc1c5681976">
           <TableID>olap_vDimensionDate</TableID>
           <ColumnID>Month</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="bc459fd7-3bf1-4403-a895-db5d81801be3">
+          <Language>1045</Language>
+          <Caption>Miesiąc</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="d7a23706-d4ef-427c-8635-ee761d7e052e">
+          <Language>1031</Language>
+          <Caption>Monat</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="5c360db0-0e68-45f6-94b4-eb1f5970a626">
+          <Language>1040</Language>
+          <Caption>Mese</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5b4f2fce-9a50-417c-8b0b-de3fae8a9fb5">
+        <AttributeRelationship dwd:design-time-name="560a1388-68c8-4da5-b841-2a0c82bd7d3d">
           <AttributeID>Calendar Year</AttributeID>
           <Name>Calendar Year</Name>
         </AttributeRelationship>
@@ -220,24 +240,80 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="48aa6ade-5cdc-447c-abf7-cbd251b4f5df">
+    <Hierarchy dwd:design-time-name="b3926031-5877-4f01-96ff-aece645bf63c">
       <ID>Hierarchy</ID>
       <Name>DateHierarchy</Name>
+      <Translations>
+        <Translation dwd:design-time-name="f9c6433e-026e-41dc-8fe3-15acb7bc9110">
+          <Language>1045</Language>
+          <Caption>Hierarchia Daty</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="37d105d1-5052-4d45-adfd-97c00a111138">
+          <Language>1040</Language>
+          <Caption>Gerarchia delle date</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="c726e0b1-c68a-4002-b067-83564a46aa43">
+          <Language>1031</Language>
+          <Caption>Datumshierarchie</Caption>
+        </Translation>
+      </Translations>
       <Levels>
-        <Level dwd:design-time-name="f7d9bde3-d69a-430d-a7a9-4144578e211c">
+        <Level dwd:design-time-name="d6351acb-2f1c-47c5-8378-27fe9a21ddf9">
           <ID>Calendar Year</ID>
           <Name>Calendar Year</Name>
           <SourceAttributeID>Calendar Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="acf5cc0d-1b79-4b84-b968-cdd6b4c5de75">
+              <Language>1045</Language>
+              <Caption>Kalendarz Rok</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="744d1e7d-ddef-41e7-9158-d9381d592997">
+              <Language>1031</Language>
+              <Caption>Kalenderjahr</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="c8153436-5534-47da-80ea-307334762285">
+              <Language>1040</Language>
+              <Caption>Anno civile</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="1bf400a9-5b78-43bd-8d0d-6958c572c7f6">
+        <Level dwd:design-time-name="daefcdc0-fedd-4d5b-87b2-bcd52b90175b">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>Month</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="fbf2d0da-e489-470d-9d85-0ba96408c865">
+              <Language>1045</Language>
+              <Caption>Miesiąc</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="4d822954-c115-4145-bc04-452c11f204a6">
+              <Language>1031</Language>
+              <Caption>Monat</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="b3db4bde-931c-490b-833f-3bd3769a319a">
+              <Language>1040</Language>
+              <Caption>Mese</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="d8873dd2-697d-4c89-91dc-d8848797a3e5">
+        <Level dwd:design-time-name="385f4fe9-96e8-4021-8945-6835eb2d5c13">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="300fc2cd-bb2e-4d43-b742-cc3af1317c36">
+              <Language>1045</Language>
+              <Caption>Data</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="c5f15975-0a06-4c2f-8555-fde13f813689">
+              <Language>1040</Language>
+              <Caption>Data</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="98f8cc57-f718-4dac-962c-d0ff72026d3c">
+              <Language>1031</Language>
+              <Caption>Datum</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>

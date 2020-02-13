@@ -198,6 +198,12 @@
               <ColumnID>Calendar_x0020_Year</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>KalendarzRok</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -222,6 +228,20 @@
               <ColumnID>Month</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Miesiąc</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Monat</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Mese</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Calendar Year</AttributeID>
@@ -236,21 +256,77 @@
         <Hierarchy>
           <ID>Hierarchy</ID>
           <Name>DateHierarchy</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Hierarchia Daty</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Gerarchia delle date</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Datumshierarchie</Caption>
+            </Translation>
+          </Translations>
           <Levels>
             <Level>
               <ID>Calendar Year</ID>
               <Name>Calendar Year</Name>
               <SourceAttributeID>Calendar Year</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Kalendarz Rok</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Kalenderjahr</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Anno civile</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Month</ID>
               <Name>Month</Name>
               <SourceAttributeID>Month</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Miesiąc</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Monat</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Mese</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Date</ID>
               <Name>Date</Name>
               <SourceAttributeID>Date</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Data</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Data</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Datum</Caption>
+                </Translation>
+              </Translations>
             </Level>
           </Levels>
         </Hierarchy>
@@ -478,6 +554,20 @@
               <ColumnID>Continent</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Kontynent</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Continente</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Kontinent</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -502,6 +592,20 @@
               <ColumnID>Continent</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Państwo</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Land</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Paese</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Continent</AttributeID>
@@ -556,6 +660,20 @@
               <ColumnID>City</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Miasto</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Stadt</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Città</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>State Province</AttributeID>
@@ -594,6 +712,20 @@
               <ColumnID>State_x0020_Province</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Prowincja</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>La Provincia</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Die Provinz</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Country</AttributeID>
@@ -624,6 +756,20 @@
               <ColumnID>Region</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Region</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Region</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Regione</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -648,6 +794,20 @@
               <ColumnID>Subregion</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Podregion</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Sottoregione</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Subregion</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Region</AttributeID>
@@ -678,6 +838,20 @@
               <ColumnID>Sales_x0020_Territory</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Terytorium sprzedaży</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Territorio di vendita</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Vertriebsgebiet</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Subregion</AttributeID>
@@ -692,47 +866,173 @@
         <Hierarchy>
           <ID>Hierarchy</ID>
           <Name>GeographyHierarchy</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Hierarchia Geografii</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Hierarchie-Geographien</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Gerarchia della geografia</Caption>
+            </Translation>
+          </Translations>
           <Levels>
             <Level>
               <ID>Continent</ID>
               <Name>Continent</Name>
               <SourceAttributeID>Continent</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Kontynent</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Continente</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Kontinent</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Country</ID>
               <Name>Country</Name>
               <SourceAttributeID>Country</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Państwo</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Land</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Paese</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>State Province</ID>
               <Name>State Province</Name>
               <SourceAttributeID>State Province</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Prowincja</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>La Provincia</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Die Provinz</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>City</ID>
               <Name>City</Name>
               <SourceAttributeID>City</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Miasto</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Stadt</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Città</Caption>
+                </Translation>
+              </Translations>
             </Level>
           </Levels>
         </Hierarchy>
         <Hierarchy>
           <ID>Hierarchy 1</ID>
           <Name>TerritoriesHierarchy</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Hierarchia Terytorium</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Gerarchia del territorio</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Territoriale Hierarchie</Caption>
+            </Translation>
+          </Translations>
           <Levels>
             <Level>
               <ID>Region</ID>
               <Name>Region</Name>
               <SourceAttributeID>Region</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Region</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Region</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Regione</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Subregion</ID>
               <Name>Subregion</Name>
               <SourceAttributeID>Subregion</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Podregion</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Sottoregione</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Subregion</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Sales Territory</ID>
               <Name>Sales Territory</Name>
               <SourceAttributeID>Sales Territory</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Terytorium sprzedaży</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Territorio di vendita</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Vertriebsgebiet</Caption>
+                </Translation>
+              </Translations>
             </Level>
           </Levels>
         </Hierarchy>
@@ -946,6 +1246,20 @@
               <ColumnID>Customer</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Klient</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Kunde</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Cliente</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Bill To Customer</AttributeID>
@@ -984,6 +1298,20 @@
               <ColumnID>Bill_x0020_To_x0020_Customer</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Rachunek dla klienta</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Konto für den Kunden</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Conto per il cliente</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1000,6 +1328,20 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Grupa zakupowa</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Gruppo di acquisto</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Kaufen Gruppe</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1016,6 +1358,20 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Kategoria</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Categoria</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Kategorie</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1024,20 +1380,200 @@
         <Hierarchy>
           <ID>Hierarchy</ID>
           <Name>BillingHierarchy</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Hierarchia rachunku</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Kontenhierarchie</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Gerarchia dei conti</Caption>
+            </Translation>
+          </Translations>
           <Levels>
             <Level>
               <ID>Bill To Customer</ID>
               <Name>Bill To Customer</Name>
               <SourceAttributeID>Bill To Customer</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Rachunek dla klienta</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Konto für den Kunden</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Conto per il cliente</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Customer</ID>
               <Name>Customer</Name>
               <SourceAttributeID>Customer</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Klient</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1031</Language>
+                  <Caption>Kunde</Caption>
+                </Translation>
+                <Translation>
+                  <Language>1040</Language>
+                  <Caption>Cliente</Caption>
+                </Translation>
+              </Translations>
             </Level>
           </Levels>
         </Hierarchy>
       </Hierarchies>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>v Dimension Employee</ID>
+      <Name>v Dimension Employee</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2005" scrolltop="-1680" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimensionEmployee" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3545" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000d90d0000ea120000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="olap_vDimensionEmployee" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-2005</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-1680</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Translations>
+        <Translation>
+          <Language>1045</Language>
+          <Caption>Pracownik</Caption>
+        </Translation>
+        <Translation>
+          <Language>1031</Language>
+          <Caption>Mitarbeiterin</Caption>
+        </Translation>
+        <Translation>
+          <Language>1040</Language>
+          <Caption>Dipendente</Caption>
+        </Translation>
+      </Translations>
+      <Attributes>
+        <Attribute>
+          <ID>Employee Key</ID>
+          <Name>Employee Key</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>olap_vDimensionEmployee</TableID>
+                <ColumnID>Employee_x0020_Key</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimensionEmployee</TableID>
+              <ColumnID>Employee_x0020_Key</ColumnID>
+            </Source>
+          </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Pracownik Klucz</Caption>
+            </Translation>
+            <Translation>
+              <Language>1040</Language>
+              <Caption>Chiave per i dipendenti</Caption>
+            </Translation>
+            <Translation>
+              <Language>1031</Language>
+              <Caption>Mitarbeiterschlüssel</Caption>
+            </Translation>
+          </Translations>
+          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
     <Dimension>
@@ -2163,144 +2699,6 @@
       </Attributes>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
-    <Dimension>
-      <ID>v Dimension Employee</ID>
-      <Name>v Dimension Employee</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <Annotations>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-          <Value>
-            <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2005" scrolltop="-1680" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7594" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-                <font>
-                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
-                </font>
-                <mouseicon>
-                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-                </mouseicon>
-              </diagram>
-              <layoutmanager>
-                <ddsxmlobj />
-              </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimensionEmployee" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3545" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                <control>
-                  <ddsxmlobjectstreaminitwrapper binary="000e0000d90d0000ea120000" />
-                </control>
-                <layoutobject>
-                  <ddsxmlobj>
-                    <property name="LogicalObject" value="olap_vDimensionEmployee" vartype="8" />
-                  </ddsxmlobj>
-                </layoutobject>
-                <shape groupshapeid="0" groupnode="0" />
-              </ddscontrol>
-            </dds>
-          </Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
-          <Value>false</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-2005</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-1680</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>20</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-          <Value>0</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-          <Value>100</Value>
-        </Annotation>
-      </Annotations>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Source xsi:type="DataSourceViewBinding">
-        <DataSourceViewID>WideWorldImporters_dsv</DataSourceViewID>
-      </Source>
-      <UnknownMember>Visible</UnknownMember>
-      <ErrorConfiguration>
-        <KeyNotFound>ReportAndStop</KeyNotFound>
-        <KeyDuplicate>ReportAndStop</KeyDuplicate>
-        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-      </ErrorConfiguration>
-      <CurrentStorageMode>Molap</CurrentStorageMode>
-      <Translations>
-        <Translation>
-          <Language>1045</Language>
-          <Caption>Pracownik</Caption>
-        </Translation>
-        <Translation>
-          <Language>1031</Language>
-          <Caption>Mitarbeiterin</Caption>
-        </Translation>
-        <Translation>
-          <Language>1040</Language>
-          <Caption>Dipendente</Caption>
-        </Translation>
-      </Translations>
-      <Attributes>
-        <Attribute>
-          <ID>Employee Key</ID>
-          <Name>Employee Key</Name>
-          <Usage>Key</Usage>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <NullProcessing>UnknownMember</NullProcessing>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimensionEmployee</TableID>
-                <ColumnID>Employee_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <NameColumn>
-            <DataType>WChar</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vDimensionEmployee</TableID>
-              <ColumnID>Employee_x0020_Key</ColumnID>
-            </Source>
-          </NameColumn>
-          <Translations>
-            <Translation>
-              <Language>1045</Language>
-              <Caption>Pracownik Klucz</Caption>
-            </Translation>
-            <Translation>
-              <Language>1040</Language>
-              <Caption>Chiave per i dipendenti</Caption>
-            </Translation>
-            <Translation>
-              <Language>1031</Language>
-              <Caption>Mitarbeiterschlüssel</Caption>
-            </Translation>
-          </Translations>
-          <OrderBy>Key</OrderBy>
-          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-      </Attributes>
-      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
-    </Dimension>
   </Dimensions>
   <Cubes>
     <Cube>
@@ -2313,7 +2711,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3804" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20267" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20267" y="8202" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -2958,7 +3356,7 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-3804</Value>
+          <Value>-4980</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>

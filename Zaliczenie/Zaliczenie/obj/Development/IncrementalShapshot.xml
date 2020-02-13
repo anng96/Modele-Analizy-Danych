@@ -33,23 +33,30 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>N9fNZUShxmWyDhOWpMHRnFOfgzk=12.02.2020 20:48:4812.02.2020 18:45:09</TimeStamp>
+        <TimeStamp>lu37pmD+OP1/l8zOY5R3RxcVU5o=13.02.2020 10:58:2512.02.2020 18:45:09</TimeStamp>
         <ID>
           <String>v Dimension Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>18k4biwHcEJMRtBf26fzP0QAYdc=12.02.2020 20:48:4812.02.2020 18:45:09</TimeStamp>
+        <TimeStamp>pO1K/Ho7PNBXHyPnvBK6ewNJjXk=13.02.2020 11:31:2212.02.2020 18:45:09</TimeStamp>
         <ID>
           <String>v Dimension City</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>XAeuZjjqYONoXMGKhrmwZDeZWk8=12.02.2020 20:49:4212.02.2020 18:45:09</TimeStamp>
+        <TimeStamp>3QgZHeXhQtkc+6OWZ3wFjZgk7bg=13.02.2020 11:35:0112.02.2020 18:45:09</TimeStamp>
         <ID>
           <String>v Dimension Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5BpdCA/oJuUoyNkPMfqid+GojtM=12.02.2020 20:39:1812.02.2020 18:45:09</TimeStamp>
+        <ID>
+          <String>v Dimension Employee</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
@@ -95,13 +102,6 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>5BpdCA/oJuUoyNkPMfqid+GojtM=12.02.2020 20:39:1812.02.2020 18:45:09</TimeStamp>
-        <ID>
-          <String>v Dimension Employee</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
         <TimeStamp>Bij7xiE14JAjm9wNKYERs+5l+1A=12.02.2020 19:37:2312.02.2020 18:45:09rOaU5tItBFGl9v1b1tDVcROi0Bo=12.02.2020 17:47:2512.02.2020 18:45:09</TimeStamp>
         <ID>
@@ -120,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-02-12T19:49:55.573333Z</LastDeployed>
+  <LastDeployed>2020-02-13T10:37:38.256667Z</LastDeployed>
 </DeploymentSnapshot>
